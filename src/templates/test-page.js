@@ -12,8 +12,6 @@ export const TestPageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-              test
-                test
               </h2>
               <PageContent className="content" content={content} />
             </div>
@@ -30,7 +28,7 @@ TestPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const TestPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -48,8 +46,8 @@ TestPage.propTypes = {
 
 export default TestPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const TestPageQuery = graphql`
+  query TestPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
