@@ -26,7 +26,7 @@ collections:
     files:
       - file: "src/pages/test/index.md"
           label: "Test"
-          name: "Test"
+          name: "test"
           fields:
               - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
               - {label: "Title", name: "title", widget: "string"}
