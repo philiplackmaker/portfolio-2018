@@ -1,38 +1,45 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-  },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-plugin-intercom-spa',
+      options: {
+        app_id: "d7vu7om5"
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sass`,
+    `gatsby-remark-copy-linked-files`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+  
+    {
+      resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/src/img`,
-        name: 'images',
+        // In your gatsby-transformer-remark plugin array
+        plugins: [
+
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1080,
+            },
+          },
+          `gatsby-remark-emoji`,
+          'gatsby-remark-static-images',
+          'gatsby-remark-copy-linked-files',
+
+        ],
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    
   ],
 }
