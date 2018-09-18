@@ -3,7 +3,9 @@ plugins: [
   `gatsby-plugin-react-helmet`,
   `gatsby-plugin-styled-components`,
   `gatsby-remark-copy-linked-files`,
+  `gatsby-plugin-sharp`,
   `gatsby-transformer-sharp`,
+  
 
   {
     resolve: `gatsby-source-filesystem`,
