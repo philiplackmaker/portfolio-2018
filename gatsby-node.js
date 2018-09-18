@@ -1,43 +1,37 @@
-const path = require('path')
+const path = require('path');
 
+exports.createPages = ({actions, graphql}) => {
+  const {createPage} = actions;
 
+  const projectTemplate = path.resolve('src/templates/project.js');  
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
-
-  return graphql(`
-    {
-    allMarkdownRemark(limit: 1000) {
+  return graphql(`{
+    allMarkdownRemark {
       edges {
         node {
+          html
           id
           frontmatter {
             path
-            templateKey 
+            title
+            subtitle
+            
           }
         }
       }
     }
-  }
-  `).then(result => {
-    if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
-      return Promise.reject(result.errors)
+  }`)
+  .then(res => {
+    if(res.errors) {
+      return Promise.reject(res.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach(edge => {
-      const id = edge.node.id
+    res.data.allMarkdownRemark.edges.forEach(({node}) => {
       createPage({
-        path: edge.node.frontmatter.path,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
+        path: node.frontmatter.path,
+        component: projectTemplate
       })
     })
-  })}
+
+  })
+}

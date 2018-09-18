@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link } from "gatsby"
 import styled from "styled-components";
 import Navigation from '../components/navigation';
+import Footer from '../components/footer';
 import ButtonSmall from '../components/buttonsmall';
 import './fonts.css';
 import * as Colors from '../style/colors';
@@ -9,10 +10,11 @@ import '../style/globals';
 import * as Base from '../style/base';
 import * as Type from '../style/typography';
 import Line from '../images/small_underline.svg';
-import Circle from '../images/circle.svg';
 import { graphql } from 'gatsby';
 import Img from "gatsby-image";
-import FooterEverything from '../components/footereverything';
+
+
+console.log(Line);
  
 const Page = styled.div`
   margin: 0;
@@ -24,25 +26,17 @@ ${Base.GRID}
 `;
 
 const Header = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center; /*centers items on the cross-axis (y by default)*/
-
- `;
-
- const HeaderContents = styled.div`
- padding: 0;
- maring: 0;
- `;
+  height: 60vh;
+`;
 
 const ProjectBackground =styled.div`
   width: 100%;
   background-color: ${Colors.LIGHT_GREY};
   padding: 0;
-  height: 2000px;
+  height: 900px;
 `;
+
+
 
 const ProjectCard = styled(Link)`
   grid-column: 1 / span 5;
@@ -51,28 +45,19 @@ const ProjectCard = styled(Link)`
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin: 200px 0 200px 0;
-    // &:nth-child(2)
-    // {
-    //   background-color: red;
-    // }
-
-    // &:nth-child(1)
-    // {
-    //   background-color: red;
-    // }
+  margin: 100px 0 100px 0;
 `;
 
 const ProjectInfo = styled.div `
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  justify-content:space-between;
-`;
-
+display: flex;
+flex-direction: column;
+width: 70%;
+justify-content:space-between;
+`
 const ProjectHeader = styled(Link)`
   ${Type.SUBHEADER};
   color: ${Colors.BLACK};
+  text-decoration-color: ${Colors.LIGHT_GREY}; //Hacked to turn it off maybe find a better solution
 `;
 
 const ProjectSubtitle = styled(Link)`
@@ -86,89 +71,33 @@ const ProjectNotes = styled(Link)`
 `;
 
 const ProjectTeaserImage = styled.div`
-  width: 300px;
-  height: 400px;
+  width: 260px;
 `;
 
 const UnderLine = styled.span`
-  z-index: -1;
-  background-image: url(${Line});
-  background-repeat: no-repeat, repeat;
-  background-position: bottom;
+z-index: -1;
+background-image: url(${Line});
+background-repeat: no-repeat, repeat;
+background-position: bottom;
 `;
 
-const DrawnCircle = styled.span`
-  z-index: -1;
-  background-image: url(${Circle});
-  padding: 20px;
-  height: 200px;
-  background-repeat: no-repeat, repeat;
-  background-position: bottom;
+const UnderlineText = styled.div`
+${Type.NOTES}
+color:${Colors.PRIMARY};
+margin-left: 10%;
 `;
-
-
-
-const UnderlineText = styled.text`
-  ${Type.NOTES}
-  color:${Colors.PRIMARY};
-`;
-
-const DesignerRolesContainer = styled.div`
-Padding-left: 75%;
-Padding-bottom: 20px;
-
-`;
-
-const BlogCardContainer = styled.div`
-  grid-column: 1 / span 5;
-  display: flex;
-  justify-content: space-between;
-`;
-
-const BlogCard = styled.div`
-  background-color: ${Colors.WHITE};
-  height: 500px;
-  width:190px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
-
-const ProjectContainer = styled.div`
-  grid-column: 1 / span 5;
-`;
-
-
-const BlogLink = styled(Link)`
-  ${Type.LARGEBODY};
-  color: ${Colors.PRIMARY};
-`;
-
-// mixpanel.track("Video play");
-
 
 const IndexPage = ({data}) => (
   <Page>
     <Navigation>
     </Navigation>
       <Header>
-        <HeaderContents>
-          <DesignerRolesContainer>
-              <UnderlineText>Product designer,<br></br> Visual designer,<br></br> user exerperience designer <br></br>& Graphic Designer. </UnderlineText>
-
-          </DesignerRolesContainer>
-       
-     
-          <h1><UnderLine>Philip*</UnderLine> is a<DrawnCircle>designer</DrawnCircle><br></br>Previously he lead design teams at Method, ustwo and Hellocar.</h1>
-        
-        </HeaderContents>
-  
+          <UnderlineText>*That is me....</UnderlineText>
+          <h1><UnderLine>Philip</UnderLine> is an designer,<br></br> currently at Potato , method, ustwo and Hellocar.</h1>
       </Header>  
     <ProjectBackground>
       <Container>
-        <ProjectContainer>
-              {data.allMarkdownRemark.edges.filter(project => project.node.frontmatter.templateKey === 'project').map(project => (
+              {data.allMarkdownRemark.edges.map(project => (
                 <ProjectCard to ={project.node.frontmatter.path}>
                 <ProjectInfo>
                     <ProjectNotes>{project.node.frontmatter.note_title}</ProjectNotes>
@@ -185,37 +114,17 @@ const IndexPage = ({data}) => (
                 </ProjectTeaserImage>
               </ProjectCard>   
             ))}
-            <h3>Blog posts</h3>
-            </ProjectContainer>
-            <BlogCardContainer>
-              <BlogCard>
-                  <ProjectSubtitle>What not to say in facebook interview</ProjectSubtitle>
-                  <BlogLink>Read More</BlogLink>
-                </BlogCard>
-                <BlogCard>
-                  <ProjectSubtitle>What not to say in facebook interview</ProjectSubtitle>
-                  <BlogLink>Read More</BlogLink>
-                </BlogCard>
-                <BlogCard>
-                  <ProjectSubtitle>What not to say in facebook interview</ProjectSubtitle>
-                  <BlogLink>Read More</BlogLink>
-                </BlogCard>
-                <BlogCard>
-                  <ProjectSubtitle>What not to say in facebook interview</ProjectSubtitle>
-                  <BlogLink>Read More</BlogLink>
-                </BlogCard>
-            </BlogCardContainer>
-          </Container>
-
+      </Container>
     </ProjectBackground>
-    <FooterEverything></FooterEverything>
+    <Footer>
+    </Footer>
 </Page>
 )
 
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(limit: 5) {
+    allMarkdownRemark(limit: 10) {
       edges {
         node{
           frontmatter {
@@ -223,10 +132,9 @@ export const pageQuery = graphql`
             path
             subtitle
             note_title
-            templateKey
             small_image{
                 childImageSharp{
-                  fluid(maxHeight: 800 ) {
+                  fluid(maxHeight: 600 ) {
                     ...GatsbyImageSharpFluid
                   }
                 }
