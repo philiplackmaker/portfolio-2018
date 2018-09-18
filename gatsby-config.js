@@ -4,8 +4,6 @@ plugins: [
   `gatsby-plugin-styled-components`,
   `gatsby-remark-copy-linked-files`,
   `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
-
 
   {
     resolve: `gatsby-source-filesystem`,
@@ -14,8 +12,6 @@ plugins: [
         name: "pages",
   },
 },
-
-
 
     {
       resolve: `gatsby-transformer-remark`,
@@ -30,7 +26,7 @@ plugins: [
           },
           resolve: 'gatsby-remark-emojis',
           options: {
-            // Deactivate the plugin globally (default: true)
+            // Deactivate the plugin globally (default: true) 
             active : true,
             // Add a custom css class
             class  : 'emoji-icon',
