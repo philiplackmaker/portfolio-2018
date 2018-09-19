@@ -805,9 +805,7 @@
   },
   "componentDataDependencies": {
     "nodes": {
-      "Site": [
-        "sq--src-components-layout-js"
-      ]
+      "Site": []
     },
     "connections": {}
   },
@@ -837,14 +835,5 @@
       "componentPath": "/Users/philip/development/portfolio-2018/src/pages/page-2.js"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    }
-  }
+  "staticQueryComponents": {}
 }
