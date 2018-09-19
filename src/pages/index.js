@@ -12,6 +12,7 @@ import * as Base from "../style/base";
 import * as BreakPoints from "../style/breakpoints";
 import Img from "gatsby-image";
 import { graphql } from "gatsby";
+import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
 
 const Page = styled.div`
