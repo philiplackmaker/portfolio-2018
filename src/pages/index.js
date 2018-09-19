@@ -1,150 +1,113 @@
-import React from "react";
-import { Link } from "gatsby"
-import styled from "styled-components";
+import React from 'react'
+import { Link } from 'gatsby'
 import Navigation from '../components/navigation';
-import Footer from '../components/footer';
-import ButtonSmall from '../components/buttonsmall';
-import './fonts.css';
-import * as Colors from '../style/colors';
-import '../style/globals';
-import * as Base from '../style/base';
-import * as Type from '../style/typography';
+import styled from "styled-components";
+import Fade from 'react-reveal/Fade';
 import Line from '../images/small_underline.svg';
-import { graphql } from 'gatsby';
-import Img from "gatsby-image";
+import Circle from '../images/circle.svg';
+import * as Type from '../style/typography';
+import * as Colors from '../style/colors';
+import * as Spacing from '../style/spacing';
+import * as Base from '../style/base';
 
 
-console.log(Line);
- 
+
 const Page = styled.div`
   margin: 0;
   padding: 0;
 `;
 
 const Container = styled.div`
-${Base.GRID}
+  ${Base.GRID}
+`;
+
+const DesignerRolesContainer = styled.div`
+Padding-left: 75%;
+Padding-bottom: 2rem;
+`;
+
+
+const DesignRoles = styled.text`
+  z-index: 0;
+  position: absolute;
+  bottom-padding: ${Spacing.LARGE};
+  bottom: 500px;
+  ${Type.NOTES}
+  color: ${Colors.LIGHTEST_PRIMARY};
+`;
+
+const ThirdPerson = styled.text`
+  z-index: 0;
+  position: absolute;
+  padding-left: 30px;
+  left: 0;
+  ${Type.NOTES}
+  color: ${Colors.LIGHTEST_PRIMARY};
 `;
 
 const Header = styled.div`
-  height: 60vh;
-`;
-
-const ProjectBackground =styled.div`
+  height: 100vh;
+  background-color: ${Colors.PRIMARY};
   width: 100%;
-  background-color: ${Colors.LIGHT_GREY};
-  padding: 0;
-  height: 900px;
-`;
-
-
-
-const ProjectCard = styled(Link)`
-  grid-column: 1 / span 5;
-  height: 240px;
-  margin: 16px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  margin: 100px 0 100px 0;
+  justify-content: space-around;
+  align-items: center; 
+ `;
+
+ const HeaderText = styled.text `
+    ${Type.LARGEHEADER};
+    z-index: 200;
+    text-align: center;
+    color: ${Colors.WHITE};
+    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+ `;
+
+ const HeaderContents = styled.div`
+ `;
+
+ const UnderLine = styled.span`
+  z-index: -1;
+  background-image: url(${Line});
+  background-repeat: no-repeat, repeat;
+  background-position: bottom;
 `;
 
-const ProjectInfo = styled.div `
-display: flex;
-flex-direction: column;
-width: 70%;
-justify-content:space-between;
-`
-const ProjectHeader = styled(Link)`
-  ${Type.SUBHEADER};
-  color: ${Colors.BLACK};
-  text-decoration-color: ${Colors.LIGHT_GREY}; //Hacked to turn it off maybe find a better solution
+const DrawnCircle = styled.span`
+  z-index: -1;
+  background-image: url(${Circle});
+  padding: 1rem;
+  height: 10rem;
+  background-repeat: no-repeat, repeat;
+  background-position: bottom;
 `;
 
-const ProjectSubtitle = styled(Link)`
-  ${Type.LARGEBODY}
-  color: ${Colors.BLACK};
-`;
-
-const ProjectNotes = styled(Link)`
-  ${Type.NOTES}
-  color: ${Colors.PRIMARY};
-`;
-
-const ProjectTeaserImage = styled.div`
-  width: 260px;
-`;
-
-const UnderLine = styled.span`
-z-index: -1;
-background-image: url(${Line});
-background-repeat: no-repeat, repeat;
-background-position: bottom;
-`;
-
-const UnderlineText = styled.div`
-${Type.NOTES}
-color:${Colors.PRIMARY};
-margin-left: 10%;
-`;
-
-const IndexPage = ({data}) => (
-  <Page>
-    <Navigation>
-    </Navigation>
+const IndexPage = () => (
+<Page>
+      <Navigation>
+      </Navigation>
       <Header>
-          <UnderlineText>*That is me....</UnderlineText>
-          <h1><UnderLine>Philip</UnderLine> is an designer,<br></br> currently at Potato , method, ustwo and Hellocar.</h1>
-      </Header>  
-    <ProjectBackground>
+        <HeaderContents>
+        <Fade duration={3000}>
+          <DesignerRolesContainer>
+          <ThirdPerson>*I don't usually talk about myself in third person.</ThirdPerson>
+              <DesignRoles>Product designer,<br></br> Visual designer,<br></br> user exerperience designer <br></br>& Graphic Designer. </DesignRoles>
+          </DesignerRolesContainer>
+            <HeaderText><UnderLine>Philip*</UnderLine> is a<DrawnCircle>designer</DrawnCircle><br></br>Helping to build software for <UnderLine>brands.</UnderLine><br></br> Philip is leading design at Potato. Previously ustwo & Method. <br></br> In London, Bristol & Sydney.  <br></br> Say hello. </HeaderText>
+          </Fade>
+        </HeaderContents>
+      </Header> 
       <Container>
-              {data.allMarkdownRemark.edges.map(project => (
-                <ProjectCard to ={project.node.frontmatter.path}>
-                <ProjectInfo>
-                    <ProjectNotes>{project.node.frontmatter.note_title}</ProjectNotes>
-                    <div></div>
-                    <ProjectHeader>{project.node.frontmatter.title}</ProjectHeader>
-                    <div></div>
-                    <ProjectSubtitle>{project.node.frontmatter.subtitle}</ProjectSubtitle>
-                    <div></div>
-                   <ButtonSmall to ={project.node.frontmatter.path}>
-                    </ButtonSmall>
-                  </ProjectInfo>
-                  <ProjectTeaserImage>
-                   <Img fluid={project.node.frontmatter.small_image.childImageSharp.fluid}/>
-                </ProjectTeaserImage>
-              </ProjectCard>   
-            ))}
+        
       </Container>
-    </ProjectBackground>
-    <Footer>
-    </Footer>
+      <h1>Hi people</h1>
+      <p>Welcome to your new Gatsby site.</p>
+      <p>Now go build something great.</p>
+      <Link to="/page-2/">Go to page 2</Link>
 </Page>
+
 )
 
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(limit: 10) {
-      edges {
-        node{
-          frontmatter {
-            title
-            path
-            subtitle
-            note_title
-            small_image{
-                childImageSharp{
-                  fluid(maxHeight: 600 ) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-          }
-        }
-      }
-    }
-  }
-`
-
 export default IndexPage
-
