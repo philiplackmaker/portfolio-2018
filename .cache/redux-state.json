@@ -289,8 +289,7 @@
         "start_url": "/",
         "background_color": "#663399",
         "theme_color": "#663399",
-        "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "display": "minimal-ui"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -359,7 +358,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bc9cee99c8544df8f9bb11b8ef89a00f",
+        "contentDigest": "3164a79fb7c831a07e7d112e332de19b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -526,7 +525,7 @@
       "resolve": "/Users/philip/development/portfolio-2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3634025f1a6f130bd37441ee1970171d",
+      "version": "84b963ff7239d0af87b7b6f68d96abdc",
       "pluginOptions": {
         "plugins": []
       },
@@ -585,14 +584,26 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-reveal",
+            "version": "^1.2.2"
+          },
+          {
             "name": "styled-components",
             "version": "^3.4.9"
           }
         ],
         "devDependencies": [
           {
+            "name": "eslint-config-prettier",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.2"
+          },
+          {
             "name": "prettier",
-            "version": "^1.14.2"
+            "version": "^1.14.3"
           }
         ],
         "peerDependencies": [],
@@ -602,7 +613,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aa03df6c636c4463c5e706f2521c6d2d",
+        "contentDigest": "4a69a2ea2eda904e1ff26d0708653d4f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -706,35 +717,17 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": 8002,
+      "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-09-19T08:22:19.589Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-09-19T13:31:52.986Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0002bb271bc5b2a273662e3018534773",
+        "contentDigest": "3c799f78fe6f99ca2d20274c2eee728e",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/philip/development/portfolio-2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "257922000a7d00acf9efa58381b7c48a",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -757,56 +750,14 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
-    },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/philip/development/portfolio-2018/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1b57377db8f09bb09ec6e77c69243701",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/philip/development/portfolio-2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "38df3533dc075719a8c603981de5c334",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1d06044e524a016b189c05c397dfe8ce"
+    "PLUGINS_HASH": "25d76bacd782ada6222b1f7c5786b55b"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": []
-    },
+    "nodes": {},
     "connections": {}
   },
   "jsonDataPaths": {
@@ -822,17 +773,9 @@
       "query": "",
       "componentPath": "/Users/philip/development/portfolio-2018/.cache/dev-404-page.js"
     },
-    "/Users/philip/development/portfolio-2018/src/pages/404.js": {
-      "query": "",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/404.js"
-    },
     "/Users/philip/development/portfolio-2018/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/philip/development/portfolio-2018/src/pages/index.js"
-    },
-    "/Users/philip/development/portfolio-2018/src/pages/page-2.js": {
-      "query": "",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/page-2.js"
     }
   },
   "staticQueryComponents": {}

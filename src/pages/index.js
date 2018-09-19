@@ -1,16 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Navigation from '../components/navigation';
+import React from "react";
+import { Link } from "gatsby";
+import Navigation from "../components/navigation";
 import styled from "styled-components";
-import Fade from 'react-reveal/Fade';
-import Line from '../images/small_underline.svg';
-import Circle from '../images/circle.svg';
-import * as Type from '../style/typography';
-import * as Colors from '../style/colors';
-import * as Spacing from '../style/spacing';
-import * as Base from '../style/base';
-
-
+import Fade from "react-reveal/Fade";
+import Line from "../images/small_underline.svg";
+import Circle from "../images/circle.svg";
+import * as Type from "../style/typography";
+import * as Colors from "../style/colors";
+import * as Spacing from "../style/spacing";
+import * as Base from "../style/base";
 
 const Page = styled.div`
   margin: 0;
@@ -18,14 +16,13 @@ const Page = styled.div`
 `;
 
 const Container = styled.div`
-  ${Base.GRID}
+  ${Base.GRID};
 `;
 
 const DesignerRolesContainer = styled.div`
-Padding-left: 75%;
-Padding-bottom: 2rem;
+  padding-left: 75%;
+  padding-bottom: 2rem;
 `;
-
 
 const DesignRoles = styled.text`
   z-index: 0;
@@ -52,23 +49,22 @@ const Header = styled.div`
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center; 
- `;
+  align-items: center;
+`;
 
- const HeaderText = styled.text `
-    ${Type.LARGEHEADER};
-    z-index: 200;
-    text-align: center;
-    color: ${Colors.WHITE};
-    display: block;
-    padding-left: 3rem;
-    padding-right: 3rem;
- `;
+const HeaderText = styled.text`
+  ${Type.LARGEHEADER};
+  z-index: 200;
+  text-align: center;
+  color: ${Colors.WHITE};
+  display: block;
+  padding-left: 3rem;
+  padding-right: 3rem;
+`;
 
- const HeaderContents = styled.div`
- `;
+const HeaderContents = styled.div``;
 
- const UnderLine = styled.span`
+const UnderLine = styled.span`
   z-index: -1;
   background-image: url(${Line});
   background-repeat: no-repeat, repeat;
@@ -85,29 +81,38 @@ const DrawnCircle = styled.span`
 `;
 
 const IndexPage = () => (
-<Page>
-      <Navigation>
-      </Navigation>
-      <Header>
-        <HeaderContents>
+  <Page>
+    <Navigation />
+    <Header>
+      <HeaderContents>
         <Fade duration={3000}>
           <DesignerRolesContainer>
-          <ThirdPerson>*I don't usually talk about myself in third person.</ThirdPerson>
-              <DesignRoles>Product designer,<br></br> Visual designer,<br></br> user exerperience designer <br></br>& Graphic Designer. </DesignRoles>
+            <ThirdPerson>
+              *I don't usually talk about myself in third person.
+            </ThirdPerson>
+            <DesignRoles>
+              Product designer,
+              <br /> Visual designer,
+              <br /> user exerperience designer <br />& Graphic Designer.{" "}
+            </DesignRoles>
           </DesignerRolesContainer>
-            <HeaderText><UnderLine>Philip*</UnderLine> is a<DrawnCircle>designer</DrawnCircle><br></br>Helping to build software for <UnderLine>brands.</UnderLine><br></br> Philip is leading design at Potato. Previously ustwo & Method. <br></br> In London, Bristol & Sydney.  <br></br> Say hello. </HeaderText>
-          </Fade>
-        </HeaderContents>
-      </Header> 
-      <Container>
-        
-      </Container>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <Link to="/page-2/">Go to page 2</Link>
-</Page>
+          <HeaderText>
+            <UnderLine>Philip*</UnderLine> is a
+            <DrawnCircle>designer</DrawnCircle>
+            <br />
+            Helping to build software for <UnderLine>brands.</UnderLine>
+            <br /> Philip is leading design at Potato. Previously ustwo &
+            Method. <br /> In London, Bristol & Sydney. <br /> Say hello.{" "}
+          </HeaderText>
+        </Fade>
+      </HeaderContents>
+    </Header>
+    <Container />
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <Link to="/page-2/">Go to page 2</Link>
+  </Page>
+);
 
-)
-
-export default IndexPage
+export default IndexPage;
