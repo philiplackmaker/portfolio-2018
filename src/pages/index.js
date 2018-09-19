@@ -12,6 +12,7 @@ import * as Base from "../style/base";
 import * as BreakPoints from "../style/breakpoints";
 import Img from "gatsby-image";
 import { graphql } from "gatsby";
+import FooterEverything from "../components/footereverything.js";
 
 const Page = styled.div`
   margin: 0;
@@ -248,11 +249,7 @@ const IndexPage = ({ data }) => (
           </ProjectCard>
         ))}
     </Container>
-    <Container />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <FooterEverything />
   </Page>
 );
 
