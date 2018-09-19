@@ -9,6 +9,7 @@ import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import * as BreakPoints from "../style/breakpoints";
 import Fade from "react-reveal/Fade";
+import FooterEverything from "../components/footereverything.js";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -103,6 +104,7 @@ export default function Template({ data }) {
           <Content dangerouslySetInnerHTML={{ __html: project.html }} />
         </Proeject>
       </Container>
+      <FooterEverything> </FooterEverything>
     </div>
   );
 }
