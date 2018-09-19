@@ -6,9 +6,9 @@ import * as Base from "../style/base";
 import * as Spacing from "../style/spacing";
 import * as Type from "../style/typography";
 import { graphql } from "gatsby";
-// import Img from "gatsby-image";
+import Img from "gatsby-image";
 import * as BreakPoints from "../style/breakpoints";
-// import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -35,7 +35,7 @@ const Content = styled.div`
   grid-column: 1 / span 12;
 `;
 
-// const HeroImage = styled.div``;
+const HeroImage = styled.div``;
 
 const ProjectHeader = styled.div`
   display: flex;
@@ -93,11 +93,11 @@ export default function Template({ data }) {
           </ProjectHeaderSubText>
         </ProjectHeader>
       </Container>
-      {/* <HeroImage>
+      <HeroImage>
         <Fade duration={2000}>
           <Img fluid={project.frontmatter.cover_image.childImageSharp.fluid} />
         </Fade>
-      </HeroImage> */}
+      </HeroImage>
       <Container>
         <Proeject>
           <Content dangerouslySetInnerHTML={{ __html: project.html }} />
@@ -115,6 +115,13 @@ export const postQuery = graphql`
         path
         title
         subtitle
+        cover_image {
+          childImageSharp {
+            fluid(maxHeight: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

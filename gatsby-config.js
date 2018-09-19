@@ -17,6 +17,8 @@ module.exports = {
     },
     "gatsby-plugin-offline",
     "gatsby-plugin-styled-components",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,7 +29,14 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1080
+            }
+          }
+        ] // just in case those previously mentioned remark plugins sound cool :)
       }
     }
   ]
