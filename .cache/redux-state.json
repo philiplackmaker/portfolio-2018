@@ -708,14 +708,12 @@
       },
       "port": 8002,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-09-19T08:22:19.589Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f6d28ff9dea11394a2daf148b208a69c",
+        "contentDigest": "0002bb271bc5b2a273662e3018534773",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
