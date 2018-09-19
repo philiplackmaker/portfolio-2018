@@ -36,7 +36,7 @@ module.exports = {
               maxWidth: 1080
             }
           }
-        ] // just in case those previously mentioned remark plugins sound cool :)
+        ]
       }
     }
   ]

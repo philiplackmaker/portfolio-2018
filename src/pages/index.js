@@ -9,6 +9,9 @@ import * as Type from "../style/typography";
 import * as Colors from "../style/colors";
 import * as Spacing from "../style/spacing";
 import * as Base from "../style/base";
+import * as BreakPoints from "../style/breakpoints";
+import Img from "gatsby-image";
+import { graphql } from "gatsby";
 
 const Page = styled.div`
   margin: 0;
@@ -80,7 +83,117 @@ const DrawnCircle = styled.span`
   background-position: bottom;
 `;
 
-const IndexPage = () => (
+const ProjectCard = styled(Link)`
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+    height: 15rem;
+    margin-top: 5rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+    height: 25rem;
+    margin-top: 15rem;
+  }
+  ${BreakPoints.LARGE} {
+    grid-column: 1 / span 12;
+    height: 25rem;
+    margin-top: 15rem;
+  }
+  ${BreakPoints.XLARGE} {
+    grid-column: 1 / span 12;
+    height: 25rem;
+    margin-bottom: 10rem;
+  }
+  ${BreakPoints.XXLARGE} {
+    grid-column: 1 / span 12;
+    height: 25rem;
+    margin-bottom: 20rem;
+  }
+`;
+
+const ProjectInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const ProjectHeader = styled(Link)`
+  ${Type.SUBHEADER};
+  text-align: left;
+  dispaly: block;
+  color: ${Colors.BLACK};
+  ${BreakPoints.SMALL} {
+    padding-top: ${Spacing.MEDIUM};
+  }
+  ${BreakPoints.MEDIUM} {
+    padding-top: ${Spacing.MEDIUM};
+  }
+  ${BreakPoints.LARGE} {
+    padding-top: ${Spacing.MEDIUM};
+  }
+  ${BreakPoints.XLARGE} {
+    padding-top: ${Spacing.SMALL};
+  }
+  ${BreakPoints.XXLARGE} {
+    padding-top: ${Spacing.MEDIUM};
+  }
+`;
+
+const ProjectSubtitle = styled(Link)`
+  ${Type.LARGEBODY}
+  color: ${Colors.BLACK};
+    ${BreakPoints.SMALL} {
+      padding-top: .5rem;
+      padding-bottom: 1rem;    
+    }
+    ${BreakPoints.MEDIUM} {  
+      padding-top: .5rem;
+      padding-bottom: 1rem;    
+    }
+    ${BreakPoints.LARGE}{ 
+      padding-top: .5rem;
+      padding-bottom: 1rem;    
+    }
+    ${BreakPoints.XLARGE} { 
+      padding-top: 1.25rem;
+      padding-bottom: 3rem;    
+    }
+    ${BreakPoints.XXLARGE} { 
+      padding-top: 1.5rem;
+      padding-bottom: 4rem;    
+    }
+`;
+
+const ProjectNotes = styled(Link)`
+  ${Type.NOTES}
+  color: ${Colors.PRIMARY};
+`;
+
+const ProjectTeaserImage = styled.div`
+  align-items: end;
+  ${BreakPoints.SMALL} {
+    width: 100px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 250px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 260px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 400px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 500px;
+  }
+`;
+
+const ImageContainer = styled.div`
+  grid-column: 8 / span 4;
+`;
+const IndexPage = ({ data }) => (
   <Page>
     <Navigation />
     <Header>
@@ -107,6 +220,34 @@ const IndexPage = () => (
         </Fade>
       </HeaderContents>
     </Header>
+    <Container>
+      {data.allMarkdownRemark.edges
+        .filter(project => project.node.frontmatter.templateKey === "project")
+        .map(project => (
+          <ProjectCard to={project.node.frontmatter.path}>
+            <ProjectInfo>
+              <ProjectNotes>{project.node.frontmatter.note_title}</ProjectNotes>
+              <div />
+              <ProjectHeader>{project.node.frontmatter.title}</ProjectHeader>
+              <div />
+              <ProjectSubtitle>
+                {project.node.frontmatter.subtitle}
+              </ProjectSubtitle>
+              <div />
+              {/* <ButtonSmall to={project.node.frontmatter.path} /> */}
+            </ProjectInfo>
+            <ImageContainer>
+              <ProjectTeaserImage>
+                <Img
+                  fluid={
+                    project.node.frontmatter.small_image.childImageSharp.fluid
+                  }
+                />
+              </ProjectTeaserImage>
+            </ImageContainer>
+          </ProjectCard>
+        ))}
+    </Container>
     <Container />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -114,5 +255,30 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
   </Page>
 );
+
+export const pageQuery = graphql`
+  query pageQuery {
+    allMarkdownRemark(limit: 5) {
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+            subtitle
+            note_title
+            templateKey
+            small_image {
+              childImageSharp {
+                fluid(maxHeight: 1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;

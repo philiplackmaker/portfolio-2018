@@ -9,6 +9,7 @@ import * as Type from "../style/typography";
 import * as Colors from "../style/colors";
 import * as Spacing from "../style/spacing";
 import * as Base from "../style/base";
+import { graphql } from "gatsby";
 
 const Page = styled.div`
   margin: 0;
@@ -114,5 +115,30 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
   </Page>
 );
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(limit: 5) {
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+            subtitle
+            note_title
+            templateKey
+            small_image {
+              childImageSharp {
+                fluid(maxHeight: 1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;
