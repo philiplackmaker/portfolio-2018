@@ -1327,14 +1327,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-09-19T17:51:45.643Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c1b17f86593f22be50bc420583221ed8",
+        "contentDigest": "6240f2a9b6e7097b8413d9d3c05e9b0c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

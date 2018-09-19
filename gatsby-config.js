@@ -3,6 +3,12 @@ module.exports = {
     title: "Gatsby Default Starter"
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-intercom-spa",
+      options: {
+        app_id: "d7vu7om5"
+      }
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-manifest`,
