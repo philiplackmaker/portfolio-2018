@@ -14,6 +14,7 @@ import Img from "gatsby-image";
 import { graphql } from "gatsby";
 import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
+import ButtonSmall from "../components/buttonsmall.js";
 
 const Page = styled.div`
   margin: 0;
@@ -236,7 +237,7 @@ const IndexPage = ({ data }) => (
                 {project.node.frontmatter.subtitle}
               </ProjectSubtitle>
               <div />
-              {/* <ButtonSmall to={project.node.frontmatter.path} /> */}
+              <ButtonSmall to={project.node.frontmatter.path} />
             </ProjectInfo>
             <ImageContainer>
               <ProjectTeaserImage>
