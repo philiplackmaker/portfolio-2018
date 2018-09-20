@@ -1320,12 +1320,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-20T16:56:00.691Z",
+      "buildTime": "2018-09-20T17:06:23.562Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3d3642cfd7e067cf876f23c3455e2773",
+        "contentDigest": "c7eb7845ea7ce76856a59268a2eaf14a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1335,7 +1335,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1d81cc82c89731cd329fb5657249c7d4",
+        "contentDigest": "6fbe37ef5639a31853fb87d36df83ed3",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1344,11 +1344,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-09-19T18:08:02.389Z",
-      "accessTime": "2018-09-20T16:56:05.664Z",
-      "changeTime": "2018-09-19T18:08:02.389Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-09-20T17:04:47.175Z",
+      "accessTime": "2018-09-20T17:06:25.951Z",
+      "changeTime": "2018-09-20T17:04:47.175Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src",
@@ -1358,20 +1358,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8605903414,
       "blocks": 0,
-      "atimeMs": 1537462565664.134,
-      "mtimeMs": 1537380482388.8074,
-      "ctimeMs": 1537380482388.8074,
+      "atimeMs": 1537463185950.5864,
+      "mtimeMs": 1537463087174.5115,
+      "ctimeMs": 1537463087174.5115,
       "birthtimeMs": 1537344635417.9495,
-      "atime": "2018-09-20T16:56:05.664Z",
-      "mtime": "2018-09-19T18:08:02.389Z",
-      "ctime": "2018-09-19T18:08:02.389Z",
+      "atime": "2018-09-20T17:06:25.951Z",
+      "mtime": "2018-09-20T17:04:47.175Z",
+      "ctime": "2018-09-20T17:04:47.175Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
     "300c375c-fd4f-53d5-84d4-756775efd072": {
@@ -1379,7 +1379,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ef4e353f2fc1ad7d8ae5a8914e3626ca",
+        "contentDigest": "2faad1e09f862e91d47cdbe7516edfaf",
         "type": "Directory",
         "description": "Directory \"src/pages/project\"",
         "owner": "gatsby-source-filesystem"
@@ -1391,7 +1391,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-09-19T17:35:33.885Z",
-      "accessTime": "2018-09-20T16:56:05.666Z",
+      "accessTime": "2018-09-20T17:06:25.953Z",
       "changeTime": "2018-09-19T17:35:46.880Z",
       "birthTime": "2018-09-19T17:35:33.733Z",
       "root": "/",
@@ -1409,11 +1409,11 @@
       "blksize": 4194304,
       "ino": 8606221969,
       "blocks": 0,
-      "atimeMs": 1537462565666.0627,
+      "atimeMs": 1537463185952.938,
       "mtimeMs": 1537378533884.937,
       "ctimeMs": 1537378546879.9224,
       "birthtimeMs": 1537378533733.309,
-      "atime": "2018-09-20T16:56:05.666Z",
+      "atime": "2018-09-20T17:06:25.953Z",
       "mtime": "2018-09-19T17:35:33.885Z",
       "ctime": "2018-09-19T17:35:46.880Z",
       "birthtime": "2018-09-19T17:35:33.733Z"
@@ -1423,7 +1423,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5845a6365c5d82414c45a5dc5d19c5b9",
+        "contentDigest": "8aca23de55768b1af226958db2b60a16",
         "type": "Directory",
         "description": "Directory \"src/pages/webfonts\"",
         "owner": "gatsby-source-filesystem"
@@ -1435,7 +1435,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2018-09-12T13:31:42.856Z",
-      "accessTime": "2018-09-20T16:56:05.666Z",
+      "accessTime": "2018-09-20T17:06:25.953Z",
       "changeTime": "2018-09-19T13:52:16.920Z",
       "birthTime": "2018-09-12T13:31:42.848Z",
       "root": "/",
@@ -1453,11 +1453,11 @@
       "blksize": 4194304,
       "ino": 8605930774,
       "blocks": 0,
-      "atimeMs": 1537462565666.0818,
+      "atimeMs": 1537463185952.9463,
       "mtimeMs": 1536759102855.795,
       "ctimeMs": 1537365136919.6138,
       "birthtimeMs": 1536759102847.58,
-      "atime": "2018-09-20T16:56:05.666Z",
+      "atime": "2018-09-20T17:06:25.953Z",
       "mtime": "2018-09-12T13:31:42.856Z",
       "ctime": "2018-09-19T13:52:16.920Z",
       "birthtime": "2018-09-12T13:31:42.848Z"
@@ -1467,7 +1467,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "203bc07500aac1883437e4caf9d53438",
+        "contentDigest": "1cf997713c2d3ad6b48f697705d5f5eb",
         "type": "Directory",
         "description": "Directory \"src/pages/project/Laterooms\"",
         "owner": "gatsby-source-filesystem"
@@ -1479,7 +1479,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-09-19T17:35:33.754Z",
-      "accessTime": "2018-09-20T16:56:05.668Z",
+      "accessTime": "2018-09-20T17:06:25.955Z",
       "changeTime": "2018-09-19T17:35:33.754Z",
       "birthTime": "2018-09-19T17:35:33.737Z",
       "root": "/",
@@ -1497,11 +1497,11 @@
       "blksize": 4194304,
       "ino": 8606221971,
       "blocks": 0,
-      "atimeMs": 1537462565667.8945,
+      "atimeMs": 1537463185955.4312,
       "mtimeMs": 1537378533753.5386,
       "ctimeMs": 1537378533753.5386,
       "birthtimeMs": 1537378533737.055,
-      "atime": "2018-09-20T16:56:05.668Z",
+      "atime": "2018-09-20T17:06:25.955Z",
       "mtime": "2018-09-19T17:35:33.754Z",
       "ctime": "2018-09-19T17:35:33.754Z",
       "birthtime": "2018-09-19T17:35:33.737Z"
@@ -1511,7 +1511,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4fe339e56be6dfad562dc9a07d3fe37d",
+        "contentDigest": "51f2cb44842378cd17adf4ab299b53bf",
         "type": "Directory",
         "description": "Directory \"src/pages/project/cambrdige-audio\"",
         "owner": "gatsby-source-filesystem"
@@ -1523,7 +1523,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2018-09-19T17:35:33.881Z",
-      "accessTime": "2018-09-20T16:56:05.668Z",
+      "accessTime": "2018-09-20T17:06:25.955Z",
       "changeTime": "2018-09-19T17:35:33.881Z",
       "birthTime": "2018-09-19T17:35:33.765Z",
       "root": "/",
@@ -1541,11 +1541,11 @@
       "blksize": 4194304,
       "ino": 8606221976,
       "blocks": 0,
-      "atimeMs": 1537462565667.9153,
+      "atimeMs": 1537463185955.4656,
       "mtimeMs": 1537378533880.9065,
       "ctimeMs": 1537378533880.9065,
       "birthtimeMs": 1537378533765.375,
-      "atime": "2018-09-20T16:56:05.668Z",
+      "atime": "2018-09-20T17:06:25.955Z",
       "mtime": "2018-09-19T17:35:33.881Z",
       "ctime": "2018-09-19T17:35:33.881Z",
       "birthtime": "2018-09-19T17:35:33.765Z"
@@ -1555,7 +1555,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e8242468fecdffd8affb497c6c190d52",
+        "contentDigest": "cde53ed20c43290e27bef4b8e5c7e08b",
         "type": "Directory",
         "description": "Directory \"src/pages/project/hellocar\"",
         "owner": "gatsby-source-filesystem"
@@ -1567,7 +1567,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-09-19T17:35:33.916Z",
-      "accessTime": "2018-09-20T16:56:05.668Z",
+      "accessTime": "2018-09-20T17:06:25.955Z",
       "changeTime": "2018-09-19T17:35:33.916Z",
       "birthTime": "2018-09-19T17:35:33.885Z",
       "root": "/",
@@ -1585,11 +1585,11 @@
       "blksize": 4194304,
       "ino": 8606221987,
       "blocks": 0,
-      "atimeMs": 1537462565667.9353,
+      "atimeMs": 1537463185955.4465,
       "mtimeMs": 1537378533916.3835,
       "ctimeMs": 1537378533916.3835,
       "birthtimeMs": 1537378533884.9287,
-      "atime": "2018-09-20T16:56:05.668Z",
+      "atime": "2018-09-20T17:06:25.955Z",
       "mtime": "2018-09-19T17:35:33.916Z",
       "ctime": "2018-09-19T17:35:33.916Z",
       "birthtime": "2018-09-19T17:35:33.885Z"
@@ -3754,6 +3754,461 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "f5c33af0-c482-549c-94f6-c57f10bc71b4": {
+      "id": "f5c33af0-c482-549c-94f6-c57f10bc71b4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "98351e546ade71c789333e0746d3c2de",
+        "type": "Directory",
+        "description": "Directory \"src/pages/about\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about",
+      "relativePath": "about",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-09-20T17:04:32.341Z",
+      "accessTime": "2018-09-20T17:06:25.953Z",
+      "changeTime": "2018-09-20T17:04:32.341Z",
+      "birthTime": "2018-09-20T17:04:32.335Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages",
+      "base": "about",
+      "ext": "",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231046,
+      "blocks": 0,
+      "atimeMs": 1537463185952.8853,
+      "mtimeMs": 1537463072340.977,
+      "ctimeMs": 1537463072340.977,
+      "birthtimeMs": 1537463072334.6064,
+      "atime": "2018-09-20T17:06:25.953Z",
+      "mtime": "2018-09-20T17:04:32.341Z",
+      "ctime": "2018-09-20T17:04:32.341Z",
+      "birthtime": "2018-09-20T17:04:32.335Z"
+    },
+    "0c445f78-4e38-573d-944d-29408ef553e3": {
+      "id": "0c445f78-4e38-573d-944d-29408ef553e3",
+      "children": [
+        "41d143da-91db-5f1e-8919-c247008c8409"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/about/jumbotron.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/jumbotron.jpg",
+      "relativePath": "about/jumbotron.jpg",
+      "extension": "jpg",
+      "size": 3719636,
+      "prettySize": "3.72 MB",
+      "modifiedTime": "2018-09-20T17:04:32.353Z",
+      "accessTime": "2018-09-20T17:04:32.341Z",
+      "changeTime": "2018-09-20T17:04:32.353Z",
+      "birthTime": "2018-09-20T17:04:32.341Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
+      "base": "jumbotron.jpg",
+      "ext": ".jpg",
+      "name": "jumbotron",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231049,
+      "blocks": 7272,
+      "atimeMs": 1537463072340.97,
+      "mtimeMs": 1537463072352.758,
+      "ctimeMs": 1537463072353.2947,
+      "birthtimeMs": 1537463072340.97,
+      "atime": "2018-09-20T17:04:32.341Z",
+      "mtime": "2018-09-20T17:04:32.353Z",
+      "ctime": "2018-09-20T17:04:32.353Z",
+      "birthtime": "2018-09-20T17:04:32.341Z"
+    },
+    "41d143da-91db-5f1e-8919-c247008c8409": {
+      "id": "41d143da-91db-5f1e-8919-c247008c8409",
+      "children": [],
+      "parent": "0c445f78-4e38-573d-944d-29408ef553e3",
+      "internal": {
+        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "673fe8c8-1567-501d-a933-70370815efd6": {
+      "id": "673fe8c8-1567-501d-a933-70370815efd6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5e2e346e7f8fb58f1b8cc36643d35f77",
+        "type": "Directory",
+        "description": "Directory \"src/pages/thinking\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thinking",
+      "relativePath": "thinking",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-09-20T17:04:47.179Z",
+      "accessTime": "2018-09-20T17:06:25.953Z",
+      "changeTime": "2018-09-20T17:04:47.179Z",
+      "birthTime": "2018-09-20T17:04:47.174Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages",
+      "base": "thinking",
+      "ext": "",
+      "name": "thinking",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231054,
+      "blocks": 0,
+      "atimeMs": 1537463185952.8542,
+      "mtimeMs": 1537463087179.333,
+      "ctimeMs": 1537463087179.333,
+      "birthtimeMs": 1537463087174.4944,
+      "atime": "2018-09-20T17:06:25.953Z",
+      "mtime": "2018-09-20T17:04:47.179Z",
+      "ctime": "2018-09-20T17:04:47.179Z",
+      "birthtime": "2018-09-20T17:04:47.174Z"
+    },
+    "e72863c5-205a-58d5-955e-3c0add4c7fa0": {
+      "id": "e72863c5-205a-58d5-955e-3c0add4c7fa0",
+      "children": [
+        "00059d43-3991-5d3a-a224-125e84b1bcf4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/thinking/jumbotron.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thinking/jumbotron.jpg",
+      "relativePath": "thinking/jumbotron.jpg",
+      "extension": "jpg",
+      "size": 3719636,
+      "prettySize": "3.72 MB",
+      "modifiedTime": "2018-09-20T17:04:47.193Z",
+      "accessTime": "2018-09-20T17:04:47.179Z",
+      "changeTime": "2018-09-20T17:04:47.194Z",
+      "birthTime": "2018-09-20T17:04:47.179Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/thinking",
+      "base": "jumbotron.jpg",
+      "ext": ".jpg",
+      "name": "jumbotron",
+      "relativeDirectory": "thinking",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231057,
+      "blocks": 7272,
+      "atimeMs": 1537463087179.3257,
+      "mtimeMs": 1537463087193.252,
+      "ctimeMs": 1537463087193.7312,
+      "birthtimeMs": 1537463087179.3257,
+      "atime": "2018-09-20T17:04:47.179Z",
+      "mtime": "2018-09-20T17:04:47.193Z",
+      "ctime": "2018-09-20T17:04:47.194Z",
+      "birthtime": "2018-09-20T17:04:47.179Z"
+    },
+    "00059d43-3991-5d3a-a224-125e84b1bcf4": {
+      "id": "00059d43-3991-5d3a-a224-125e84b1bcf4",
+      "children": [],
+      "parent": "e72863c5-205a-58d5-955e-3c0add4c7fa0",
+      "internal": {
+        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "70366b7e-4263-52e4-b8e3-7c45ff51a360": {
+      "id": "70366b7e-4263-52e4-b8e3-7c45ff51a360",
+      "children": [
+        "5ea44478-4b50-5a40-9c74-7f480be9083c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/thinking/CATeaser.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thinking/CATeaser.jpg",
+      "relativePath": "thinking/CATeaser.jpg",
+      "extension": "jpg",
+      "size": 36401,
+      "prettySize": "36.4 kB",
+      "modifiedTime": "2018-09-20T17:04:47.177Z",
+      "accessTime": "2018-09-20T17:05:21.021Z",
+      "changeTime": "2018-09-20T17:04:47.178Z",
+      "birthTime": "2018-09-20T17:04:47.175Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/thinking",
+      "base": "CATeaser.jpg",
+      "ext": ".jpg",
+      "name": "CATeaser",
+      "relativeDirectory": "thinking",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231055,
+      "blocks": 72,
+      "atimeMs": 1537463121020.8762,
+      "mtimeMs": 1537463087177.2063,
+      "ctimeMs": 1537463087177.7224,
+      "birthtimeMs": 1537463087175.1113,
+      "atime": "2018-09-20T17:05:21.021Z",
+      "mtime": "2018-09-20T17:04:47.177Z",
+      "ctime": "2018-09-20T17:04:47.178Z",
+      "birthtime": "2018-09-20T17:04:47.175Z"
+    },
+    "4708f7ed-aad7-5256-8881-6f92ffeeb758": {
+      "id": "4708f7ed-aad7-5256-8881-6f92ffeeb758",
+      "children": [
+        "8056aee4-6aca-54f5-b51a-756fff0e27b8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e260da19d078c825c992856c12fb4356",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/thinking/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thinking/index.md",
+      "relativePath": "thinking/index.md",
+      "extension": "md",
+      "size": 109,
+      "prettySize": "109 B",
+      "modifiedTime": "2018-09-20T17:04:47.179Z",
+      "accessTime": "2018-09-20T17:05:21.021Z",
+      "changeTime": "2018-09-20T17:04:47.179Z",
+      "birthTime": "2018-09-20T17:04:47.178Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/thinking",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "thinking",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231056,
+      "blocks": 8,
+      "atimeMs": 1537463121020.8909,
+      "mtimeMs": 1537463087178.5981,
+      "ctimeMs": 1537463087179.039,
+      "birthtimeMs": 1537463087178.1853,
+      "atime": "2018-09-20T17:05:21.021Z",
+      "mtime": "2018-09-20T17:04:47.179Z",
+      "ctime": "2018-09-20T17:04:47.179Z",
+      "birthtime": "2018-09-20T17:04:47.178Z"
+    },
+    "51dd061c-df04-52bc-880d-758ae0cec4c8": {
+      "id": "51dd061c-df04-52bc-880d-758ae0cec4c8",
+      "children": [
+        "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/about/CATeaser.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/CATeaser.jpg",
+      "relativePath": "about/CATeaser.jpg",
+      "extension": "jpg",
+      "size": 36401,
+      "prettySize": "36.4 kB",
+      "modifiedTime": "2018-09-20T17:04:32.336Z",
+      "accessTime": "2018-09-20T17:05:21.021Z",
+      "changeTime": "2018-09-20T17:04:32.338Z",
+      "birthTime": "2018-09-20T17:04:32.335Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
+      "base": "CATeaser.jpg",
+      "ext": ".jpg",
+      "name": "CATeaser",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231047,
+      "blocks": 72,
+      "atimeMs": 1537463121020.562,
+      "mtimeMs": 1537463072336.3823,
+      "ctimeMs": 1537463072337.6462,
+      "birthtimeMs": 1537463072335.1936,
+      "atime": "2018-09-20T17:05:21.021Z",
+      "mtime": "2018-09-20T17:04:32.336Z",
+      "ctime": "2018-09-20T17:04:32.338Z",
+      "birthtime": "2018-09-20T17:04:32.335Z"
+    },
+    "43d292da-e059-5f8a-9848-e184e168fbb4": {
+      "id": "43d292da-e059-5f8a-9848-e184e168fbb4",
+      "children": [
+        "3abfc6b2-23d0-5628-a83e-c6c90979daaa"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ea38b6faa62670332e30716c34b519a1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/about/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md",
+      "relativePath": "about/index.md",
+      "extension": "md",
+      "size": 169,
+      "prettySize": "169 B",
+      "modifiedTime": "2018-09-20T17:04:32.340Z",
+      "accessTime": "2018-09-20T17:05:21.021Z",
+      "changeTime": "2018-09-20T17:04:32.341Z",
+      "birthTime": "2018-09-20T17:04:32.340Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606231048,
+      "blocks": 8,
+      "atimeMs": 1537463121020.6123,
+      "mtimeMs": 1537463072340.3535,
+      "ctimeMs": 1537463072340.6924,
+      "birthtimeMs": 1537463072340.1604,
+      "atime": "2018-09-20T17:05:21.021Z",
+      "mtime": "2018-09-20T17:04:32.340Z",
+      "ctime": "2018-09-20T17:04:32.341Z",
+      "birthtime": "2018-09-20T17:04:32.340Z"
+    },
+    "5ea44478-4b50-5a40-9c74-7f480be9083c": {
+      "id": "5ea44478-4b50-5a40-9c74-7f480be9083c",
+      "children": [],
+      "parent": "70366b7e-4263-52e4-b8e3-7c45ff51a360",
+      "internal": {
+        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca": {
+      "id": "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca",
+      "children": [],
+      "parent": "51dd061c-df04-52bc-880d-758ae0cec4c8",
+      "internal": {
+        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8056aee4-6aca-54f5-b51a-756fff0e27b8": {
+      "id": "8056aee4-6aca-54f5-b51a-756fff0e27b8",
+      "children": [],
+      "parent": "4708f7ed-aad7-5256-8881-6f92ffeeb758",
+      "internal": {
+        "content": "\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5591c46ffd6044b98a7e185aa95ab950",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "path": "/thinking",
+        "title_thinking": "Thinking",
+        "templateKey": "thinking",
+        "small_image": "./CATeaser.jpg",
+        "_PARENT": "4708f7ed-aad7-5256-8881-6f92ffeeb758"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/thinking/index.md"
+    },
+    "3abfc6b2-23d0-5628-a83e-c6c90979daaa": {
+      "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa",
+      "children": [],
+      "parent": "43d292da-e059-5f8a-9848-e184e168fbb4",
+      "internal": {
+        "content": "\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d089f3d4715ef3c6240d8e6e80a5c94f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "path": "/about",
+        "title_test": "Abour=t",
+        "templateKey": "about",
+        "note_title": "…good test of rapid prototyping to a design stystem...",
+        "small_image": "./CATeaser.jpg",
+        "_PARENT": "43d292da-e059-5f8a-9848-e184e168fbb4"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md"
+    },
     "SitePage /laterooms": {
       "jsonName": "laterooms-3ea",
       "internalComponentName": "ComponentLaterooms",
@@ -3820,6 +4275,50 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /thinking": {
+      "jsonName": "thinking-8b4",
+      "internalComponentName": "ComponentThinking",
+      "path": "/thinking",
+      "component": "/Users/philip/development/portfolio-2018/src/templates/thinking.js",
+      "componentChunkName": "component---src-templates-thinking-js",
+      "context": {
+        "id": "8056aee4-6aca-54f5-b51a-756fff0e27b8"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/thinking.js",
+      "id": "SitePage /thinking",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e196f796adb8cc3db7df758701889a5",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about": {
+      "jsonName": "about-771",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about",
+      "component": "/Users/philip/development/portfolio-2018/src/templates/about.js",
+      "componentChunkName": "component---src-templates-about-js",
+      "context": {
+        "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js",
+      "id": "SitePage /about",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88e89a920d34e3c043d5fac458a41326",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -3882,6 +4381,18 @@
       ],
       "b9cb7c9d-8304-59c0-b47d-090b8d5d783b": [
         "/hellocar"
+      ],
+      "70366b7e-4263-52e4-b8e3-7c45ff51a360": [
+        "/"
+      ],
+      "5ea44478-4b50-5a40-9c74-7f480be9083c": [
+        "/"
+      ],
+      "51dd061c-df04-52bc-880d-758ae0cec4c8": [
+        "/"
+      ],
+      "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca": [
+        "/"
       ]
     },
     "connections": {
@@ -3894,10 +4405,12 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "hellocar-879": "617/path---hellocar-879-325-ThlB1UdjCm2uNLyNNQZX6PN2nAU",
-    "index": "535/path---index-6a9-uuotBSpv03jxtIBGNnngP2ZOtiY",
+    "index": "26/path---index-6a9-xGi8qUIXkl9pfA2pq1LPxayNPg",
     "sq--src-components-footerlinks-js": 394728877,
     "laterooms-3ea": "72/path---laterooms-3-ea-4db-oUIWVxI8H26hAn8yN0HPsdrHY",
-    "cambrdige-audio-291": "402/path---cambrdige-audio-291-312-ZWOGn3ij6Ht9Y07XxDAGw4LmXVM"
+    "cambrdige-audio-291": "402/path---cambrdige-audio-291-312-ZWOGn3ij6Ht9Y07XxDAGw4LmXVM",
+    "about-771": "317/path---about-771-2fe-5zIwJaVsGxAuqmG5wFKId5LydwY",
+    "thinking-8b4": "669/path---thinking-8-b-4-cf7-ypHEV1Jtm0XDjFnRCqagfBRLM"
   },
   "components": {
     "/Users/philip/development/portfolio-2018/src/templates/project.js": {
@@ -3911,6 +4424,14 @@
     "/Users/philip/development/portfolio-2018/src/pages/index.js": {
       "query": "query pageQuery {\n  allMarkdownRemark(limit: 5) {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          subtitle\n          note_title\n          templateKey\n          small_image {\n            childImageSharp {\n              fluid(maxHeight: 1200) {\n                ...GatsbyImageSharpFluid\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/philip/development/portfolio-2018/src/pages/index.js"
+    },
+    "/Users/philip/development/portfolio-2018/src/templates/thinking.js": {
+      "query": "query thinkingByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title_thinking\n      templateKey\n    }\n  }\n}\n",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/thinking.js"
+    },
+    "/Users/philip/development/portfolio-2018/src/templates/about.js": {
+      "query": "query AboutByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title_test\n      templateKey\n    }\n  }\n}\n",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js"
     }
   },
   "staticQueryComponents": {

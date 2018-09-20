@@ -5,6 +5,11 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-about-js",
+        "jsonName": "about-771",
+        "path": "/about"
+    },
+    {
         "componentChunkName": "component---src-templates-project-js",
         "jsonName": "cambrdige-audio-291",
         "path": "/cambrdige-audio"
@@ -23,5 +28,10 @@
         "componentChunkName": "component---src-templates-project-js",
         "jsonName": "laterooms-3ea",
         "path": "/laterooms"
+    },
+    {
+        "componentChunkName": "component---src-templates-thinking-js",
+        "jsonName": "thinking-8b4",
+        "path": "/thinking"
     }
 ]
