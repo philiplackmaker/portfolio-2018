@@ -1,9 +1,9 @@
 var plugins = [{
+      plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-intercom-spa/gatsby-ssr'),
+      options: {"plugins":[],"app_id":"d7vu7om5"},
+    },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui"},
     },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},

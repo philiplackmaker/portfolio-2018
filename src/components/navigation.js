@@ -1,151 +1,152 @@
-import React from 'react'
-// import DrawerToggleButton from '../components/drawtoggle';
-import { Link } from "gatsby"
+import React from "react";
+import DrawerToggleButton from "../components/drawtoggle";
+import { Link } from "gatsby";
 import styled from "styled-components";
-import * as Colors from '../style/colors';
-import '../style/globals';
+import * as Colors from "../style/colors";
+import "../style/globals";
 import Headroom from "react-headroom";
-import * as BreakPoints from '../style/breakpoints';
-import * as Type from '../style/typography';
-import * as Spacing from '../style/spacing';
-// import SideDraw from '../components/sideDraw';
-// import Slide from 'react-reveal/Slide';
+import * as BreakPoints from "../style/breakpoints";
+import * as Type from "../style/typography";
+import * as Spacing from "../style/spacing";
+import SideDraw from "../components/sideDraw";
+import Slide from "react-reveal/Slide";
 
 const NavigationContainer = styled.div`
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    background-color: ${Colors.WHITE}; 
-        ${BreakPoints.SMALL} {
-            height: ${Spacing.LARGE};
-            }
-        ${BreakPoints.MEDIUM} {  
-            height: ${Spacing.XLARGE};
-            }
-        ${BreakPoints.LARGE}{ 
-            height: ${Spacing.XLARGE};
-            }
-        ${BreakPoints.XLARGE} { 
-            height: ${Spacing.XLARGE};
-            }
-        ${BreakPoints.XXLARGE} { 
-            height: ${Spacing.XLARGE};
-            }
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: ${Colors.WHITE};
+  ${BreakPoints.SMALL} {
+    height: ${Spacing.LARGE};
+  }
+  ${BreakPoints.MEDIUM} {
+    height: ${Spacing.XLARGE};
+  }
+  ${BreakPoints.LARGE} {
+    height: ${Spacing.XLARGE};
+  }
+  ${BreakPoints.XLARGE} {
+    height: ${Spacing.XLARGE};
+  }
+  ${BreakPoints.XXLARGE} {
+    height: ${Spacing.XLARGE};
+  }
 `;
 
 const List = styled.ul`
-    list-style-type: none;
-    padding: 0;
-    margin: 0; 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 `;
 
 const ListItems = styled.li`
-    display: block;
-    float: left;
-    text-decoration: none;
-        ${BreakPoints.SMALL} {
-            ${Type.BODY};            
-            padding: 1rem 1rem; 
-            display: none;                               
-        }
-        ${BreakPoints.MEDIUM} {  
-            ${Type.BODY};
-            padding: 1rem 1rem;
-            display: fixed;                               
-        }
-        ${BreakPoints.LARGE}{ 
-            ${Type.BODY};
-            padding: 1rem 1rem;        
-        }
-        ${BreakPoints.XLARGE} { 
-            ${Type.BODY};
-            padding: 1rem 1rem;
-        }
-        ${BreakPoints.XXLARGE} { 
-         }
+  display: block;
+  float: left;
+  text-decoration: none;
+  ${BreakPoints.SMALL} {
+    ${Type.BODY};
+    padding: 1rem 1rem;
+    display: none;
+  }
+  ${BreakPoints.MEDIUM} {
+    ${Type.BODY};
+    padding: 1rem 1rem;
+    display: fixed;
+  }
+  ${BreakPoints.LARGE} {
+    ${Type.BODY};
+    padding: 1rem 1rem;
+  }
+  ${BreakPoints.XLARGE} {
+    ${Type.BODY};
+    padding: 1rem 1rem;
+  }
+  ${BreakPoints.XXLARGE} {
+  }
 `;
 
 const NavigationLink = styled(Link)`
-    text-decoration: none;
-    transition: all 0.4s ease-in;
-    color: black;
-    :visited, :active{
-        color: ${Colors.BLACK};
-        text-underline: none;
-    }
-    &:hover{
-        color: ${Colors.PRIMARY};
-        text-underline: none;
-    }
+  text-decoration: none;
+  transition: all 0.4s ease-in;
+  color: black;
+  :visited,
+  :active {
+    color: ${Colors.BLACK};
+    text-underline: none;
+  }
+  &:hover {
+    color: ${Colors.PRIMARY};
+    text-underline: none;
+  }
 `;
 
-// const DrawerToggleButtonContanier = styled.div`
-// ${BreakPoints.SMALL} {
-//     padding: 1rem;
-//     }
-// ${BreakPoints.MEDIUM} {  
-//     display: none
-//  }
-// `;
+const DrawerToggleButtonContanier = styled.div`
+  ${BreakPoints.SMALL} {
+    padding: 1rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    display: none;
+  }
+`;
 
+class Navigation extends React.Component {
+  state = {
+    sideDrawOpen: false
+  };
 
-// class Navigation extends React.Component {
-//     state = {
-//         sideDrawOpen: false
-//     };
+  drawerToggleButtonClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawOpen: !prevState.sideDrawOpen };
+    });
+  };
 
-//     drawerToggleButtonClickHandler = () =>{
-//         this.setState((prevState) => {
-//             return{sideDrawOpen: !prevState.sideDrawOpen};
-//         });
-//     };
+  closeToggleClickHandler = () => {
+    this.setState({ sideDrawOpen: false });
+  };
 
-//     closeToggleClickHandler = () => {
-//         this.setState({sideDrawOpen: false});
-//     };
+  div;
+  render() {
+    let sideDraw;
 
-//  div
-//  render (){
-//      let sideDraw;
+    if (this.state.sideDrawOpen) {
+      sideDraw = <SideDraw />;
+    }
 
-//      if (this.state.sideDrawOpen) {
-//          sideDraw =  <SideDraw/>
-//      }
-
-const Navigation = () => (
-            <Headroom style={{
-                webkitTransition: 'all .5s ease-in-out',
-                mozTransition: 'all .5s ease-in-out',
-                oTransition: 'all .5s ease-in-out',
-                transition: 'all .5s ease-in-out',
-                }}>  
-            {/* {sideDraw}
-           <Slide top> */}
-            <NavigationContainer>
+    return (
+      <Headroom
+        style={{
+          webkitTransition: "all .5s ease-in-out",
+          mozTransition: "all .5s ease-in-out",
+          oTransition: "all .5s ease-in-out",
+          transition: "all .5s ease-in-out"
+        }}
+      >
+        {sideDraw}
+        <Slide top>
+          <NavigationContainer>
             <List>
-                <ListItems>
-                    <NavigationLink to ="/">Work</NavigationLink>
-                </ListItems>
-                <ListItems>
-                <NavigationLink to ="/">About</NavigationLink>
-                </ListItems>
-                <ListItems>
-                <NavigationLink to ="/">Approach</NavigationLink>
-                </ListItems>
-                <ListItems>
-                <NavigationLink to ="/">Blog</NavigationLink>
-                </ListItems> 
+              <ListItems>
+                <NavigationLink to="/">Work</NavigationLink>
+              </ListItems>
+              <ListItems>
+                <NavigationLink to="/about">About</NavigationLink>
+              </ListItems>
+              <ListItems>
+                <NavigationLink to="/thinking">Approach</NavigationLink>
+              </ListItems>
+              <ListItems>
+                <NavigationLink to="/blog">Blog</NavigationLink>
+              </ListItems>
             </List>
-            {/* <DrawerToggleButtonContanier>
-                <DrawerToggleButton  click={this.drawerToggleButtonClickHandler}  /> 
-            </DrawerToggleButtonContanier> */}
-    </NavigationContainer>
-    {/* </Slide> */}
-    </Headroom> 
-     );
-//  }
+            <DrawerToggleButtonContanier>
+              <DrawerToggleButton click={this.drawerToggleButtonClickHandler} />
+            </DrawerToggleButtonContanier>
+          </NavigationContainer>
+        </Slide>
+      </Headroom>
+    );
+  }
+}
 
-// }
-
-export default Navigation
+export default Navigation;

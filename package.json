@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "portfolio-2018",
+  "description": "Portfolio 2018",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
@@ -19,6 +19,7 @@
     "gatsby-transformer-sharp": "^2.1.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-hamburger-menu": "^1.1.1",
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.2.0",
     "react-reveal": "^1.2.2",
