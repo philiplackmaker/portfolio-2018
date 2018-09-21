@@ -12,7 +12,7 @@ cover_image: "./hero_cambridge-audio.png"
 | ------------------------------------------ | --------------- | ------------------- |
 | Design, Interaction, Lean/Agile & Workshop | iOS and Android | UI, UX and Strategy |
 
-###The Problem test
+###The Problem 
 
 [Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato]() to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. They also wanted to learn product development and lean UX.
 
@@ -22,7 +22,7 @@ We created a plan that worked with budget and their internal development plan.
 1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.
 
 ![Workshop](cambridge-audio-process-01.png)
-###Gathering Insights
+<!-- ###Gathering Insights
 
 Ahead of the validation sprint, we wanted to understand people’s behaviour and needs when is comes to how they consume music within their household. We decided the best way was to gather quantitive research; to do this we run a survey and broadcasted it on our social channels to.
 
@@ -30,7 +30,7 @@ We run the survey for about a week and got 175 response with a good mix of ages 
 
 1. The set-up of the speaker is vital, it needs to be timely and easy. It’s the first touchpoint for the customer so it needs to be simple and positive.
 2. The supporting app is important to users. The application gives you the opportunity to be intelligent, delightful but must not be intrusive.
-3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music.
+3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music. -->
 
 ##Building the right thing
 
