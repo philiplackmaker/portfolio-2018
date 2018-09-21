@@ -6,6 +6,7 @@ import * as Base from "../style/base";
 import "../style/globals";
 import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
+import Img from "gatsby-image";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -18,8 +19,8 @@ export default function Template({ data }) {
       <Navigation class="test" />
       <Container>
         <h6>{about.frontmatter.title_test}</h6>
+        <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
       </Container>
-
       <FooterEverything />
     </div>
   );
@@ -33,6 +34,13 @@ export const aboutQuery = graphql`
         path
         title_test
         templateKey
+        cover_image {
+          childImageSharp {
+            fluid(maxHeight: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

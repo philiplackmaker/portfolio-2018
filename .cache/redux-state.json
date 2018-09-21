@@ -1320,12 +1320,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-20T17:50:19.533Z",
+      "buildTime": "2018-09-21T14:04:17.809Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4c4bf0b2a615c904837ea8cf49fe115e",
+        "contentDigest": "fae46236f4f61de5f0267d4b02ffb9d6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1335,7 +1335,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1c8ae3d697790eead108dedb94147cd6",
+        "contentDigest": "c937a8f56eb1794edc115513e2ef5dce",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1347,7 +1347,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-09-20T17:49:42.284Z",
-      "accessTime": "2018-09-20T17:50:22.128Z",
+      "accessTime": "2018-09-21T14:04:23.109Z",
       "changeTime": "2018-09-20T17:49:42.284Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
@@ -1365,11 +1365,11 @@
       "blksize": 4194304,
       "ino": 8605903414,
       "blocks": 0,
-      "atimeMs": 1537465822127.9072,
+      "atimeMs": 1537538663109.1455,
       "mtimeMs": 1537465782283.602,
       "ctimeMs": 1537465782283.602,
       "birthtimeMs": 1537344635417.9495,
-      "atime": "2018-09-20T17:50:22.128Z",
+      "atime": "2018-09-21T14:04:23.109Z",
       "mtime": "2018-09-20T17:49:42.284Z",
       "ctime": "2018-09-20T17:49:42.284Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
@@ -1379,7 +1379,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cb5065806c2ad779f1c294ceb990ba02",
+        "contentDigest": "bd06d55d514014cf94293fb619197a4e",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1388,11 +1388,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about",
       "relativePath": "about",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-09-20T17:04:32.341Z",
-      "accessTime": "2018-09-20T17:50:22.130Z",
-      "changeTime": "2018-09-20T17:04:32.341Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-21T11:28:56.415Z",
+      "accessTime": "2018-09-21T14:04:23.112Z",
+      "changeTime": "2018-09-21T11:28:56.415Z",
       "birthTime": "2018-09-20T17:04:32.335Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -1402,20 +1402,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8606231046,
       "blocks": 0,
-      "atimeMs": 1537465822130.4307,
-      "mtimeMs": 1537463072340.977,
-      "ctimeMs": 1537463072340.977,
+      "atimeMs": 1537538663111.6772,
+      "mtimeMs": 1537529336415.407,
+      "ctimeMs": 1537529336415.407,
       "birthtimeMs": 1537463072334.6064,
-      "atime": "2018-09-20T17:50:22.130Z",
-      "mtime": "2018-09-20T17:04:32.341Z",
-      "ctime": "2018-09-20T17:04:32.341Z",
+      "atime": "2018-09-21T14:04:23.112Z",
+      "mtime": "2018-09-21T11:28:56.415Z",
+      "ctime": "2018-09-21T11:28:56.415Z",
       "birthtime": "2018-09-20T17:04:32.335Z"
     },
     "300c375c-fd4f-53d5-84d4-756775efd072": {
@@ -1423,7 +1423,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f903104e8b650c0f969e321bc54e1077",
+        "contentDigest": "23686b9b917cd0a7b1c94a333bd0c809",
         "type": "Directory",
         "description": "Directory \"src/pages/project\"",
         "owner": "gatsby-source-filesystem"
@@ -1435,7 +1435,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-09-19T17:35:33.885Z",
-      "accessTime": "2018-09-20T17:50:22.130Z",
+      "accessTime": "2018-09-21T14:04:23.112Z",
       "changeTime": "2018-09-19T17:35:46.880Z",
       "birthTime": "2018-09-19T17:35:33.733Z",
       "root": "/",
@@ -1453,11 +1453,11 @@
       "blksize": 4194304,
       "ino": 8606221969,
       "blocks": 0,
-      "atimeMs": 1537465822130.4536,
+      "atimeMs": 1537538663111.698,
       "mtimeMs": 1537378533884.937,
       "ctimeMs": 1537378546879.9224,
       "birthtimeMs": 1537378533733.309,
-      "atime": "2018-09-20T17:50:22.130Z",
+      "atime": "2018-09-21T14:04:23.112Z",
       "mtime": "2018-09-19T17:35:33.885Z",
       "ctime": "2018-09-19T17:35:46.880Z",
       "birthtime": "2018-09-19T17:35:33.733Z"
@@ -1467,7 +1467,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "db62595be53da696c9e516138e6b2877",
+        "contentDigest": "d61366e5b1b77f0b27a44abd0009716a",
         "type": "Directory",
         "description": "Directory \"src/pages/thinking\"",
         "owner": "gatsby-source-filesystem"
@@ -1479,7 +1479,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-09-20T17:04:47.179Z",
-      "accessTime": "2018-09-20T17:50:22.130Z",
+      "accessTime": "2018-09-21T14:04:23.112Z",
       "changeTime": "2018-09-20T17:04:47.179Z",
       "birthTime": "2018-09-20T17:04:47.174Z",
       "root": "/",
@@ -1497,11 +1497,11 @@
       "blksize": 4194304,
       "ino": 8606231054,
       "blocks": 0,
-      "atimeMs": 1537465822130.4744,
+      "atimeMs": 1537538663111.7183,
       "mtimeMs": 1537463087179.333,
       "ctimeMs": 1537463087179.333,
       "birthtimeMs": 1537463087174.4944,
-      "atime": "2018-09-20T17:50:22.130Z",
+      "atime": "2018-09-21T14:04:23.112Z",
       "mtime": "2018-09-20T17:04:47.179Z",
       "ctime": "2018-09-20T17:04:47.179Z",
       "birthtime": "2018-09-20T17:04:47.174Z"
@@ -1511,7 +1511,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7964892a580cef78203197b2512bf74b",
+        "contentDigest": "6776d72bb3cf7854d51608df3aff9e2c",
         "type": "Directory",
         "description": "Directory \"src/pages/webfonts\"",
         "owner": "gatsby-source-filesystem"
@@ -1523,7 +1523,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2018-09-12T13:31:42.856Z",
-      "accessTime": "2018-09-20T17:50:22.130Z",
+      "accessTime": "2018-09-21T14:04:23.112Z",
       "changeTime": "2018-09-19T13:52:16.920Z",
       "birthTime": "2018-09-12T13:31:42.848Z",
       "root": "/",
@@ -1541,11 +1541,11 @@
       "blksize": 4194304,
       "ino": 8605930774,
       "blocks": 0,
-      "atimeMs": 1537465822130.495,
+      "atimeMs": 1537538663111.739,
       "mtimeMs": 1536759102855.795,
       "ctimeMs": 1537365136919.6138,
       "birthtimeMs": 1536759102847.58,
-      "atime": "2018-09-20T17:50:22.130Z",
+      "atime": "2018-09-21T14:04:23.112Z",
       "mtime": "2018-09-12T13:31:42.856Z",
       "ctime": "2018-09-19T13:52:16.920Z",
       "birthtime": "2018-09-12T13:31:42.848Z"
@@ -1555,7 +1555,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d566c19c76213672262ac925f936a540",
+        "contentDigest": "2a4540722dc234184f875d9899c48c82",
         "type": "Directory",
         "description": "Directory \"src/pages/project/Laterooms\"",
         "owner": "gatsby-source-filesystem"
@@ -1567,7 +1567,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-09-19T17:35:33.754Z",
-      "accessTime": "2018-09-20T17:50:22.133Z",
+      "accessTime": "2018-09-21T14:04:23.115Z",
       "changeTime": "2018-09-19T17:35:33.754Z",
       "birthTime": "2018-09-19T17:35:33.737Z",
       "root": "/",
@@ -1585,11 +1585,11 @@
       "blksize": 4194304,
       "ino": 8606221971,
       "blocks": 0,
-      "atimeMs": 1537465822133.3809,
+      "atimeMs": 1537538663114.6917,
       "mtimeMs": 1537378533753.5386,
       "ctimeMs": 1537378533753.5386,
       "birthtimeMs": 1537378533737.055,
-      "atime": "2018-09-20T17:50:22.133Z",
+      "atime": "2018-09-21T14:04:23.115Z",
       "mtime": "2018-09-19T17:35:33.754Z",
       "ctime": "2018-09-19T17:35:33.754Z",
       "birthtime": "2018-09-19T17:35:33.737Z"
@@ -1599,7 +1599,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "04c4627f68471228b2aaa3fcd3809c38",
+        "contentDigest": "42f6a9fdcaf190d8257dcc546f1ef2bc",
         "type": "Directory",
         "description": "Directory \"src/pages/project/cambrdige-audio\"",
         "owner": "gatsby-source-filesystem"
@@ -1610,9 +1610,9 @@
       "extension": "",
       "size": 384,
       "prettySize": "384 B",
-      "modifiedTime": "2018-09-19T17:35:33.881Z",
-      "accessTime": "2018-09-20T17:50:22.133Z",
-      "changeTime": "2018-09-19T17:35:33.881Z",
+      "modifiedTime": "2018-09-21T13:58:53.342Z",
+      "accessTime": "2018-09-21T14:04:23.115Z",
+      "changeTime": "2018-09-21T13:58:53.342Z",
       "birthTime": "2018-09-19T17:35:33.765Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/project",
@@ -1629,13 +1629,13 @@
       "blksize": 4194304,
       "ino": 8606221976,
       "blocks": 0,
-      "atimeMs": 1537465822133.396,
-      "mtimeMs": 1537378533880.9065,
-      "ctimeMs": 1537378533880.9065,
+      "atimeMs": 1537538663114.728,
+      "mtimeMs": 1537538333341.7578,
+      "ctimeMs": 1537538333341.7578,
       "birthtimeMs": 1537378533765.375,
-      "atime": "2018-09-20T17:50:22.133Z",
-      "mtime": "2018-09-19T17:35:33.881Z",
-      "ctime": "2018-09-19T17:35:33.881Z",
+      "atime": "2018-09-21T14:04:23.115Z",
+      "mtime": "2018-09-21T13:58:53.342Z",
+      "ctime": "2018-09-21T13:58:53.342Z",
       "birthtime": "2018-09-19T17:35:33.765Z"
     },
     "93351ded-f2f7-5518-b047-60d07ae76e37": {
@@ -1643,7 +1643,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "51eaee79d4328c93fd42e97eacff6137",
+        "contentDigest": "85d48050d0f44c833f6059a62ccb73d1",
         "type": "Directory",
         "description": "Directory \"src/pages/project/hellocar\"",
         "owner": "gatsby-source-filesystem"
@@ -1652,11 +1652,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar",
       "relativePath": "project/hellocar",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2018-09-19T17:35:33.916Z",
-      "accessTime": "2018-09-20T17:50:22.133Z",
-      "changeTime": "2018-09-19T17:35:33.916Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-09-21T14:01:06.335Z",
+      "accessTime": "2018-09-21T14:04:23.115Z",
+      "changeTime": "2018-09-21T14:01:06.335Z",
       "birthTime": "2018-09-19T17:35:33.885Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/project",
@@ -1666,20 +1666,20 @@
       "relativeDirectory": "project",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 9,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8606221987,
       "blocks": 0,
-      "atimeMs": 1537465822133.4214,
-      "mtimeMs": 1537378533916.3835,
-      "ctimeMs": 1537378533916.3835,
+      "atimeMs": 1537538663114.7112,
+      "mtimeMs": 1537538466334.754,
+      "ctimeMs": 1537538466334.754,
       "birthtimeMs": 1537378533884.9287,
-      "atime": "2018-09-20T17:50:22.133Z",
-      "mtime": "2018-09-19T17:35:33.916Z",
-      "ctime": "2018-09-19T17:35:33.916Z",
+      "atime": "2018-09-21T14:04:23.115Z",
+      "mtime": "2018-09-21T14:01:06.335Z",
+      "ctime": "2018-09-21T14:01:06.335Z",
       "birthtime": "2018-09-19T17:35:33.885Z"
     },
     "f59b5aa6-92f0-5391-8dbf-1ec5e5824758": {
@@ -1817,53 +1817,6 @@
       "ctime": "2018-09-20T17:34:24.792Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
-    "51dd061c-df04-52bc-880d-758ae0cec4c8": {
-      "id": "51dd061c-df04-52bc-880d-758ae0cec4c8",
-      "children": [
-        "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/pages/about/CATeaser.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/CATeaser.jpg",
-      "relativePath": "about/CATeaser.jpg",
-      "extension": "jpg",
-      "size": 36401,
-      "prettySize": "36.4 kB",
-      "modifiedTime": "2018-09-20T17:04:32.336Z",
-      "accessTime": "2018-09-20T17:49:07.944Z",
-      "changeTime": "2018-09-20T17:04:32.338Z",
-      "birthTime": "2018-09-20T17:04:32.335Z",
-      "root": "/",
-      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
-      "base": "CATeaser.jpg",
-      "ext": ".jpg",
-      "name": "CATeaser",
-      "relativeDirectory": "about",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8606231047,
-      "blocks": 72,
-      "atimeMs": 1537465747943.6013,
-      "mtimeMs": 1537463072336.3823,
-      "ctimeMs": 1537463072337.6462,
-      "birthtimeMs": 1537463072335.1936,
-      "atime": "2018-09-20T17:49:07.944Z",
-      "mtime": "2018-09-20T17:04:32.336Z",
-      "ctime": "2018-09-20T17:04:32.338Z",
-      "birthtime": "2018-09-20T17:04:32.335Z"
-    },
     "43d292da-e059-5f8a-9848-e184e168fbb4": {
       "id": "43d292da-e059-5f8a-9848-e184e168fbb4",
       "children": [
@@ -1871,7 +1824,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ea38b6faa62670332e30716c34b519a1",
+        "contentDigest": "c51075a9effb0af937b025b1acd67a46",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/about/index.md\"",
@@ -1881,11 +1834,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md",
       "relativePath": "about/index.md",
       "extension": "md",
-      "size": 169,
-      "prettySize": "169 B",
-      "modifiedTime": "2018-09-20T17:04:32.340Z",
-      "accessTime": "2018-09-20T17:49:07.943Z",
-      "changeTime": "2018-09-20T17:04:32.341Z",
+      "size": 90,
+      "prettySize": "90 B",
+      "modifiedTime": "2018-09-21T11:34:41.433Z",
+      "accessTime": "2018-09-21T11:34:41.735Z",
+      "changeTime": "2018-09-21T11:34:41.433Z",
       "birthTime": "2018-09-20T17:04:32.340Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
@@ -1902,13 +1855,13 @@
       "blksize": 4194304,
       "ino": 8606231048,
       "blocks": 8,
-      "atimeMs": 1537465747942.7017,
-      "mtimeMs": 1537463072340.3535,
-      "ctimeMs": 1537463072340.6924,
+      "atimeMs": 1537529681734.6392,
+      "mtimeMs": 1537529681433.345,
+      "ctimeMs": 1537529681433.345,
       "birthtimeMs": 1537463072340.1604,
-      "atime": "2018-09-20T17:49:07.943Z",
-      "mtime": "2018-09-20T17:04:32.340Z",
-      "ctime": "2018-09-20T17:04:32.341Z",
+      "atime": "2018-09-21T11:34:41.735Z",
+      "mtime": "2018-09-21T11:34:41.433Z",
+      "ctime": "2018-09-21T11:34:41.433Z",
       "birthtime": "2018-09-20T17:04:32.340Z"
     },
     "70366b7e-4263-52e4-b8e3-7c45ff51a360": {
@@ -2781,7 +2734,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "703ecf2656837d1bbd8df2df3abaaa6b",
+        "contentDigest": "4f987a35e93d6261e1a18e70b8bea98d",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/project/cambrdige-audio/index.md\"",
@@ -2791,11 +2744,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio/index.md",
       "relativePath": "project/cambrdige-audio/index.md",
       "extension": "md",
-      "size": 5536,
-      "prettySize": "5.54 kB",
-      "modifiedTime": "2018-09-19T17:35:33.869Z",
-      "accessTime": "2018-09-20T17:42:26.815Z",
-      "changeTime": "2018-09-19T17:35:33.869Z",
+      "size": 5474,
+      "prettySize": "5.47 kB",
+      "modifiedTime": "2018-09-21T11:24:12.600Z",
+      "accessTime": "2018-09-21T11:24:12.599Z",
+      "changeTime": "2018-09-21T11:24:12.600Z",
       "birthTime": "2018-09-19T17:35:33.868Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio",
@@ -2812,13 +2765,13 @@
       "blksize": 4194304,
       "ino": 8606221984,
       "blocks": 16,
-      "atimeMs": 1537465346815.42,
-      "mtimeMs": 1537378533868.5254,
-      "ctimeMs": 1537378533868.9155,
+      "atimeMs": 1537529052599.3796,
+      "mtimeMs": 1537529052600.118,
+      "ctimeMs": 1537529052600.118,
       "birthtimeMs": 1537378533867.9504,
-      "atime": "2018-09-20T17:42:26.815Z",
-      "mtime": "2018-09-19T17:35:33.869Z",
-      "ctime": "2018-09-19T17:35:33.869Z",
+      "atime": "2018-09-21T11:24:12.599Z",
+      "mtime": "2018-09-21T11:24:12.600Z",
+      "ctime": "2018-09-21T11:24:12.600Z",
       "birthtime": "2018-09-19T17:35:33.868Z"
     },
     "41f80215-6dde-5303-9163-9159c65c4e97": {
@@ -2875,7 +2828,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "137cdf9d98020257ace7d5f5c40b1daa",
+        "contentDigest": "c73ded1f168d17bd87d08de412ce9dda",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/project/hellocar/index.md\"",
@@ -2885,11 +2838,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar/index.md",
       "relativePath": "project/hellocar/index.md",
       "extension": "md",
-      "size": 264,
-      "prettySize": "264 B",
-      "modifiedTime": "2018-09-19T17:35:33.904Z",
-      "accessTime": "2018-09-20T17:42:26.817Z",
-      "changeTime": "2018-09-19T17:35:33.905Z",
+      "size": 269,
+      "prettySize": "269 B",
+      "modifiedTime": "2018-09-21T14:05:37.258Z",
+      "accessTime": "2018-09-21T14:05:37.258Z",
+      "changeTime": "2018-09-21T14:05:37.258Z",
       "birthTime": "2018-09-19T17:35:33.904Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar",
@@ -2906,24 +2859,14 @@
       "blksize": 4194304,
       "ino": 8606221992,
       "blocks": 8,
-      "atimeMs": 1537465346816.94,
-      "mtimeMs": 1537378533904.3152,
-      "ctimeMs": 1537378533904.7563,
+      "atimeMs": 1537538737257.8364,
+      "mtimeMs": 1537538737258.2593,
+      "ctimeMs": 1537538737258.2593,
       "birthtimeMs": 1537378533904.1372,
-      "atime": "2018-09-20T17:42:26.817Z",
-      "mtime": "2018-09-19T17:35:33.904Z",
-      "ctime": "2018-09-19T17:35:33.905Z",
+      "atime": "2018-09-21T14:05:37.258Z",
+      "mtime": "2018-09-21T14:05:37.258Z",
+      "ctime": "2018-09-21T14:05:37.258Z",
       "birthtime": "2018-09-19T17:35:33.904Z"
-    },
-    "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca": {
-      "id": "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca",
-      "children": [],
-      "parent": "51dd061c-df04-52bc-880d-758ae0cec4c8",
-      "internal": {
-        "contentDigest": "41cf76833d19e7489ada48fc8db2227b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "5ea44478-4b50-5a40-9c74-7f480be9083c": {
       "id": "5ea44478-4b50-5a40-9c74-7f480be9083c",
@@ -3249,29 +3192,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "3abfc6b2-23d0-5628-a83e-c6c90979daaa": {
-      "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa",
-      "children": [],
-      "parent": "43d292da-e059-5f8a-9848-e184e168fbb4",
-      "internal": {
-        "content": "\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "d089f3d4715ef3c6240d8e6e80a5c94f",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "path": "/about",
-        "title_test": "Abour=t",
-        "templateKey": "about",
-        "note_title": "…good test of rapid prototyping to a design stystem...",
-        "small_image": "./CATeaser.jpg",
-        "_PARENT": "43d292da-e059-5f8a-9848-e184e168fbb4"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n",
-      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md"
-    },
     "8056aee4-6aca-54f5-b51a-756fff0e27b8": {
       "id": "8056aee4-6aca-54f5-b51a-756fff0e27b8",
       "children": [],
@@ -3317,54 +3237,6 @@
       "excerpt": "",
       "rawMarkdownBody": "\n##Hello\n\nwhart test\n",
       "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/Laterooms/index.md"
-    },
-    "d3ad024f-c333-5e67-b78b-caca1fc21e67": {
-      "id": "d3ad024f-c333-5e67-b78b-caca1fc21e67",
-      "children": [],
-      "parent": "f2eb1f02-bc09-57dd-a5ec-8dbe1a6edf45",
-      "internal": {
-        "content": "\n| Expertise        | Platforms           | Deliverables  |\n| ------------- |-------------          | -----|            \n| Design, Interaction, Lean/Agile & Workshop     | iOS and Android         | UI, UX and Strategy           |\n\n###The Problem\n\n[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato]() to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. They also wanted to learn product development and lean UX.\n\n\n###The Approach\n\nWe created a plan that worked with budget and their internal development plan.\n1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.\n\n![Workshop](cambridge-audio-process-01.png)\n###Gathering Insights \n\nAhead of the validation sprint, we wanted to understand people’s behaviour and needs when is comes to how they consume music within their household. We decided the best way was to gather quantitive research; to do this we run a survey and broadcasted it on our social channels to.  \n\nWe run the survey for about a week and got 175 response with a good mix of ages and demographics.  We distilled down the findings into key insights \n\n1. The set-up of the speaker is vital, it needs to be timely and easy. It’s the first touchpoint for the customer so it needs to be simple and positive. \n2. The supporting app is important to users. The application gives you the opportunity to be intelligent, delightful but must not be intrusive. \n3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music.\n\n\n##Building the right thing\n\nWorking with senior members of the Cambridge Audio team we looked to gain a shared understanding of the problem and the users. During the first day we started with an empathy map to get under the skin of the segments. After that we then used the Roman Pincher product vision board and created one for the Evo system. \n\nWe spent the following day gathering all the assumptions we believed the product is/does/feels/looks like and mapped them on the assumption matrix. We focused on the riskiest and the highest priority assumptions. Using these assumptions we then created hypothesis that we wanted to test. \n\n![Workshop](cambrdige_audio_workshop.png)\n\n<!-- ![Gif](image_preview.gif) -->\n\n<!-- ![Assumption Matrix](cambridge_audio_assumption_matrix.jpg) -->\n\n###Sketching\n\nThe following day we moved into a sketching,  Taking inspiration from the “Google Design Sprint” we held a morning of sketching sessions based on the assumptions and hypothesis. Starting with crazy eight’s those ideas then influenced “Solution creation” from that we then created a storyboard of the prototype. Whilst we created the storyboard we mapped all the hypothesis that we created in the previous day - this made sure that we had the right tests we wanted to validate. \n\n![Sketching](cambrdige-audio-sketching.jpg)\n\n###Prototype \n\nOur next focus was to create a prototype to validate with users if our hypothesis are correct or not. (To do create a prototype). As some of our hypothesis could not be tested in the prototype we ran another survey.\n\n\n##Design, ~~build,~~ test\n\nThe second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this. \n\nWe had morning stand-ups and a weekly review to make sure their was alignment but this would never be the same as an Agile/Scrum software development. :thumbsdown:\n\n###Design decisions\n\n1. The app should be a supporting experience most of the time people will control via their preference music player \n\n2. Set-up should be timely and get them to the music as soon as possible \n\n3. Calibration should be simple and quick - reduce steps as much as possible\n\n###Mapping the product\nTaking all the information from the testing the first step was to map out the whole product and to understand what would be the MVP could be. We used the story mapping technique and created all tasks the user would need to do.\n\n###Design system\nWorking closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc). \n\n###Final Product* \n*This is what we hope it to look like \n\n\n##Outcomes\n\n> \"Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that\" <br>\n**-Chris Saunders Product Manager for Cambrdige Audio**\n\nAs the product has not been released I don’t have data on the success of the product. \n\n<!-- ###Learning\nUnfortunately this product was waterfall which goes against my belief that the best products are made into multi-discipline teams. \n\nWhen doing workshops with clients that don’t understand Lean UX it would be good to spend time outlining the process. -->\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "b7e0107171ea671f1003afe00c859b25",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Cambridge Audio",
-        "path": "/cambrdige-audio",
-        "templateKey": "project",
-        "note_title": "…good example of rapid prototyping to a design stystem...",
-        "small_image": "./CATeaser.png",
-        "subtitle": "Teaching a hardware company how to make software",
-        "cover_image": "./hero_cambridge-audio.png",
-        "_PARENT": "f2eb1f02-bc09-57dd-a5ec-8dbe1a6edf45"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n| Expertise        | Platforms           | Deliverables  |\n| ------------- |-------------          | -----|            \n| Design, Interaction, Lean/Agile & Workshop     | iOS and Android         | UI, UX and Strategy           |\n\n###The Problem\n\n[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato]() to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. They also wanted to learn product development and lean UX.\n\n\n###The Approach\n\nWe created a plan that worked with budget and their internal development plan.\n1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.\n\n![Workshop](cambridge-audio-process-01.png)\n###Gathering Insights \n\nAhead of the validation sprint, we wanted to understand people’s behaviour and needs when is comes to how they consume music within their household. We decided the best way was to gather quantitive research; to do this we run a survey and broadcasted it on our social channels to.  \n\nWe run the survey for about a week and got 175 response with a good mix of ages and demographics.  We distilled down the findings into key insights \n\n1. The set-up of the speaker is vital, it needs to be timely and easy. It’s the first touchpoint for the customer so it needs to be simple and positive. \n2. The supporting app is important to users. The application gives you the opportunity to be intelligent, delightful but must not be intrusive. \n3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music.\n\n\n##Building the right thing\n\nWorking with senior members of the Cambridge Audio team we looked to gain a shared understanding of the problem and the users. During the first day we started with an empathy map to get under the skin of the segments. After that we then used the Roman Pincher product vision board and created one for the Evo system. \n\nWe spent the following day gathering all the assumptions we believed the product is/does/feels/looks like and mapped them on the assumption matrix. We focused on the riskiest and the highest priority assumptions. Using these assumptions we then created hypothesis that we wanted to test. \n\n![Workshop](cambrdige_audio_workshop.png)\n\n<!-- ![Gif](image_preview.gif) -->\n\n<!-- ![Assumption Matrix](cambridge_audio_assumption_matrix.jpg) -->\n\n###Sketching\n\nThe following day we moved into a sketching,  Taking inspiration from the “Google Design Sprint” we held a morning of sketching sessions based on the assumptions and hypothesis. Starting with crazy eight’s those ideas then influenced “Solution creation” from that we then created a storyboard of the prototype. Whilst we created the storyboard we mapped all the hypothesis that we created in the previous day - this made sure that we had the right tests we wanted to validate. \n\n![Sketching](cambrdige-audio-sketching.jpg)\n\n###Prototype \n\nOur next focus was to create a prototype to validate with users if our hypothesis are correct or not. (To do create a prototype). As some of our hypothesis could not be tested in the prototype we ran another survey.\n\n\n##Design, ~~build,~~ test\n\nThe second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this. \n\nWe had morning stand-ups and a weekly review to make sure their was alignment but this would never be the same as an Agile/Scrum software development. :thumbsdown:\n\n###Design decisions\n\n1. The app should be a supporting experience most of the time people will control via their preference music player \n\n2. Set-up should be timely and get them to the music as soon as possible \n\n3. Calibration should be simple and quick - reduce steps as much as possible\n\n###Mapping the product\nTaking all the information from the testing the first step was to map out the whole product and to understand what would be the MVP could be. We used the story mapping technique and created all tasks the user would need to do.\n\n###Design system\nWorking closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc). \n\n###Final Product* \n*This is what we hope it to look like \n\n\n##Outcomes\n\n> \"Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that\" <br>\n**-Chris Saunders Product Manager for Cambrdige Audio**\n\nAs the product has not been released I don’t have data on the success of the product. \n\n<!-- ###Learning\nUnfortunately this product was waterfall which goes against my belief that the best products are made into multi-discipline teams. \n\nWhen doing workshops with clients that don’t understand Lean UX it would be good to spend time outlining the process. -->\n",
-      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio/index.md"
-    },
-    "2b3f1223-4a2e-502f-bb53-1807ff145735": {
-      "id": "2b3f1223-4a2e-502f-bb53-1807ff145735",
-      "children": [],
-      "parent": "7559e056-1166-5d7e-a99d-7b870db91358",
-      "internal": {
-        "content": "##Testtest\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "c3fecea3d059662c6b6829e1ce7bea84",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hellocar",
-        "path": "/hellocar",
-        "templateKey": "project",
-        "note_title": "..how a star-up with a £million of funding fails...",
-        "small_image": "./CATeaser.png",
-        "subtitle": "Validating a start-up in a complicated market",
-        "cover_image": "./jumbotron.jpg",
-        "_PARENT": "7559e056-1166-5d7e-a99d-7b870db91358"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "##Testtest\n",
-      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar/index.md"
     },
     "22e217b2-817a-5323-a2d9-8af665272e9d": {
       "id": "22e217b2-817a-5323-a2d9-8af665272e9d",
@@ -4016,67 +3888,10 @@
       "ctime": "2018-09-20T17:12:44.359Z",
       "birthtime": "2018-09-20T17:12:44.344Z"
     },
-    "0c445f78-4e38-573d-944d-29408ef553e3": {
-      "id": "0c445f78-4e38-573d-944d-29408ef553e3",
-      "children": [
-        "41d143da-91db-5f1e-8919-c247008c8409"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/pages/about/jumbotron.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/jumbotron.jpg",
-      "relativePath": "about/jumbotron.jpg",
-      "extension": "jpg",
-      "size": 3719636,
-      "prettySize": "3.72 MB",
-      "modifiedTime": "2018-09-20T17:04:32.353Z",
-      "accessTime": "2018-09-20T17:49:07.941Z",
-      "changeTime": "2018-09-20T17:04:32.353Z",
-      "birthTime": "2018-09-20T17:04:32.341Z",
-      "root": "/",
-      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
-      "base": "jumbotron.jpg",
-      "ext": ".jpg",
-      "name": "jumbotron",
-      "relativeDirectory": "about",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8606231049,
-      "blocks": 7272,
-      "atimeMs": 1537465747940.7722,
-      "mtimeMs": 1537463072352.758,
-      "ctimeMs": 1537463072353.2947,
-      "birthtimeMs": 1537463072340.97,
-      "atime": "2018-09-20T17:49:07.941Z",
-      "mtime": "2018-09-20T17:04:32.353Z",
-      "ctime": "2018-09-20T17:04:32.353Z",
-      "birthtime": "2018-09-20T17:04:32.341Z"
-    },
     "696bc228-e0d3-5c4d-a398-1e4e6071053e": {
       "id": "696bc228-e0d3-5c4d-a398-1e4e6071053e",
       "children": [],
       "parent": "fc1c7dfe-d53f-56e6-8f24-2c83db637bc8",
-      "internal": {
-        "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "41d143da-91db-5f1e-8919-c247008c8409": {
-      "id": "41d143da-91db-5f1e-8919-c247008c8409",
-      "children": [],
-      "parent": "0c445f78-4e38-573d-944d-29408ef553e3",
       "internal": {
         "contentDigest": "72a5882ed4ce220955dbcdf96ee6967b",
         "type": "ImageSharp",
@@ -4204,7 +4019,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e8088c8a4ee1a0344cd361829a467e9a",
+        "contentDigest": "3f8ab12b74c0e468d4a0a605145f4e99",
         "type": "File",
         "mediaType": "image/png",
         "description": "File \"src/pages/project/cambrdige-audio/hero_cambridge-audio.png\"",
@@ -4214,12 +4029,12 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio/hero_cambridge-audio.png",
       "relativePath": "project/cambrdige-audio/hero_cambridge-audio.png",
       "extension": "png",
-      "size": 7015326,
-      "prettySize": "7.02 MB",
-      "modifiedTime": "2018-09-19T17:35:33.858Z",
-      "accessTime": "2018-09-20T17:42:30.866Z",
-      "changeTime": "2018-09-19T17:35:33.859Z",
-      "birthTime": "2018-09-19T17:35:33.837Z",
+      "size": 4480752,
+      "prettySize": "4.48 MB",
+      "modifiedTime": "2018-09-21T13:58:53.340Z",
+      "accessTime": "2018-09-21T13:58:53.324Z",
+      "changeTime": "2018-09-21T13:58:53.342Z",
+      "birthTime": "2018-09-21T13:58:53.324Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio",
       "base": "hero_cambridge-audio.png",
@@ -4233,26 +4048,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8606221982,
-      "blocks": 13704,
-      "atimeMs": 1537465350866.1438,
-      "mtimeMs": 1537378533857.8315,
-      "ctimeMs": 1537378533859.11,
-      "birthtimeMs": 1537378533837.1423,
-      "atime": "2018-09-20T17:42:30.866Z",
-      "mtime": "2018-09-19T17:35:33.858Z",
-      "ctime": "2018-09-19T17:35:33.859Z",
-      "birthtime": "2018-09-19T17:35:33.837Z"
-    },
-    "c6ed3a38-2fe3-58ff-98a9-fe1aa30785fa": {
-      "id": "c6ed3a38-2fe3-58ff-98a9-fe1aa30785fa",
-      "children": [],
-      "parent": "f8d2dc11-7051-5406-9057-c8e8edcbe921",
-      "internal": {
-        "contentDigest": "e8088c8a4ee1a0344cd361829a467e9a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+      "ino": 8606264174,
+      "blocks": 8752,
+      "atimeMs": 1537538333324.1821,
+      "mtimeMs": 1537538333339.723,
+      "ctimeMs": 1537538333341.563,
+      "birthtimeMs": 1537538333324.1821,
+      "atime": "2018-09-21T13:58:53.324Z",
+      "mtime": "2018-09-21T13:58:53.340Z",
+      "ctime": "2018-09-21T13:58:53.342Z",
+      "birthtime": "2018-09-21T13:58:53.324Z"
     },
     "6295a103-1d2c-5e1f-94cf-a8b49e86ed89": {
       "id": "6295a103-1d2c-5e1f-94cf-a8b49e86ed89",
@@ -4311,26 +4116,174 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /about": {
-      "jsonName": "about-771",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about",
-      "component": "/Users/philip/development/portfolio-2018/src/templates/about.js",
-      "componentChunkName": "component---src-templates-about-js",
-      "context": {
-        "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js",
-      "id": "SitePage /about",
-      "parent": "SOURCE",
+    "d3ad024f-c333-5e67-b78b-caca1fc21e67": {
+      "id": "d3ad024f-c333-5e67-b78b-caca1fc21e67",
       "children": [],
+      "parent": "f2eb1f02-bc09-57dd-a5ec-8dbe1a6edf45",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "88e89a920d34e3c043d5fac458a41326",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
+        "content": "\n| Expertise                                  | Platforms       | Deliverables        |\n| ------------------------------------------ | --------------- | ------------------- |\n| Design, Interaction, Lean/Agile & Workshop | iOS and Android | UI, UX and Strategy |\n\n###The Problem test\n\n[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato]() to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. They also wanted to learn product development and lean UX.\n\n###The Approach\n\nWe created a plan that worked with budget and their internal development plan.\n1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.\n\n![Workshop](cambridge-audio-process-01.png)\n###Gathering Insights\n\nAhead of the validation sprint, we wanted to understand people’s behaviour and needs when is comes to how they consume music within their household. We decided the best way was to gather quantitive research; to do this we run a survey and broadcasted it on our social channels to.\n\nWe run the survey for about a week and got 175 response with a good mix of ages and demographics. We distilled down the findings into key insights\n\n1. The set-up of the speaker is vital, it needs to be timely and easy. It’s the first touchpoint for the customer so it needs to be simple and positive.\n2. The supporting app is important to users. The application gives you the opportunity to be intelligent, delightful but must not be intrusive.\n3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music.\n\n##Building the right thing\n\nWorking with senior members of the Cambridge Audio team we looked to gain a shared understanding of the problem and the users. During the first day we started with an empathy map to get under the skin of the segments. After that we then used the Roman Pincher product vision board and created one for the Evo system.\n\nWe spent the following day gathering all the assumptions we believed the product is/does/feels/looks like and mapped them on the assumption matrix. We focused on the riskiest and the highest priority assumptions. Using these assumptions we then created hypothesis that we wanted to test.\n\n![Workshop](cambrdige_audio_workshop.png)\n\n![Gif](image_preview.gif)\n\n###Sketching\n\nThe following day we moved into a sketching, Taking inspiration from the “Google Design Sprint” we held a morning of sketching sessions based on the assumptions and hypothesis. Starting with crazy eight’s those ideas then influenced “Solution creation” from that we then created a storyboard of the prototype. Whilst we created the storyboard we mapped all the hypothesis that we created in the previous day - this made sure that we had the right tests we wanted to validate.\n\n![Sketching](cambrdige-audio-sketching.jpg)\n\n###Prototype\n\nOur next focus was to create a prototype to validate with users if our hypothesis are correct or not. (To do create a prototype). As some of our hypothesis could not be tested in the prototype we ran another survey.\n\n##Design, ~~build,~~ test\n\nThe second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this.\n\nWe had morning stand-ups and a weekly review to make sure their was alignment but this would never be the same as an Agile/Scrum software development. :thumbsdown:\n\n###Design decisions\n\n1. The app should be a supporting experience most of the time people will control via their preference music player\n\n2. Set-up should be timely and get them to the music as soon as possible\n\n3. Calibration should be simple and quick - reduce steps as much as possible\n\n###Mapping the product\nTaking all the information from the testing the first step was to map out the whole product and to understand what would be the MVP could be. We used the story mapping technique and created all tasks the user would need to do.\n\n###Design system\nWorking closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc).\n\n###Final Product\\*\n\\*This is what we hope it to look like\n\n##Outcomes\n\n> \"Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that\" <br> > **-Chris Saunders Product Manager for Cambrdige Audio**\n\nAs the product has not been released I don’t have data on the success of the product.\n\n<!-- ###Learning\nUnfortunately this product was waterfall which goes against my belief that the best products are made into multi-discipline teams.\n\nWhen doing workshops with clients that don’t understand Lean UX it would be good to spend time outlining the process. -->\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "86f1393a44e450f1777ae937b784efcc",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Cambridge Audio",
+        "path": "/cambrdige-audio",
+        "templateKey": "project",
+        "note_title": "…good example of rapid prototyping to a design stystem...",
+        "small_image": "./CATeaser.png",
+        "subtitle": "Teaching a hardware company how to make software",
+        "cover_image": "./hero_cambridge-audio.png",
+        "_PARENT": "f2eb1f02-bc09-57dd-a5ec-8dbe1a6edf45"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n| Expertise                                  | Platforms       | Deliverables        |\n| ------------------------------------------ | --------------- | ------------------- |\n| Design, Interaction, Lean/Agile & Workshop | iOS and Android | UI, UX and Strategy |\n\n###The Problem test\n\n[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato]() to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. They also wanted to learn product development and lean UX.\n\n###The Approach\n\nWe created a plan that worked with budget and their internal development plan.\n1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.\n\n![Workshop](cambridge-audio-process-01.png)\n###Gathering Insights\n\nAhead of the validation sprint, we wanted to understand people’s behaviour and needs when is comes to how they consume music within their household. We decided the best way was to gather quantitive research; to do this we run a survey and broadcasted it on our social channels to.\n\nWe run the survey for about a week and got 175 response with a good mix of ages and demographics. We distilled down the findings into key insights\n\n1. The set-up of the speaker is vital, it needs to be timely and easy. It’s the first touchpoint for the customer so it needs to be simple and positive.\n2. The supporting app is important to users. The application gives you the opportunity to be intelligent, delightful but must not be intrusive.\n3. Customers don’t want to be in a walled garden with their speaker. They have multiple sources and they want to choose how they listen to music.\n\n##Building the right thing\n\nWorking with senior members of the Cambridge Audio team we looked to gain a shared understanding of the problem and the users. During the first day we started with an empathy map to get under the skin of the segments. After that we then used the Roman Pincher product vision board and created one for the Evo system.\n\nWe spent the following day gathering all the assumptions we believed the product is/does/feels/looks like and mapped them on the assumption matrix. We focused on the riskiest and the highest priority assumptions. Using these assumptions we then created hypothesis that we wanted to test.\n\n![Workshop](cambrdige_audio_workshop.png)\n\n![Gif](image_preview.gif)\n\n###Sketching\n\nThe following day we moved into a sketching, Taking inspiration from the “Google Design Sprint” we held a morning of sketching sessions based on the assumptions and hypothesis. Starting with crazy eight’s those ideas then influenced “Solution creation” from that we then created a storyboard of the prototype. Whilst we created the storyboard we mapped all the hypothesis that we created in the previous day - this made sure that we had the right tests we wanted to validate.\n\n![Sketching](cambrdige-audio-sketching.jpg)\n\n###Prototype\n\nOur next focus was to create a prototype to validate with users if our hypothesis are correct or not. (To do create a prototype). As some of our hypothesis could not be tested in the prototype we ran another survey.\n\n##Design, ~~build,~~ test\n\nThe second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this.\n\nWe had morning stand-ups and a weekly review to make sure their was alignment but this would never be the same as an Agile/Scrum software development. :thumbsdown:\n\n###Design decisions\n\n1. The app should be a supporting experience most of the time people will control via their preference music player\n\n2. Set-up should be timely and get them to the music as soon as possible\n\n3. Calibration should be simple and quick - reduce steps as much as possible\n\n###Mapping the product\nTaking all the information from the testing the first step was to map out the whole product and to understand what would be the MVP could be. We used the story mapping technique and created all tasks the user would need to do.\n\n###Design system\nWorking closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc).\n\n###Final Product\\*\n\\*This is what we hope it to look like\n\n##Outcomes\n\n> \"Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that\" <br> > **-Chris Saunders Product Manager for Cambrdige Audio**\n\nAs the product has not been released I don’t have data on the success of the product.\n\n<!-- ###Learning\nUnfortunately this product was waterfall which goes against my belief that the best products are made into multi-discipline teams.\n\nWhen doing workshops with clients that don’t understand Lean UX it would be good to spend time outlining the process. -->\n",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/cambrdige-audio/index.md"
+    },
+    "5a9bb652-6836-5342-80da-bc934b1d5df9": {
+      "id": "5a9bb652-6836-5342-80da-bc934b1d5df9",
+      "children": [
+        "45d34b4c-4925-583e-8087-ec694576d797"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d437c80c000a83d4f369dd5b4424e8c5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/pages/about/phil-3.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/phil-3.jpg",
+      "relativePath": "about/phil-3.jpg",
+      "extension": "jpg",
+      "size": 754780,
+      "prettySize": "755 kB",
+      "modifiedTime": "2018-09-21T11:28:23.142Z",
+      "accessTime": "2018-09-21T11:28:24.242Z",
+      "changeTime": "2018-09-21T11:28:44.875Z",
+      "birthTime": "2018-09-21T11:28:22.985Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
+      "base": "phil-3.jpg",
+      "ext": ".jpg",
+      "name": "phil-3",
+      "relativeDirectory": "about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606244186,
+      "blocks": 1480,
+      "atimeMs": 1537529304242.4946,
+      "mtimeMs": 1537529303142.3684,
+      "ctimeMs": 1537529324874.5723,
+      "birthtimeMs": 1537529302984.83,
+      "atime": "2018-09-21T11:28:24.242Z",
+      "mtime": "2018-09-21T11:28:23.142Z",
+      "ctime": "2018-09-21T11:28:44.875Z",
+      "birthtime": "2018-09-21T11:28:22.985Z"
+    },
+    "45d34b4c-4925-583e-8087-ec694576d797": {
+      "id": "45d34b4c-4925-583e-8087-ec694576d797",
+      "children": [],
+      "parent": "5a9bb652-6836-5342-80da-bc934b1d5df9",
+      "internal": {
+        "contentDigest": "d437c80c000a83d4f369dd5b4424e8c5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3abfc6b2-23d0-5628-a83e-c6c90979daaa": {
+      "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa",
+      "children": [],
+      "parent": "43d292da-e059-5f8a-9848-e184e168fbb4",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "ad7d493bcb82c5c777c0e49afb008740",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "path": "/about",
+        "title_test": "About",
+        "templateKey": "about",
+        "cover_image": "phil-3.jpg",
+        "_PARENT": "43d292da-e059-5f8a-9848-e184e168fbb4"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md"
+    },
+    "c6ed3a38-2fe3-58ff-98a9-fe1aa30785fa": {
+      "id": "c6ed3a38-2fe3-58ff-98a9-fe1aa30785fa",
+      "children": [],
+      "parent": "f8d2dc11-7051-5406-9057-c8e8edcbe921",
+      "internal": {
+        "contentDigest": "3f8ab12b74c0e468d4a0a605145f4e99",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5c8ce6c8-1bc6-5fc9-ab4b-503e6c5ba122": {
+      "id": "5c8ce6c8-1bc6-5fc9-ab4b-503e6c5ba122",
+      "children": [
+        "2fc700da-a01f-57b1-bb43-7db19c1d4253"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "61d523db63b83571b400639446b38652",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/pages/project/hellocar/hero-hellocar.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar/hero-hellocar.png",
+      "relativePath": "project/hellocar/hero-hellocar.png",
+      "extension": "png",
+      "size": 8593106,
+      "prettySize": "8.59 MB",
+      "modifiedTime": "2018-09-21T14:01:06.333Z",
+      "accessTime": "2018-09-21T14:01:06.297Z",
+      "changeTime": "2018-09-21T14:01:06.335Z",
+      "birthTime": "2018-09-21T14:01:06.297Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar",
+      "base": "hero-hellocar.png",
+      "ext": ".png",
+      "name": "hero-hellocar",
+      "relativeDirectory": "project/hellocar",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606264375,
+      "blocks": 16784,
+      "atimeMs": 1537538466296.751,
+      "mtimeMs": 1537538466332.674,
+      "ctimeMs": 1537538466334.6543,
+      "birthtimeMs": 1537538466296.751,
+      "atime": "2018-09-21T14:01:06.297Z",
+      "mtime": "2018-09-21T14:01:06.333Z",
+      "ctime": "2018-09-21T14:01:06.335Z",
+      "birthtime": "2018-09-21T14:01:06.297Z"
+    },
+    "2fc700da-a01f-57b1-bb43-7db19c1d4253": {
+      "id": "2fc700da-a01f-57b1-bb43-7db19c1d4253",
+      "children": [],
+      "parent": "5c8ce6c8-1bc6-5fc9-ab4b-503e6c5ba122",
+      "internal": {
+        "contentDigest": "61d523db63b83571b400639446b38652",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /thinking": {
@@ -4395,6 +4348,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "434f0c8533b8b8b263222309c08fd59f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about": {
+      "jsonName": "about-771",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about",
+      "component": "/Users/philip/development/portfolio-2018/src/templates/about.js",
+      "componentChunkName": "component---src-templates-about-js",
+      "context": {
+        "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js",
+      "id": "SitePage /about",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88e89a920d34e3c043d5fac458a41326",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -4480,6 +4455,30 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "2b3f1223-4a2e-502f-bb53-1807ff145735": {
+      "id": "2b3f1223-4a2e-502f-bb53-1807ff145735",
+      "children": [],
+      "parent": "7559e056-1166-5d7e-a99d-7b870db91358",
+      "internal": {
+        "content": "\n##Testtest\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5294e01a278f9b59fcbf2ea88acfb6dc",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hellocar",
+        "path": "/hellocar",
+        "templateKey": "project",
+        "note_title": "..how a star-up with a £million of funding fails...",
+        "small_image": "./CATeaser.png",
+        "subtitle": "Validating a start-up in a complicated market",
+        "cover_image": "./hero-hellocar.png",
+        "_PARENT": "7559e056-1166-5d7e-a99d-7b870db91358"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n##Testtest\n",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/project/hellocar/index.md"
     }
   },
   "status": {
@@ -4496,12 +4495,8 @@
         "/404/",
         "/404.html"
       ],
-      "51dd061c-df04-52bc-880d-758ae0cec4c8": [
-        "/"
-      ],
-      "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca": [
-        "/"
-      ],
+      "51dd061c-df04-52bc-880d-758ae0cec4c8": [],
+      "72ce52e0-1d1a-59a5-a5ed-9feb7f8fe5ca": [],
       "70366b7e-4263-52e4-b8e3-7c45ff51a360": [
         "/"
       ],
@@ -4538,35 +4533,37 @@
       "c6ed3a38-2fe3-58ff-98a9-fe1aa30785fa": [
         "/cambrdige-audio"
       ],
-      "958fb871-8c3b-55da-b75a-258aa1401a95": [
-        "/hellocar"
+      "958fb871-8c3b-55da-b75a-258aa1401a95": [],
+      "b9cb7c9d-8304-59c0-b47d-090b8d5d783b": [],
+      "5a9bb652-6836-5342-80da-bc934b1d5df9": [
+        "/about"
       ],
-      "b9cb7c9d-8304-59c0-b47d-090b8d5d783b": [
-        "/hellocar"
+      "45d34b4c-4925-583e-8087-ec694576d797": [
+        "/about"
       ]
     },
     "connections": {
       "MarkdownRemark": [
-        "sq--src-components-footerlinks-js",
-        "/"
+        "/",
+        "sq--src-components-footerlinks-js"
       ]
     }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "hellocar-879": "617/path---hellocar-879-325-ThlB1UdjCm2uNLyNNQZX6PN2nAU",
-    "index": "258/path---index-6a9-zPwDhTmZgvkw5cgMhadNznoYU",
+    "hellocar-879": "609/path---hellocar-879-325-33zqx8r1pbkivMKecHUwLF5WMB0",
+    "index": "699/path---index-6a9-RPTJ9zNK2lOezHIMQl2RNWE4Nc",
     "sq--src-components-footerlinks-js": 394728877,
     "laterooms-3ea": "72/path---laterooms-3-ea-4db-oUIWVxI8H26hAn8yN0HPsdrHY",
-    "cambrdige-audio-291": "402/path---cambrdige-audio-291-312-ZWOGn3ij6Ht9Y07XxDAGw4LmXVM",
-    "about-771": "317/path---about-771-2fe-5zIwJaVsGxAuqmG5wFKId5LydwY",
+    "cambrdige-audio-291": "793/path---cambrdige-audio-291-312-3Bku86ljI8dhYOf34iyz5tPUQlE",
+    "about-771": "539/path---about-771-2fe-4bd7fUlmpmFEnckAYT9IWbSdjI",
     "thinking-8b4": "669/path---thinking-8-b-4-cf7-ypHEV1Jtm0XDjFnRCqagfBRLM",
     "404-html-516": "702/path---404-html-516-62a-OiWjKMtyJCQyEuVt1rBQEJhW1HU",
     "404-22d": "74/path---404-22-d-bce-OiWjKMtyJCQyEuVt1rBQEJhW1HU"
   },
   "components": {
     "/Users/philip/development/portfolio-2018/src/templates/about.js": {
-      "query": "query AboutByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title_test\n      templateKey\n    }\n  }\n}\n",
+      "query": "query AboutByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title_test\n      templateKey\n      cover_image {\n        childImageSharp {\n          fluid(maxHeight: 700) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js"
     },
     "/Users/philip/development/portfolio-2018/src/templates/thinking.js": {

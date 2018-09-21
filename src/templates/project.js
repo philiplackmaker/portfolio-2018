@@ -119,7 +119,7 @@ export const postQuery = graphql`
         subtitle
         cover_image {
           childImageSharp {
-            fluid(maxHeight: 700) {
+            fluid(maxHeight: 800) {
               ...GatsbyImageSharpFluid
             }
           }

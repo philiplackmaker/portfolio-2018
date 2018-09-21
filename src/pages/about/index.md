@@ -1,9 +1,6 @@
 ---
-path: '/about'
-title_test: 'Abour=t'
-templateKey: 'about'
-note_title: '…good test of rapid prototyping to a design stystem...'
-small_image: './CATeaser.jpg'
-
+path: "/about"
+title_test: "About"
+templateKey: "about"
+cover_image: "phil-3.jpg"
 ---
-
