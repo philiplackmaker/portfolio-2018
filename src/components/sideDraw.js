@@ -57,7 +57,7 @@ const SideDraw = props => (
       <Fade left duration={1000}>
         <OverlayList>
           <OverlayListItems>
-            <OverlayNavigationLink to="/">Home</OverlayNavigationLink>
+            <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
           </OverlayListItems>
           <OverlayListItems>
             <OverlayNavigationLink to="/about">About</OverlayNavigationLink>

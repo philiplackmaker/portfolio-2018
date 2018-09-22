@@ -23,7 +23,7 @@ const ButtonSmall = styled.button`
       border: none;
     }
     width: 200px;
-    height: 40px;
+    height: 50px;
     padding: 0px;
   }
   ${BreakPoints.MEDIUM} {
@@ -77,11 +77,16 @@ const ButtonSmall = styled.button`
 `;
 
 const ButtonText = styled.text`
-  color: ${Colors.WHITE};
   ${Type.SMALLBODY};
   text-align: left;
   padding: 0;
   margin: 0;
+  ${BreakPoints.SMALL} {
+    color: ${Colors.PRIMARY};
+  }
+  ${BreakPoints.MEDIUM} {
+    color: ${Colors.WHITE};
+  }
 `;
 
 const ButtonArrow = styled.span`

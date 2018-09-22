@@ -179,9 +179,11 @@ const ProjectTeaserImage = styled.div`
   padding-top: 0;
   ${BreakPoints.SMALL} {
     width: 100px;
+    display: none;
   }
   ${BreakPoints.MEDIUM} {
     width: 250px;
+    display: block;
   }
   ${BreakPoints.LARGE} {
     width: 260px;

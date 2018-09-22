@@ -27,7 +27,7 @@ const DrawerToggleButton = props => (
       height={18}
       strokeWidth={2}
       rotate={0}
-      color="red"
+      color="black"
       borderRadius={0}
       animationDuration={0.5}
     />

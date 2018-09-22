@@ -1,10 +1,10 @@
-import * as BreakPoints from '../style/breakpoints';
+import * as BreakPoints from "../style/breakpoints";
 
 export const LARGEHEADER = `
     font-family: 'Sailec-BOLD';
     ${BreakPoints.SMALL} {
-        font-size: 2.5rem;
-        line-height: 3rem;                         
+        font-size: 2rem;
+        line-height: 2.5rem;                         
     }
     ${BreakPoints.MEDIUM} {  
         font-size: 4rem; 
@@ -110,8 +110,6 @@ export const TINYHEADER = `
             letter-spacing: .5px;
         }
 `;
-
-
 
 export const SMALLBODY = `
     font-family: 'Sailec-Regular';
@@ -219,5 +217,3 @@ export const NOTES = `
         font-size: 1.5rem;
     }
 `;
-
-
