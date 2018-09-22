@@ -1,10 +1,10 @@
-import { injectGlobal } from 'styled-components';
-import * as Colors from './colors';
-import * as Type from '../style/typography';
-import * as BreakPoints from '../style/breakpoints';
-import * as Spacing from '../style/spacing';
+import { injectGlobal } from "styled-components";
+import * as Colors from "./colors";
+import * as Type from "../style/typography";
+import * as BreakPoints from "../style/breakpoints";
+import * as Spacing from "../style/spacing";
 
-injectGlobal `
+injectGlobal`
 :root{
     font-size: 100%;
     body{
@@ -113,24 +113,24 @@ injectGlobal `
     ol{
      ${Type.BODY};
     }
-    img{
+    p{
         ${BreakPoints.SMALL} {
-           Padding-top: ${Spacing.MEDIUM};                         
+           Padding-bottom: ${Spacing.MEDIUM};                         
         }
         ${BreakPoints.MEDIUM} {  
-            Padding-top: ${Spacing.MEDIUM};                         
+            Padding-bottom: ${Spacing.MEDIUM};                         
           
         }
         ${BreakPoints.LARGE}{ 
-            Padding-top: ${Spacing.MEDIUM};                         
+            Padding-bottom: ${Spacing.MEDIUM};                         
         
         }
         ${BreakPoints.XLARGE} { 
-            Padding-top: ${Spacing.MEDIUM};                         
+            Padding-bottom: ${Spacing.MEDIUM};                         
 
         }
         ${BreakPoints.XXLARGE} { 
-            Padding-top: ${Spacing.MEDIUM};                         
+            Padding-bottom: ${Spacing.MEDIUM};                         
         }
     }
 `;

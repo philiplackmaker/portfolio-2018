@@ -108,12 +108,12 @@ const ProjectCard = styled(Link)`
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 20rem;
+    margin-bottom: 5rem;
   }
 `;
 
@@ -128,19 +128,19 @@ const ProjectHeader = styled(Link)`
   dispaly: block;
   color: ${Colors.BLACK};
   ${BreakPoints.SMALL} {
-    padding-top: ${Spacing.MEDIUM};
+    padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
-    padding-top: ${Spacing.MEDIUM};
+    padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.LARGE} {
-    padding-top: ${Spacing.MEDIUM};
+    padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.XLARGE} {
     padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.XXLARGE} {
-    padding-top: ${Spacing.MEDIUM};
+    padding-top: ${Spacing.SMALL};
   }
 `;
 
@@ -176,6 +176,7 @@ const ProjectNotes = styled(Link)`
 
 const ProjectTeaserImage = styled.div`
   align-items: end;
+  padding-top: 0;
   ${BreakPoints.SMALL} {
     width: 100px;
   }
