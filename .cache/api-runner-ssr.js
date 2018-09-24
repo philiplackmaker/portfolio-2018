@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

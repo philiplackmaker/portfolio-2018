@@ -113,24 +113,5 @@ injectGlobal`
     ol{
      ${Type.BODY};
     }
-    p{
-        ${BreakPoints.SMALL} {
-           Padding-bottom: ${Spacing.MEDIUM};                         
-        }
-        ${BreakPoints.MEDIUM} {  
-            Padding-bottom: ${Spacing.MEDIUM};                         
-          
-        }
-        ${BreakPoints.LARGE}{ 
-            Padding-bottom: ${Spacing.MEDIUM};                         
-        
-        }
-        ${BreakPoints.XLARGE} { 
-            Padding-bottom: ${Spacing.MEDIUM};                         
-
-        }
-        ${BreakPoints.XXLARGE} { 
-            Padding-bottom: ${Spacing.MEDIUM};                         
-        }
     }
 `;
