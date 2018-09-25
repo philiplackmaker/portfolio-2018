@@ -72,8 +72,10 @@ Working closely with the visual designer Taavet Kelle my role in this part was t
 <br><br>
 ![Style Tile](cambridge-visual-langague.png)
 
-###Final Product\*
-\*This is what we hope it to look like
+###The end product
+(This is what we hope it to look like)
+<br><br>
+![Style Tile](Cambridge-audio-screens.png)
 
 ##Outcomes
 
