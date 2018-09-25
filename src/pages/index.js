@@ -21,13 +21,20 @@ const Page = styled.div`
   padding: 0;
 `;
 
+const CircleMail = styled.div`
+  ${Type.LARGEHEADER} width: 100px;
+  height: 100px;
+  background: ${Colors.WHITE};
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+`;
 const Container = styled.div`
   ${Base.GRID};
 `;
 
 const DesignerRolesContainer = styled.div`
   padding-left: 75%;
-  padding-bottom: 2rem;
 `;
 
 const DesignRoles = styled.text`
@@ -49,7 +56,7 @@ const ThirdPerson = styled.text`
 `;
 
 const Header = styled.div`
-  height: 100vh;
+  height: 70vh;
   background-color: ${Colors.PRIMARY};
   width: 100%;
   display: flex;
@@ -70,6 +77,9 @@ const HeaderText = styled.text`
 
 const HeaderContents = styled.div``;
 
+const LargeLinks = styled.span`
+  ${Type.LARGEHEADERLINKS};
+`;
 const UnderLine = styled.span`
   z-index: -1;
   background-image: url(${Line});
@@ -103,7 +113,7 @@ const ProjectCard = styled(Link)`
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-top: 15rem;
+    margin-top: 6rem;
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
@@ -220,23 +230,32 @@ const IndexPage = ({ data }) => (
     <Header>
       <HeaderContents>
         <Fade duration={3000}>
-          <DesignerRolesContainer>
-            <ThirdPerson>
-              *I don't usually talk about myself in third person.
-            </ThirdPerson>
-            <DesignRoles>
-              Product designer,
-              <br /> Visual designer,
-              <br /> user exerperience designer <br />& Graphic Designer.{" "}
-            </DesignRoles>
-          </DesignerRolesContainer>
           <HeaderText>
-            <UnderLine>Philip*</UnderLine> is a
-            <DrawnCircle>designer</DrawnCircle>
+            <UnderLine>
+              <LargeLinks>Philip</LargeLinks>
+            </UnderLine>{" "}
+            is a
+            <UnderLine>
+              <LargeLinks> Designer.</LargeLinks>
+            </UnderLine>
             <br />
-            Helping to build software for <UnderLine>brands.</UnderLine>
-            <br /> Philip is leading design at Potato. Previously ustwo &
-            Method. <br /> In London, Bristol & Sydney. <br /> Say hello.{" "}
+            He is currently leading design at
+            <UnderLine>
+              <LargeLinks> Potato.</LargeLinks>
+            </UnderLine>
+            <br />
+            Before that he built digtal products for
+            <UnderLine>
+              <LargeLinks> brands </LargeLinks>
+            </UnderLine>
+            at
+            <UnderLine>
+              <LargeLinks> ustwo </LargeLinks>
+            </UnderLine>
+            and
+            <UnderLine>
+              <LargeLinks> Method.</LargeLinks>{" "}
+            </UnderLine>
           </HeaderText>
         </Fade>
       </HeaderContents>

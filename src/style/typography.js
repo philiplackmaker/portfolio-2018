@@ -1,5 +1,30 @@
 import * as BreakPoints from "../style/breakpoints";
 
+export const LARGEHEADERLINKS = `
+font-family: 'GT-Super-Book';
+letter-spacing: 2px;
+${BreakPoints.SMALL} {
+        font-size: 2rem;
+        line-height: 2.5rem;                         
+    }
+    ${BreakPoints.MEDIUM} {  
+        font-size: 4rem; 
+        line-height: 5rem;       
+    }
+    ${BreakPoints.LARGE}{ 
+        font-size: 4rem; 
+        line-height: 5rem;      
+    }
+    ${BreakPoints.XLARGE} { 
+        font-size: 4rem;
+        line-height: 5rem; 
+    }
+    ${BreakPoints.XXLARGE} { 
+        font-size: 4rem;
+        line-height: 5rem; 
+    }
+`;
+
 export const LARGEHEADER = `
     font-family: 'Sailec-BOLD';
     ${BreakPoints.SMALL} {
