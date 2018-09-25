@@ -20,33 +20,33 @@ cover_image: "./hero_cambridge-audio.png"
 
 We created a plan that worked with budget and their internal development plan.
 1 week of lean research > the following week was validation sprint with the client after that we moved into a design phase.
-<Br><Br>
+<br><br>
 ![Process](cambridge-audio-process-01.png)
 
 ##Building the right thing
 
 Working with senior members of the Cambridge Audio team we looked to gain a shared understanding of the problem and the users. During the first day we started with an empathy map to get under the skin of the segments. After that we then used the Roman Pincher product vision board and created one for the Evo system.
-
+<br><br>
 We spent the following day gathering all the assumptions we believed the product is/does/feels/looks like and mapped them on the assumption matrix. We focused on the riskiest and the highest priority assumptions. Using these assumptions we then created hypothesis that we wanted to test.
-<Br><Br>
+<br><br>
 ![Workshop](cambrdige_audio_workshop.png)
 
 ###Sketching
 
 The following day we moved into a sketching, Taking inspiration from the “Google Design Sprint” we held a morning of sketching sessions based on the assumptions and hypothesis. Starting with crazy eight’s those ideas then influenced “Solution creation” from that we then created a storyboard of the prototype. Whilst we created the storyboard we mapped all the hypothesis that we created in the previous day - this made sure that we had the right tests we wanted to validate.
-<Br><Br>
+<br><br>
 ![Sketching](cambrdige-audio-sketching.jpg)
 
 ###Prototype
 
 Our next focus was to create a prototype to validate with users if our hypothesis are correct or not. (To do create a prototype). As some of our hypothesis could not be tested in the prototype we ran another survey to validate these assumptions.
-<Br><Br>
+<br><br>
 ![Prototype](cambridge-audio-prototype.png)
 
 ##Design, ~~build,~~ test
 
 The second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this.
-
+<br><br>
 We had morning stand-ups and a weekly review to make sure their was alignment but this would never be the same as an Agile/Scrum software development. :thumbsdown:
 
 ###Design decisions
@@ -59,16 +59,17 @@ We had morning stand-ups and a weekly review to make sure their was alignment bu
 
 ###Mapping the product
 Taking all the information from the testing the first step was to map out the whole product and to understand what would be the MVP could be. We used the story mapping technique and created all tasks the user would need to do.
-<Br><Br>
+<br><br>
 ![Story mapping](cambridge-audio-story-mapping.jpeg)
-<Br><Br>
+<br><br>
 
 Using the story mapping information we then created an app to understand all the user journeys.
-<Br>
+<br><br>
 ![App map](cambridge-audio-app-map.png)
 
 ###Design system
 Working closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc).
+![App map](cambridge-audio-app-map.png)
 
 ###Final Product\*
 \*This is what we hope it to look like

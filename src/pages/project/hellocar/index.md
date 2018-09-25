@@ -14,32 +14,36 @@ cover_image: "./hero-hellocar.png"
 
 ###The Problem
 
-Founders Factory identified a business model that they could replicate in the UK market. The model was to create a market place to buy and sell used cars. They wanted to replicate other successful business such as Beepi (this went bust 3 months int🤨) and also Carspring (F\*%K this also went bust…is it a sign). They raised a load of money from some big players in the start-up world.
+[Founders Factory](https://foundersfactory.com/) identified a business model that they could replicate in the UK market. The model was to create a market place to buy and sell used cars. They wanted to replicate other successful business such as [Beepi](https://techcrunch.com/2016/12/07/used-car-marketplace-beepi-shuts-down-outside-of-ca-merges-with-stealth-fair-com/) (this went bust 3 months int🤨) and also [Carspring](https://techcrunch.com/2017/10/10/rocket-carspring/) (F\*%K this also went bust…is it a sign). They raised a load of money from some big players in the start-up world.
 
 ##Getting the MVP out there
 
-When I joined there was a goal by the business to get MVP out as quick as possible this pressure came from investors wanting to see R.O.I. Founders Factory created a proof of concept but this was more smoke and mirrors than an actual product.
+When I joined there was a goal by the business to get MVP out as quick as possible this pressure came from investors wanting to see R.O.I. Founders Factory created a proof of concept but this was more smoke and mirrors than an actual product. Taking the great work Founders Facotry I created a product for real users.
 [ ] Illustration of time frame and dates
 
 ###Brand and positioning
 
 One of my tasks was to create a brand for the service. I was well aware that we were going to work with a branding agency to create a new brand, with that in mind I created a lean brand (I spent an afternoon on it) so we had something to build the product with.
-
+<br><br>
 In hindsight (I might be saying this work a few times) this might not of put us in the best postion for success. Hellocar is different to a S.A.S.S product buying a car is one of the biggest purchases you going to make and if you going to make this online without seeing the car you need to have trust in the brand.
-<Br><Br>
+<br>
+<br>
 ![Hellocar style tile v1](hellocar-style-tile-v1.png)
 
 ###Landing page v1
 
-This was one of the hardest pages to design; no assets, no imagery, no positioning and no value prop. Just my ‘lean visual language’ my work was cut of for me.
+This was one of the hardest pages to design; no assets, no imagery, no positioning and no value prop.
+<br><br>
+My desire was to move away from the standard start-up landing page in hindsight this may of made the task harder. As boring as the pattern is it does works because users are familiar that hierarchy and layout of information. We are asking users to do something they have never done before (buying a car online that they have not seen or touched) should we also challenge them with a progressive visual language.
 
-My desire was to move away from the standard start-up landing page in hindsight this may of made the task harder. As boring as the pattern is it does works because users are familiar that hierarchy and layout of information. We are asking users to do something they have never done before (buying a car online that they have not seen or touched) should we also challenge them with a progressive visual language?!?!
+I tried multiple ways of explain the model and the value including putting a 3D car in a box 😜(F.Y.I this was not my idea)
+<br>
+<br>
+![Hellocar style tile v1](hellocar-product-landing.png)
 
-I tried multiple ways of explain the model and the value including putting a 3D car in a box 😜
-(F.Y.I this was not my idea)
+![Hellocar style tile v1](hellocar-landing-page.png)
 
-[ ] Image of landing page and visual ideas  
-MVP
+###MVP
 
 "If You're Not Embarrassed By The First Version Of Your Product, You’ve Launched Too Late" -
 This was the mantra the business said when anyone asked us about the product. (maybe not the best way to got you team feeling positive)
@@ -48,20 +52,23 @@ This was the mantra the business said when anyone asked us about the product. (m
 ###Design process
 
 Deciding what we would build next ultimately was controlled by the head of product my role was to give him the right information to make an informed decision.
-
+<br><br>
 This data would come from multiple sources; user testing sessions, Fullstory, and analytics. In hindsight we should of made the majority of a decisions on analytics, qualitative came over quantitive data.
 
-[ ] Image of landing page and visual ideas
-Getting the experts in
+![Hellocar style tile v1](hellocar-design-process.png)
+
+###Getting the experts
 
 The current brand was created by me and it was too cute to reassure a customer to purchase a £10,000 car online. We worked with the brillant Nomad who helped to elevate the brand to something people believed in. I took what they create and moved it into a digital system. Unfortunately this may of been too little to late.
+<br><br>
+![Hellocar style tile v1](hellocar-nomad-style-tile.png)
 
-[ ] Image of style tile by nomad
 ###Design system
 
 Taking the work that nomad created I geeked out on sketch and created a symbol system so that anyone who designed a feature for the product had all the building blocks to make a feature.
+<br><br>
+![Hellocar style tile v1](hellocar-sketch-design system.png)
 
-[ ] Image of Design system by nomad
 ###Final product
 
 These are some of the key screens that we created.
@@ -90,7 +97,9 @@ We made an assumption that the product (the website) and service is more importa
 ###Effort
 
 I believe that our effort was not always focused in the best way to sell cars. We built features that took time and no one used. We needed to validate the feature and build it in the leanest version we could to test it.
+<br><br>
 Two key examples of this is; Filters we spent two sprints building a filter system that was scalable and could handle having 400,000 cars but we only had 40 cars did we need this feature.
+<br><br>
 We built a checkout flow for users to get car loans something that we could of handled with a form and doing it over the phone. We spent two sprints working on this and we only got one customer purchasing in this way. Where we put effort should of been based on data not assumptions and opinions.
 
 ###Personal Learnings

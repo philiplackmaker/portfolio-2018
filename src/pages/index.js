@@ -172,6 +172,21 @@ const ProjectSubtitle = styled(Link)`
 const ProjectNotes = styled(Link)`
   ${Type.NOTES}
   color: ${Colors.PRIMARY};
+  ${BreakPoints.SMALL} {
+    padding-bottom: 1.25rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    padding-bottom: 1.25rem;
+  }
+  ${BreakPoints.LARGE} {
+    padding-bottom: 1.25rem;
+  }
+  ${BreakPoints.XLARGE} {
+    padding-bottom: 1.25rem;
+  }
+  ${BreakPoints.XXLARGE} {
+    padding-bottom: 1.25rem;
+  }
 `;
 
 const ProjectTeaserImage = styled.div`
