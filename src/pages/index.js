@@ -77,8 +77,18 @@ const HeaderText = styled.text`
 
 const HeaderContents = styled.div``;
 
-const LargeLinks = styled.span`
+const LargeLinks = styled(Link)`
   ${Type.LARGEHEADERLINKS};
+  transition: all 0.4s ease-in;
+  :active,
+  :visited {
+    color: ${Colors.WHITE};
+    text-underline: none;
+  }
+  &:hover {
+    color: ${Colors.BLACK};
+    text-underline: none;
+  }
 `;
 const UnderLine = styled.span`
   z-index: -1;
@@ -236,7 +246,7 @@ const IndexPage = ({ data }) => (
             </UnderLine>{" "}
             is a
             <UnderLine>
-              <LargeLinks> Designer.</LargeLinks>
+              <LargeLinks> designer.</LargeLinks>
             </UnderLine>
             <br />
             He is currently leading design at
@@ -246,7 +256,7 @@ const IndexPage = ({ data }) => (
             <br />
             Before that he built digtal products for
             <UnderLine>
-              <LargeLinks> brands </LargeLinks>
+              <LargeLinks to="/"> brands </LargeLinks>
             </UnderLine>
             at
             <UnderLine>
