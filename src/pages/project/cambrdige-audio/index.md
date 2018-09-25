@@ -69,14 +69,15 @@ Using the story mapping information we then created an app to understand all the
 
 ###Design system
 Working closely with the visual designer Taavet Kelle my role in this part was to lead and guide the visual language. Taavet created a system for both the iOS and Android we decided to create a visual language that felt natural within each platform utilise interaction models and visual language of the platform (type, shadows etc).
-![App map](cambridge-audio-app-map.png)
+<br><br>
+![Style Tile](cambridge-visual-langague.png)
 
 ###Final Product\*
 \*This is what we hope it to look like
 
 ##Outcomes
 
-> "Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that" <br> > **-Chris Saunders Product Manager for Cambrdige Audio**
+> "Thanks a lot, it was such a valuable month for us, (and me personally) The whole lean approach is the biggest goal for me and we’re slowly getting everyone thinking that way. You were all a great help in reinforcing that" <br>**-Chris Saunders Product Manager for Cambrdige Audio**
 
 As the product has not been released I don’t have data on the success of the product.
 
