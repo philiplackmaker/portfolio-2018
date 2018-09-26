@@ -11,7 +11,6 @@ import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
 import ReactTooltip from "react-tooltip";
 import ProjectCardComponent from "../components/projectCard.js";
-import "../style/globals.js";
 
 const Page = styled.div`
   margin: 0;
@@ -53,7 +52,7 @@ const LargeLinks = styled(Link)`
     text-underline: none;
   }
   &:hover {
-    color: ${Colors.LIGHT_PRIMARY};
+    color: ${Colors.WHITE};
     text-underline: none;
   }
 `;
