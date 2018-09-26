@@ -87,7 +87,7 @@ const LargeLinks = styled(Link)`
     text-underline: none;
   }
   &:hover {
-    color: ${Colors.BLACK};
+    color: ${Colors.LIGHT_PRIMARY};
     text-underline: none;
   }
 `;
