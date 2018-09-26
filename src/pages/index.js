@@ -49,7 +49,7 @@ const LargeLinks = styled(Link)`
   transition: all 0.4s ease-in;
   :active,
   :visited {
-    color: ${Colors.WHITE};
+    color: ${Colors.BLACK};
     text-underline: none;
   }
   &:hover {
