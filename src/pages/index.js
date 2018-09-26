@@ -48,11 +48,11 @@ const LargeLinks = styled(Link)`
   transition: all 0.4s ease-in;
   :active,
   :visited {
-    color: ${Colors.BLACK};
+    color: ${Colors.WHITE};
     text-underline: none;
   }
   &:hover {
-    color: ${Colors.WHITE};
+    color: ${Colors.LIGHT_PRIMARY};
     text-underline: none;
   }
 `;
@@ -70,7 +70,6 @@ const IndexPage = ({ data }) => (
       <HeaderContents>
         <Fade duration={3000}>
           <HeaderText>
-            <ReactTooltip effect="solid" />
             <LargeLinks
               data-tip="👋🏻 This is my new site, hope you enjoy it. Please say hello 👋🏻 "
               to="/about"
@@ -105,6 +104,7 @@ const IndexPage = ({ data }) => (
             <LargeLinks data-tip="😶">
               <UnderLine> Method</UnderLine>{" "}
             </LargeLinks>
+            <ReactTooltip effect="solid" />
           </HeaderText>
         </Fade>
       </HeaderContents>
