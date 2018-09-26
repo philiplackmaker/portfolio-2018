@@ -143,7 +143,7 @@ const ProjectCardComponent = () => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark(limit: 3) {
+        allMarkdownRemark(limit: 5) {
           edges {
             node {
               frontmatter {

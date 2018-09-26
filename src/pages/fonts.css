@@ -22,14 +22,26 @@
  * © 2018 MyFonts Inc
 */
 
-
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/371a84");
 
-  
-@font-face {font-family: 'Sailec-Bold';src:url('webfonts/371A84_0_unhinted_0.woff2') format('woff2'),url('webfonts/371A84_0_unhinted_0.woff') format('woff'),url('webfonts/371A84_0_unhinted_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'Sailec-Regular';src:url('webfonts/371A84_1_unhinted_0.woff2') format('woff2'),url('webfonts/371A84_1_unhinted_0.woff') format('woff'),url('webfonts/371A84_1_unhinted_0.ttf') format('truetype');}
- 
-@font-face {font-family: 'GT-Super-Book';src:url('webfonts/GT-Super-Text-Book.woff2') format('woff2'),url('webfonts/GT-Super-Text-Book.woff') format('woff'),url('webfonts/GT-Super-Text-Book.ttf') format('truetype');}
+@font-face {
+  font-family: "Sailec-Bold";
+  src: url("webfonts/371A84_0_unhinted_0.woff2") format("woff2"),
+    url("webfonts/371A84_0_unhinted_0.woff") format("woff"),
+    url("webfonts/371A84_0_unhinted_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sailec-Regular";
+  src: url("webfonts/371A84_1_unhinted_0.woff2") format("woff2"),
+    url("webfonts/371A84_1_unhinted_0.woff") format("woff"),
+    url("webfonts/371A84_1_unhinted_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GT-Super-Book";
+  src: url("webfonts/GT-Super-Text-Book.woff2") format("woff2"),
+    url("webfonts/GT-Super-Text-Book.woff") format("woff"),
+    url("webfonts/GT-Super-Text-Book.ttf") format("truetype");
+}

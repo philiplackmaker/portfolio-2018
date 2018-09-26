@@ -11,6 +11,7 @@ import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
 import ReactTooltip from "react-tooltip";
 import ProjectCardComponent from "../components/projectCard.js";
+import "../style/globals.js";
 
 const Page = styled.div`
   margin: 0;
@@ -70,38 +71,41 @@ const IndexPage = ({ data }) => (
       <HeaderContents>
         <Fade duration={3000}>
           <HeaderText>
+            <ReactTooltip effect="solid" />
             <LargeLinks
-              data-tip="I don't usually talk about myself in the third person."
+              data-tip="👋🏻 This is my new site, hope you enjoy it. Please say hello 👋🏻 "
               to="/about"
             >
               <UnderLine>Philip </UnderLine>
             </LargeLinks>
-            <ReactTooltip effect="solid" />
             is a
             <LargeLinks
-              data-tip="product designer, visual designer, graphic designer, motion desigenr"
+              data-tip="10 years experiences. Product designer, graphic designer, motion designer & now spreadsheet designer. "
               to="/about"
             >
               <UnderLine> designer </UnderLine>
             </LargeLinks>
             <br />
             He is currently leading design at
-            <UnderLine>
-              <LargeLinks> Potato.</LargeLinks>
-            </UnderLine>
+            <LargeLinks
+              data-tip="🤘🏻 Building software for Google, Cambridge Audio & Morzilla 🤘🏻 "
+              to="/about"
+            >
+              <UnderLine> Potato </UnderLine>
+            </LargeLinks>
             <br />
             Before that he built digtal products for
-            <LargeLinks data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla & Cambrdige Audio">
+            <LargeLinks data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more">
               <UnderLine> brands</UnderLine>{" "}
             </LargeLinks>
             at
-            <UnderLine>
-              <LargeLinks> ustwo </LargeLinks>
-            </UnderLine>
+            <LargeLinks data-tip="❤️ ustwo, I was there for almost 5 years">
+              <UnderLine> ustwo</UnderLine>{" "}
+            </LargeLinks>
             and
-            <UnderLine>
-              <LargeLinks> Method.</LargeLinks>{" "}
-            </UnderLine>
+            <LargeLinks data-tip="😶">
+              <UnderLine> Method</UnderLine>{" "}
+            </LargeLinks>
           </HeaderText>
         </Fade>
       </HeaderContents>

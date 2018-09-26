@@ -1,4 +1,4 @@
-import * as BreakPoints from '../style/breakpoints';
+import * as BreakPoints from "../style/breakpoints";
 
 export const GRID = `
                ${BreakPoints.SMALL} {
@@ -37,4 +37,3 @@ export const GRID = `
                         grid-template-columns: repeat(12, [col] 4fr );
                         }        
 `;
-
