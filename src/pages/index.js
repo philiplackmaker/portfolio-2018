@@ -15,6 +15,7 @@ import { graphql } from "gatsby";
 import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
 import ButtonSmall from "../components/buttonsmall.js";
+import ReactTooltip from "react-tooltip";
 
 const Page = styled.div`
   margin: 0;
@@ -241,13 +242,20 @@ const IndexPage = ({ data }) => (
       <HeaderContents>
         <Fade duration={3000}>
           <HeaderText>
-            <UnderLine>
-              <LargeLinks>Philip</LargeLinks>
-            </UnderLine>{" "}
+            <LargeLinks
+              data-tip="I don't usually talk about myself in the third person."
+              to="/about"
+            >
+              <UnderLine>Philip </UnderLine>
+            </LargeLinks>
+            <ReactTooltip effect="solid" />
             is a
-            <UnderLine>
-              <LargeLinks> designer.</LargeLinks>
-            </UnderLine>
+            <LargeLinks
+              data-tip="product designer, visual designer, graphic designer, motion desigenr"
+              to="/about"
+            >
+              <UnderLine> designer </UnderLine>
+            </LargeLinks>
             <br />
             He is currently leading design at
             <UnderLine>
@@ -255,9 +263,9 @@ const IndexPage = ({ data }) => (
             </UnderLine>
             <br />
             Before that he built digtal products for
-            <UnderLine>
-              <LargeLinks to="/"> brands </LargeLinks>
-            </UnderLine>
+            <LargeLinks data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla & Cambrdige Audio">
+              <UnderLine> brands</UnderLine>{" "}
+            </LargeLinks>
             at
             <UnderLine>
               <LargeLinks> ustwo </LargeLinks>
