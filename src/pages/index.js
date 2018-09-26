@@ -46,6 +46,7 @@ const HeaderContents = styled.div``;
 const LargeLinks = styled(Link)`
   ${Type.LARGEHEADERLINKS};
   transition: all 0.4s ease-in;
+  :link,
   :active,
   :visited {
     color: ${Colors.WHITE};

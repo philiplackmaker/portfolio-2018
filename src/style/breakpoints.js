@@ -17,5 +17,3 @@ export const XXLARGE = `
 @media (min-width: 94rem)
 
 `;
-
-
