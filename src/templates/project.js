@@ -10,6 +10,7 @@ import Img from "gatsby-image";
 import * as BreakPoints from "../style/breakpoints";
 import Fade from "react-reveal/Fade";
 import FooterEverything from "../components/footereverything.js";
+import Helmet from "react-helmet";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -83,8 +84,12 @@ const ProjectHeaderSubText = styled.text`
 
 export default function Template({ data }) {
   const { markdownRemark: project } = data;
+
   return (
     <div>
+      <Helmet>
+        <title>{project.frontmatter.title}</title>
+      </Helmet>
       <Navigation />
       <Container>
         <ProjectHeader>

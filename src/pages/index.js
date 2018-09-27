@@ -13,6 +13,7 @@ import ReactTooltip from "react-tooltip";
 import ProjectCardComponent from "../components/projectCard.js";
 import BlogCard from "../components/blogcard.js";
 import * as Spacing from "../style/spacing";
+import Helmet from "react-helmet";
 
 const Page = styled.div`
   margin: 0;
@@ -89,6 +90,9 @@ const SubTitle = styled.text`
 
 const IndexPage = ({ data }) => (
   <Page>
+    <Helmet>
+      <title>Philip Lackmaker</title>
+    </Helmet>
     <Navigation />
     <Header>
       <HeaderContents>
