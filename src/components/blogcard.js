@@ -23,7 +23,7 @@ const BlogCard = () => (
   <StaticQuery
     query={graphql`
       query BlogCardQuery {
-        allMarkdownRemark(limit: 10) {
+        allMarkdownRemark {
           edges {
             node {
               frontmatter {

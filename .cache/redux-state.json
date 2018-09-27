@@ -5675,14 +5675,14 @@
     },
     "connections": {
       "MarkdownRemark": [
-        "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ]
     }
   },
   "jsonDataPaths": {
-    "sq--src-components-blogcard-js": 375718645,
+    "sq--src-components-blogcard-js": 1687466550,
     "sq--src-components-footerlinks-js": 394728877,
     "404-22d": "74/path---404-22-d-bce-OiWjKMtyJCQyEuVt1rBQEJhW1HU",
     "404-html-516": "702/path---404-html-516-62a-OiWjKMtyJCQyEuVt1rBQEJhW1HU",
@@ -5733,8 +5733,8 @@
       "componentPath": "/Users/philip/development/portfolio-2018/src/components/blogcard.js",
       "id": "sq--src-components-blogcard-js",
       "jsonName": "sq--src-components-blogcard-js",
-      "query": "query BlogCardQuery {\n  allMarkdownRemark(limit: 10) {\n    edges {\n      node {\n        frontmatter {\n          path\n          title_test\n          templateKey\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 375718645
+      "query": "query BlogCardQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          path\n          title_test\n          templateKey\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1687466550
     },
     "sq--src-components-footerlinks-js": {
       "name": "usersPhilipDevelopmentPortfolio2018SrcComponentsFooterlinksJs394728877",
