@@ -1,5 +1,6 @@
 import React from "react";
 import FooterLinks from "../components/footerlinks";
+import FooterLinksBlog from "../components/footerlinksblog";
 import styled from "styled-components";
 import * as Base from "../style/base";
 import * as Type from "../style/typography";
@@ -17,10 +18,6 @@ const FooterBackground = styled.div`
 
 const FooterEverythingBox = styled.div`
   ${Base.GRID};
-`;
-
-const Blogtext = styled.text`
-  ${Type.SMALLBODY};
 `;
 
 const FooterProject = styled.div`
@@ -131,7 +128,7 @@ const FooterEverything = () => (
       </FooterProject>
       <FooterBlog>
         <FooterTitles>Latest Blog</FooterTitles>
-        <Blogtext> What not to say in facebook interview </Blogtext>
+        <FooterLinksBlog />
       </FooterBlog>
       <FooterSite>
         <FooterTitles>Site Map</FooterTitles>

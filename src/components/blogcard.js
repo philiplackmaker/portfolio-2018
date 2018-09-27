@@ -28,7 +28,7 @@ const BlogCard = () => (
             node {
               frontmatter {
                 path
-                title_test
+                title
                 templateKey
               }
             }
@@ -43,7 +43,7 @@ const BlogCard = () => (
         )
         .map(blogpost => (
           <BlogCardBackground to={blogpost.node.frontmatter.path}>
-            <BlogHeader>{blogpost.node.frontmatter.title_test}</BlogHeader>
+            <BlogHeader>{blogpost.node.frontmatter.title}</BlogHeader>
           </BlogCardBackground>
         ))
     }

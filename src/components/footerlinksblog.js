@@ -6,7 +6,7 @@ import "../style/globals";
 import * as Type from "../style/typography";
 import { StaticQuery, graphql } from "gatsby";
 
-const FooterLinksText = styled(Link)`
+const FooterLinksTextBlog = styled(Link)`
   text-decoration: none;
   ${Type.SMALLBODY};
   transition: all 0.4s ease-in;
@@ -22,18 +22,18 @@ const FooterLinksText = styled(Link)`
   }
 `;
 
-const FooterListItems = styled.ul`
+const FooterListItemsBlog = styled.ul`
   list-style-type: none;
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
 `;
 
-const FooterLinks = () => (
+const FooterLinksBlog = () => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(limit: 6) {
           edges {
             node {
               frontmatter {
@@ -49,17 +49,18 @@ const FooterLinks = () => (
     render={data =>
       data.allMarkdownRemark.edges
         .filter(
-          footerlinks => footerlinks.node.frontmatter.templateKey === "project"
+          footerlinksblog =>
+            footerlinksblog.node.frontmatter.templateKey === "blogpost"
         )
-        .map(footerlinks => (
-          <FooterListItems>
-            <FooterLinksText to={footerlinks.node.frontmatter.path}>
-              {footerlinks.node.frontmatter.title}
-            </FooterLinksText>
-          </FooterListItems>
+        .map(footerlinksblog => (
+          <FooterListItemsBlog>
+            <FooterLinksTextBlog to={footerlinksblog.node.frontmatter.path}>
+              {footerlinksblog.node.frontmatter.title}
+            </FooterLinksTextBlog>
+          </FooterListItemsBlog>
         ))
     }
   />
 );
 
-export default FooterLinks;
+export default FooterLinksBlog;
