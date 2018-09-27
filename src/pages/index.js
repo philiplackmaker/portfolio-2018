@@ -66,6 +66,10 @@ const UnderLine = styled.span`
   background-position: bottom;
 `;
 
+const BlogCardGrid = styled.div`
+  ${Base.GRID};
+`;
+
 const BlogCardContainer = styled.div`
   grid-column: 1 / span 12;
   display: flex;
@@ -133,9 +137,12 @@ const IndexPage = ({ data }) => (
       <ProjectCardComponent />
       <SubTitle>Latest blog post</SubTitle>
     </Container>
-    <BlogCardContainer>
-      <BlogCard />
-    </BlogCardContainer>
+    <BlogCardGrid>
+      <BlogCardContainer>
+        <BlogCard />
+      </BlogCardContainer>
+    </BlogCardGrid>
+
     <FooterEverything />
   </Page>
 );
