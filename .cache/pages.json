@@ -20,6 +20,11 @@
         "path": "/about"
     },
     {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "blog-testttt-222",
+        "path": "/blog/testttt"
+    },
+    {
         "componentChunkName": "component---src-templates-project-js",
         "jsonName": "cambrdige-audio-291",
         "path": "/cambrdige-audio"
@@ -43,11 +48,6 @@
         "componentChunkName": "component---src-templates-blogpost-js",
         "jsonName": "test-453",
         "path": "/test"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "testttt-fd8",
-        "path": "/testttt"
     },
     {
         "componentChunkName": "component---src-templates-thinking-js",

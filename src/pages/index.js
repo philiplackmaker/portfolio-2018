@@ -142,73 +142,8 @@ const IndexPage = ({ data }) => (
         <BlogCard />
       </BlogCardContainer>
     </BlogCardGrid>
-
     <FooterEverything />
   </Page>
 );
 
 export default IndexPage;
-
-// export const pageQuery = graphql`
-//   query pageQuery {
-//     allMarkdownRemark(limit: 5) {
-//       edges {
-//         node {
-//           frontmatter {
-//             title
-//             path
-//             subtitle
-//             note_title
-//             templateKey
-//             small_image {
-//               childImageSharp {
-//                 fluid(maxHeight: 1200) {
-//                   ...GatsbyImageSharpFluid
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
-
-// const DesignerRolesContainer = styled.div`
-//   padding-left: 75%;
-// `;
-
-// const DesignRoles = styled.text`
-//   z-index: 0;
-//   position: absolute;
-//   bottom-padding: ${Spacing.LARGE};
-//   bottom: 500px;
-//   ${Type.NOTES}
-//   color: ${Colors.LIGHTEST_PRIMARY};
-// `;
-
-// const ThirdPerson = styled.text`
-//   z-index: 0;
-//   position: absolute;
-//   padding-left: 30px;
-//   left: 0;
-//   ${Type.NOTES}
-//   color: ${Colors.LIGHTEST_PRIMARY};
-// `;
-// const DrawnCircle = styled.span`
-//   z-index: -1;
-//   background-image: url(${Circle});
-//   padding: 1rem;
-//   height: 10rem;
-//   background-repeat: no-repeat, repeat;
-//   background-position: bottom;
-// `;
-
-// const CircleMail = styled.div`
-//   ${Type.LARGEHEADER} width: 100px;
-//   height: 100px;
-//   background: ${Colors.WHITE};
-//   -moz-border-radius: 50px;
-//   -webkit-border-radius: 50px;
-//   border-radius: 50px;
-// `;
