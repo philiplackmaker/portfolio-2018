@@ -2140,7 +2140,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4748dbe67c95b8ff7629f3e6155d4f33",
+        "contentDigest": "691edb47a315eb857c22954be84f52b2",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2150,11 +2150,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 5050,
-      "prettySize": "5.05 kB",
-      "modifiedTime": "2018-09-27T06:00:45.897Z",
-      "accessTime": "2018-09-27T06:00:47.191Z",
-      "changeTime": "2018-09-27T06:00:45.897Z",
+      "size": 5338,
+      "prettySize": "5.34 kB",
+      "modifiedTime": "2018-09-27T09:36:05.681Z",
+      "accessTime": "2018-09-27T09:36:05.680Z",
+      "changeTime": "2018-09-27T09:36:05.681Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2171,13 +2171,13 @@
       "blksize": 4194304,
       "ino": 8605903416,
       "blocks": 16,
-      "atimeMs": 1538028047191.4912,
-      "mtimeMs": 1538028045897.4902,
-      "ctimeMs": 1538028045897.4902,
+      "atimeMs": 1538040965680.2168,
+      "mtimeMs": 1538040965680.8916,
+      "ctimeMs": 1538040965680.8916,
       "birthtimeMs": 1537344635418.1907,
-      "atime": "2018-09-27T06:00:47.191Z",
-      "mtime": "2018-09-27T06:00:45.897Z",
-      "ctime": "2018-09-27T06:00:45.897Z",
+      "atime": "2018-09-27T09:36:05.680Z",
+      "mtime": "2018-09-27T09:36:05.681Z",
+      "ctime": "2018-09-27T09:36:05.681Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
     "43d292da-e059-5f8a-9848-e184e168fbb4": {
@@ -3005,7 +3005,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3eb26f5225b1b0abbbed0e193fdbffa9",
+        "contentDigest": "6b3fece5947ff2b0ca7bb0e22a3a876f",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/blog/06292018/index.md\"",
@@ -3015,11 +3015,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018/index.md",
       "relativePath": "blog/06292018/index.md",
       "extension": "md",
-      "size": 159,
-      "prettySize": "159 B",
-      "modifiedTime": "2018-09-26T16:50:15.333Z",
-      "accessTime": "2018-09-27T05:46:01.275Z",
-      "changeTime": "2018-09-26T16:50:15.333Z",
+      "size": 167,
+      "prettySize": "167 B",
+      "modifiedTime": "2018-09-27T08:56:19.413Z",
+      "accessTime": "2018-09-27T08:56:19.408Z",
+      "changeTime": "2018-09-27T08:56:19.413Z",
       "birthTime": "2018-09-26T16:38:42.151Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018",
@@ -3036,13 +3036,13 @@
       "blksize": 4194304,
       "ino": 8606426395,
       "blocks": 8,
-      "atimeMs": 1538027161275.3599,
-      "mtimeMs": 1537980615332.9458,
-      "ctimeMs": 1537980615332.9458,
+      "atimeMs": 1538038579408.139,
+      "mtimeMs": 1538038579413.0203,
+      "ctimeMs": 1538038579413.0203,
       "birthtimeMs": 1537979922150.754,
-      "atime": "2018-09-27T05:46:01.275Z",
-      "mtime": "2018-09-26T16:50:15.333Z",
-      "ctime": "2018-09-26T16:50:15.333Z",
+      "atime": "2018-09-27T08:56:19.408Z",
+      "mtime": "2018-09-27T08:56:19.413Z",
+      "ctime": "2018-09-27T08:56:19.413Z",
       "birthtime": "2018-09-26T16:38:42.151Z"
     },
     "fa43f0c4-8258-5649-8b2e-67392383ac94": {
@@ -3658,29 +3658,6 @@
       "excerpt": "",
       "rawMarkdownBody": "",
       "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018-copy/index.md"
-    },
-    "8ef30f77-bb6c-584a-8de4-e5f41a10c817": {
-      "id": "8ef30f77-bb6c-584a-8de4-e5f41a10c817",
-      "children": [],
-      "parent": "6f806e37-6807-58a3-8ad2-20346497ea35",
-      "internal": {
-        "content": "",
-        "type": "MarkdownRemark",
-        "contentDigest": "ef4860ab2f034954813e104c48f96234",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "path": "/test",
-        "title_test": "Blo",
-        "templateKey": "blogpost",
-        "note_title": "..how to burn thorugh a million pounds...",
-        "subtitle": "Finding product market fit",
-        "_PARENT": "6f806e37-6807-58a3-8ad2-20346497ea35"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "",
-      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018/index.md"
     },
     "b060b26e-78ab-5b41-b116-088a96eb8462": {
       "id": "b060b26e-78ab-5b41-b116-088a96eb8462",
@@ -5468,7 +5445,7 @@
       "component": "/Users/philip/development/portfolio-2018/src/templates/blogpost.js",
       "componentChunkName": "component---src-templates-blogpost-js",
       "context": {
-        "id": "8ef30f77-bb6c-584a-8de4-e5f41a10c817"
+        "id": "bf2db8e6-eb18-52fe-928b-fb747b9a73da"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -5478,7 +5455,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "660de6387b2e142848c54081f1c5804b",
+        "contentDigest": "89cd110bf82f248de718365223a80dd7",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -5608,6 +5585,143 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "0a4d98fe-7039-5865-be4e-c83449df6c6b": {
+      "id": "0a4d98fe-7039-5865-be4e-c83449df6c6b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f2ce48d7caada60c53d37d9e509f5a1b",
+        "type": "Directory",
+        "description": "Directory \"src/pages/blog/06292018-copy-2\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018-copy-2",
+      "relativePath": "blog/06292018-copy-2",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-09-27T08:53:15.876Z",
+      "accessTime": "2018-09-27T08:53:15.875Z",
+      "changeTime": "2018-09-27T08:53:15.876Z",
+      "birthTime": "2018-09-27T08:53:15.875Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/blog",
+      "base": "06292018-copy-2",
+      "ext": "",
+      "name": "06292018-copy-2",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606443828,
+      "blocks": 0,
+      "atimeMs": 1538038395875.0286,
+      "mtimeMs": 1538038395875.9485,
+      "ctimeMs": 1538038395875.9485,
+      "birthtimeMs": 1538038395875.0286,
+      "atime": "2018-09-27T08:53:15.875Z",
+      "mtime": "2018-09-27T08:53:15.876Z",
+      "ctime": "2018-09-27T08:53:15.876Z",
+      "birthtime": "2018-09-27T08:53:15.875Z"
+    },
+    "1c59e18e-79a6-5dca-af00-aae671c58f6f": {
+      "id": "1c59e18e-79a6-5dca-af00-aae671c58f6f",
+      "children": [
+        "bf2db8e6-eb18-52fe-928b-fb747b9a73da"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0a255043a3721970e0aca7c7afa8eed7",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/blog/06292018-copy-2/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018-copy-2/index.md",
+      "relativePath": "blog/06292018-copy-2/index.md",
+      "extension": "md",
+      "size": 167,
+      "prettySize": "167 B",
+      "modifiedTime": "2018-09-27T08:56:32.131Z",
+      "accessTime": "2018-09-27T08:56:32.131Z",
+      "changeTime": "2018-09-27T08:56:32.131Z",
+      "birthTime": "2018-09-27T08:52:26.404Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018-copy-2",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "blog/06292018-copy-2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606443829,
+      "blocks": 8,
+      "atimeMs": 1538038592130.5024,
+      "mtimeMs": 1538038592130.9268,
+      "ctimeMs": 1538038592130.9268,
+      "birthtimeMs": 1538038346403.5732,
+      "atime": "2018-09-27T08:56:32.131Z",
+      "mtime": "2018-09-27T08:56:32.131Z",
+      "ctime": "2018-09-27T08:56:32.131Z",
+      "birthtime": "2018-09-27T08:52:26.404Z"
+    },
+    "8ef30f77-bb6c-584a-8de4-e5f41a10c817": {
+      "id": "8ef30f77-bb6c-584a-8de4-e5f41a10c817",
+      "children": [],
+      "parent": "6f806e37-6807-58a3-8ad2-20346497ea35",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "2e3105f072968d9daac644c98559427e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "path": "/test",
+        "title_test": "Test blog 1",
+        "templateKey": "blogpost",
+        "note_title": "..how to burn thorugh a million pounds...",
+        "subtitle": "Finding product market fit",
+        "_PARENT": "6f806e37-6807-58a3-8ad2-20346497ea35"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018/index.md"
+    },
+    "bf2db8e6-eb18-52fe-928b-fb747b9a73da": {
+      "id": "bf2db8e6-eb18-52fe-928b-fb747b9a73da",
+      "children": [],
+      "parent": "1c59e18e-79a6-5dca-af00-aae671c58f6f",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "ccb9c6cef19e2419da2b50bf62d69a3b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "path": "/test",
+        "title_test": "Test blog 2",
+        "templateKey": "blogpost",
+        "note_title": "..how to burn thorugh a million pounds...",
+        "subtitle": "Finding product market fit",
+        "_PARENT": "1c59e18e-79a6-5dca-af00-aae671c58f6f"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/blog/06292018-copy-2/index.md"
     }
   },
   "status": {
@@ -5728,14 +5842,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-blogcard-js": {
-      "name": "BlogCardQuery",
-      "componentPath": "/Users/philip/development/portfolio-2018/src/components/blogcard.js",
-      "id": "sq--src-components-blogcard-js",
-      "jsonName": "sq--src-components-blogcard-js",
-      "query": "query BlogCardQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          path\n          title_test\n          templateKey\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 1687466550
-    },
     "sq--src-components-footerlinks-js": {
       "name": "usersPhilipDevelopmentPortfolio2018SrcComponentsFooterlinksJs394728877",
       "componentPath": "/Users/philip/development/portfolio-2018/src/components/footerlinks.js",
@@ -5751,6 +5857,14 @@
       "jsonName": "sq--src-components-project-card-js",
       "query": "query ProjectQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          subtitle\n          note_title\n          templateKey\n          small_image {\n            childImageSharp {\n              fluid(maxHeight: 1200) {\n                ...GatsbyImageSharpFluid\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 3806444734
+    },
+    "sq--src-components-blogcard-js": {
+      "name": "BlogCardQuery",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/components/blogcard.js",
+      "id": "sq--src-components-blogcard-js",
+      "jsonName": "sq--src-components-blogcard-js",
+      "query": "query BlogCardQuery {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          path\n          title_test\n          templateKey\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1687466550
     }
   }
 }

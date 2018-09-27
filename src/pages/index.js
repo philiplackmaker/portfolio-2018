@@ -12,6 +12,7 @@ import FooterEverything from "../components/footereverything.js";
 import ReactTooltip from "react-tooltip";
 import ProjectCardComponent from "../components/projectCard.js";
 import BlogCard from "../components/blogcard.js";
+import * as Spacing from "../style/spacing";
 
 const Page = styled.div`
   margin: 0;
@@ -66,10 +67,20 @@ const UnderLine = styled.span`
 `;
 
 const BlogCardContainer = styled.div`
-  grid-column: 1 / span 8;
+  grid-column: 1 / span 12;
   display: flex;
   flex: row;
   justify-content: space-between;
+  padding-bottom: ${Spacing.LARGE};
+`;
+
+const SubTitle = styled.text`
+  ${Type.SMALLHEADER};
+  width: 100%;
+  grid-column: 1 / span 12;
+  text-align: center;
+  padding-top: ${Spacing.LARGE};
+  padding-bottom: ${Spacing.SMALL};
 `;
 
 const IndexPage = ({ data }) => (
@@ -120,8 +131,9 @@ const IndexPage = ({ data }) => (
     </Header>
     <Container>
       <ProjectCardComponent />
+      <SubTitle>Latest blog post</SubTitle>
+
       <BlogCardContainer>
-        <h3>Latest blogs</h3>
         <BlogCard />
       </BlogCardContainer>
     </Container>
