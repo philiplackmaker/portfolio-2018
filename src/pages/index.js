@@ -11,6 +11,7 @@ import "./fonts.css";
 import FooterEverything from "../components/footereverything.js";
 import ReactTooltip from "react-tooltip";
 import ProjectCardComponent from "../components/projectCard.js";
+import BlogCard from "../components/blogcard.js";
 
 const Page = styled.div`
   margin: 0;
@@ -64,6 +65,13 @@ const UnderLine = styled.span`
   background-position: bottom;
 `;
 
+const BlogCardContainer = styled.div`
+  grid-column: 1 / span 8;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+`;
+
 const IndexPage = ({ data }) => (
   <Page>
     <Navigation />
@@ -112,10 +120,16 @@ const IndexPage = ({ data }) => (
     </Header>
     <Container>
       <ProjectCardComponent />
+      <BlogCardContainer>
+        <h3>Latest blogs</h3>
+        <BlogCard />
+      </BlogCardContainer>
     </Container>
     <FooterEverything />
   </Page>
 );
+
+export default IndexPage;
 
 // export const pageQuery = graphql`
 //   query pageQuery {
@@ -141,8 +155,6 @@ const IndexPage = ({ data }) => (
 //     }
 //   }
 // `;
-
-export default IndexPage;
 
 // const DesignerRolesContainer = styled.div`
 //   padding-left: 75%;

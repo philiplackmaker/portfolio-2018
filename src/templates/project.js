@@ -104,6 +104,7 @@ export default function Template({ data }) {
           <Content dangerouslySetInnerHTML={{ __html: project.html }} />
         </Proeject>
       </Container>
+
       <FooterEverything> </FooterEverything>
     </div>
   );

@@ -40,6 +40,16 @@
         "path": "/laterooms"
     },
     {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "test-453",
+        "path": "/test"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "testttt-fd8",
+        "path": "/testttt"
+    },
+    {
         "componentChunkName": "component---src-templates-thinking-js",
         "jsonName": "thinking-8b4",
         "path": "/thinking"

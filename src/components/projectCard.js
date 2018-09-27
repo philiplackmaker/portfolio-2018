@@ -15,8 +15,7 @@ const ProjectCard = styled(Link)`
   flex: row;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
-    grid-column: 2 / span 10;
-    height: 15rem;
+    ≈height: 15rem;
     margin-top: 5rem;
   }
   ${BreakPoints.MEDIUM} {
@@ -142,8 +141,8 @@ const ImageContainer = styled.div`
 const ProjectCardComponent = () => (
   <StaticQuery
     query={graphql`
-      query {
-        allMarkdownRemark(limit: 5) {
+      query ProjectQuery {
+        allMarkdownRemark {
           edges {
             node {
               frontmatter {
