@@ -2121,7 +2121,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "eca53dd8e1b416ca2ccba80b36be7d22",
+        "contentDigest": "bd70b04bafdd9f42b9a2c227233a530b",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2131,11 +2131,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 4075,
+      "size": 4076,
       "prettySize": "4.08 kB",
-      "modifiedTime": "2018-09-27T15:24:20.426Z",
-      "accessTime": "2018-09-27T15:24:20.425Z",
-      "changeTime": "2018-09-27T15:24:20.426Z",
+      "modifiedTime": "2018-09-27T15:26:39.648Z",
+      "accessTime": "2018-09-27T15:26:39.648Z",
+      "changeTime": "2018-09-27T15:26:39.648Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2152,13 +2152,13 @@
       "blksize": 4194304,
       "ino": 8605903416,
       "blocks": 8,
-      "atimeMs": 1538061860425.471,
-      "mtimeMs": 1538061860426.146,
-      "ctimeMs": 1538061860426.146,
+      "atimeMs": 1538061999647.549,
+      "mtimeMs": 1538061999647.8237,
+      "ctimeMs": 1538061999647.8237,
       "birthtimeMs": 1537344635418.1907,
-      "atime": "2018-09-27T15:24:20.425Z",
-      "mtime": "2018-09-27T15:24:20.426Z",
-      "ctime": "2018-09-27T15:24:20.426Z",
+      "atime": "2018-09-27T15:26:39.648Z",
+      "mtime": "2018-09-27T15:26:39.648Z",
+      "ctime": "2018-09-27T15:26:39.648Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
     "958b9d46-fb46-5abd-83bc-b315df51bc75": {
@@ -5744,8 +5744,8 @@
     },
     "connections": {
       "MarkdownRemark": [
-        "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
+        "sq--src-components-blogcard-js",
         "sq--src-components-footerlinksblog-js",
         "sq--src-components-project-card-js"
       ]

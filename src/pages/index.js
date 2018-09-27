@@ -120,7 +120,7 @@ const IndexPage = ({ data }) => (
               <UnderLine> Potato </UnderLine>
             </LargeLinks>
             <br />
-            Before that he built digtal products for
+            Before that he built digital products for
             <LargeLinks data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more">
               <UnderLine> brands</UnderLine>{" "}
             </LargeLinks>
