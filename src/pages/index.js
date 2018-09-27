@@ -132,11 +132,10 @@ const IndexPage = ({ data }) => (
     <Container>
       <ProjectCardComponent />
       <SubTitle>Latest blog post</SubTitle>
-
-      <BlogCardContainer>
-        <BlogCard />
-      </BlogCardContainer>
     </Container>
+    <BlogCardContainer>
+      <BlogCard />
+    </BlogCardContainer>
     <FooterEverything />
   </Page>
 );

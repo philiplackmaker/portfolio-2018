@@ -2140,7 +2140,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "691edb47a315eb857c22954be84f52b2",
+        "contentDigest": "3e35231311a8d43a279f3baea3ad1a2c",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2150,11 +2150,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 5338,
-      "prettySize": "5.34 kB",
-      "modifiedTime": "2018-09-27T09:36:05.681Z",
-      "accessTime": "2018-09-27T09:47:11.883Z",
-      "changeTime": "2018-09-27T09:36:05.681Z",
+      "size": 5331,
+      "prettySize": "5.33 kB",
+      "modifiedTime": "2018-09-27T10:22:49.802Z",
+      "accessTime": "2018-09-27T10:22:49.951Z",
+      "changeTime": "2018-09-27T10:22:49.802Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2171,13 +2171,13 @@
       "blksize": 4194304,
       "ino": 8605903416,
       "blocks": 16,
-      "atimeMs": 1538041631882.607,
-      "mtimeMs": 1538040965680.8916,
-      "ctimeMs": 1538040965680.8916,
+      "atimeMs": 1538043769950.6965,
+      "mtimeMs": 1538043769801.915,
+      "ctimeMs": 1538043769801.915,
       "birthtimeMs": 1537344635418.1907,
-      "atime": "2018-09-27T09:47:11.883Z",
-      "mtime": "2018-09-27T09:36:05.681Z",
-      "ctime": "2018-09-27T09:36:05.681Z",
+      "atime": "2018-09-27T10:22:49.951Z",
+      "mtime": "2018-09-27T10:22:49.802Z",
+      "ctime": "2018-09-27T10:22:49.802Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
     "43d292da-e059-5f8a-9848-e184e168fbb4": {
@@ -5675,9 +5675,9 @@
     },
     "connections": {
       "MarkdownRemark": [
+        "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
-        "sq--src-components-project-card-js",
-        "sq--src-components-blogcard-js"
+        "sq--src-components-project-card-js"
       ]
     }
   },
