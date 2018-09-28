@@ -22,12 +22,12 @@ const ProjectCard = styled(Link)`
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
     height: 27rem;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;

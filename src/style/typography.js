@@ -8,7 +8,7 @@ ${BreakPoints.SMALL} {
     line-height: 2rem;                         
     }
     ${BreakPoints.MEDIUM} {  
-        font-size: rem; 
+        font-size: 3rem; 
         line-height: 3.5rem;       
     }
     ${BreakPoints.LARGE}{ 

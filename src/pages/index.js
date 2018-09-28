@@ -30,13 +30,13 @@ const Container = styled.div`
     padding-top: 4rem;
   }
   ${BreakPoints.MEDIUM} {
-    padding-top: 4rem;
+    padding-top: 10rem;
   }
   ${BreakPoints.LARGE} {
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
   ${BreakPoints.XLARGE} {
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
   ${BreakPoints.XXLARGE} {
     padding-top: 4rem;
@@ -44,7 +44,7 @@ const Container = styled.div`
 `;
 
 const Header = styled.div`
-  height: 70vh;
+  height: 75vh;
   background-color: ${Colors.PRIMARY};
   width: 100%;
   display: flex;
@@ -107,9 +107,6 @@ const UnderLine = styled.span`
 
 const BlogCardGrid = styled.div`
   ${Base.GRID};
-  ${BreakPoints.XXLARGE} {
-    padding-bottom: 8rem;
-  }
 `;
 
 const BlogCardContainer = styled.div`
@@ -117,6 +114,7 @@ const BlogCardContainer = styled.div`
   justify-content: space-between;
   padding-bottom: ${Spacing.LARGE};
   display: flex;
+  paddin-bottom: 0rem;
   ${BreakPoints.SMALL} {
     flex-direction: column;
   }
