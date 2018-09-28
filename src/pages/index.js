@@ -14,6 +14,7 @@ import ProjectCardComponent from "../components/projectCard.js";
 import BlogCard from "../components/blogcard.js";
 import * as Spacing from "../style/spacing";
 import Helmet from "react-helmet";
+import * as BreakPoints from "../style/breakpoints";
 
 const Page = styled.div`
   margin: 0;
@@ -21,6 +22,8 @@ const Page = styled.div`
 `;
 
 const Container = styled.div`
+  display: flex;
+  flex-flow: column wrap;
   ${Base.GRID};
 `;
 
@@ -73,10 +76,28 @@ const BlogCardGrid = styled.div`
 
 const BlogCardContainer = styled.div`
   grid-column: 1 / span 12;
-  display: flex;
-  flex: row;
   justify-content: space-between;
   padding-bottom: ${Spacing.LARGE};
+  ${BreakPoints.SMALL} {
+    display: flex;
+    flex-direction: column;
+  }
+  ${BreakPoints.MEDIUM} {
+    display: flex;
+    flex-direction: row;
+  }
+  ${BreakPoints.LARGE} {
+    display: flex;
+    flex-direction: row;
+  }
+  ${BreakPoints.XLARGE} {
+    display: flex;
+    flex-direction: row;
+  }
+  ${BreakPoints.XXLARGE} {
+    display: flex;
+    flex-direction: row;
+  }
 `;
 
 const SubTitle = styled.text`

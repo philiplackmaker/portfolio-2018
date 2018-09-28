@@ -15,28 +15,29 @@ const ProjectCard = styled(Link)`
   flex: row;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
-    ≈height: 15rem;
+    grid-column: 1 / span 12;
+    height: 10rem;
     margin-top: 5rem;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
 `;
 
@@ -50,10 +51,8 @@ const ProjectHeader = styled(Link)`
   text-align: left;
   dispaly: block;
   color: ${Colors.BLACK};
-  ${BreakPoints.SMALL} {
-    padding-top: ${Spacing.SMALL};
-  }
-  ${BreakPoints.MEDIUM} {
+
+  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
     padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.LARGE} {
@@ -70,11 +69,8 @@ const ProjectHeader = styled(Link)`
 const ProjectSubtitle = styled(Link)`
   ${Type.LARGEBODY}
   color: ${Colors.BLACK};
-    ${BreakPoints.SMALL} {
-      padding-top: .5rem;
-      padding-bottom: 1rem;    
-    }
-    ${BreakPoints.MEDIUM} {  
+ 
+   ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
       padding-top: .5rem;
       padding-bottom: 1rem;    
     }
@@ -95,10 +91,8 @@ const ProjectSubtitle = styled(Link)`
 const ProjectNotes = styled(Link)`
   ${Type.NOTES}
   color: ${Colors.PRIMARY};
-  ${BreakPoints.SMALL} {
-    padding-bottom: 1.25rem;
-  }
-  ${BreakPoints.MEDIUM} {
+
+  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
     padding-bottom: 1.25rem;
   }
   ${BreakPoints.LARGE} {
@@ -115,11 +109,8 @@ const ProjectNotes = styled(Link)`
 const ProjectTeaserImage = styled.div`
   align-items: end;
   padding-top: 0;
-  ${BreakPoints.SMALL} {
-    width: 100px;
-    display: none;
-  }
-  ${BreakPoints.MEDIUM} {
+
+  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
     width: 250px;
     display: block;
   }

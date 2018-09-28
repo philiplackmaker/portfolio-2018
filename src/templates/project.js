@@ -88,7 +88,7 @@ export default function Template({ data }) {
   return (
     <div>
       <Helmet>
-        <title>hello</title>
+        <title>{project.frontmatter.title}</title>
       </Helmet>
       <Navigation />
       <Container>

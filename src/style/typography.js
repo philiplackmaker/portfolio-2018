@@ -178,15 +178,15 @@ export const BODY = `
         }
         ${BreakPoints.LARGE}{ 
             font-size: 1.75rem;
-            line-height: 3rem;    
+            line-height: 2.5rem;    
         }
         ${BreakPoints.XLARGE} { 
             font-size: 1.75rem;
-            line-height: 3rem;  
+            line-height: 2.5rem;  
         }
         ${BreakPoints.XXLARGE} { 
             font-size: 1.75rem;
-            line-height: 3rem;  
+            line-height: 2.5rem;  
         }
 `;
 
