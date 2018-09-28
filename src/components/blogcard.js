@@ -8,26 +8,32 @@ import * as BreakPoints from "../style/breakpoints";
 
 const BlogCardBackground = styled(Link)`
   background-color: ${Colors.WHITE};
+  display: flex;
+
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   ${BreakPoints.SMALL} {
-    height: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    margin-bottom: 2rem;
   }
   ${BreakPoints.MEDIUM} {
     height: 18rem;
     width: 30%;
+    flex-direction: column;
   }
   ${BreakPoints.LARGE} {
     height: 25rem;
     width: 30%;
   }
   ${BreakPoints.XLARGE} {
-    height: 25rem;
+    height: 27rem;
     width: 30%;
   }
   ${BreakPoints.XXLARGE} {
-    height: 23rem;
+    height: 30rem;
     width: 30%;
   }
 `;
@@ -39,7 +45,21 @@ const BlogHeader = styled.text`
 `;
 
 const BlogCardImageContainer = styled.div`
-  background-size: 100px 100px, cover;
+  ${BreakPoints.SMALL} {
+    width: 100px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 100%;
+  }
+  ${BreakPoints.LARGE} {
+    width: 100%;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 100%;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 100%;
+  }
 `;
 
 const BlogTextContainer = styled.div`
@@ -59,7 +79,7 @@ const BlogCard = () => (
                 templateKey
                 small_image {
                   childImageSharp {
-                    fluid(maxHeight: 200) {
+                    fluid(maxHeight: 150) {
                       ...GatsbyImageSharpFluid
                     }
                   }

@@ -4,12 +4,12 @@ export const LARGEHEADERLINKS = `
 font-family: 'GT-Super-Book';
 letter-spacing: 2px;
 ${BreakPoints.SMALL} {
-        font-size: 2rem;
-        line-height: 2.5rem;                         
+    font-size: 2rem; 
+    line-height: 2rem;                         
     }
     ${BreakPoints.MEDIUM} {  
-        font-size: 4rem; 
-        line-height: 5rem;       
+        font-size: rem; 
+        line-height: 3.5rem;       
     }
     ${BreakPoints.LARGE}{ 
         font-size: 4rem; 
@@ -20,20 +20,20 @@ ${BreakPoints.SMALL} {
         line-height: 5rem; 
     }
     ${BreakPoints.XXLARGE} { 
-        font-size: 4rem;
-        line-height: 5rem; 
+        font-size: 6rem;
+        line-height: 7rem; 
     }
 `;
 
 export const LARGEHEADER = `
     font-family: 'Sailec-BOLD';
     ${BreakPoints.SMALL} {
-        font-size: 2rem;
+        font-size: 2rem; 
         line-height: 2.5rem;                         
     }
     ${BreakPoints.MEDIUM} {  
-        font-size: 4rem; 
-        line-height: 5rem;       
+        font-size: 3rem; 
+        line-height: 3.5rem;       
     }
     ${BreakPoints.LARGE}{ 
         font-size: 4rem; 
@@ -44,8 +44,8 @@ export const LARGEHEADER = `
         line-height: 5rem; 
     }
     ${BreakPoints.XXLARGE} { 
-        font-size: 4rem;
-        line-height: 5rem; 
+        font-size: 6rem;
+        line-height: 7rem; 
     }
 `;
 
@@ -57,8 +57,8 @@ export const SUBHEADER = `
     text-align: center;
     ${BreakPoints.SMALL} {
         font-size: 1.5rem;
-        line-height: 1.5rem;                         
-        letter-spacing: .1rem; 
+        line-height: 1.75rem;                         
+        letter-spacing: 1px; 
     }
     ${BreakPoints.MEDIUM} {  
         font-size: 3.5rem;

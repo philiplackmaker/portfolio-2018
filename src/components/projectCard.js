@@ -15,29 +15,29 @@ const ProjectCard = styled(Link)`
   flex: row;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
-    grid-column: 1 / span 12;
-    height: 10rem;
-    margin-top: 5rem;
+    grid-column: 2 / span 10;
+    height: 12rem;
+    padding-bottom: 4rem;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
-    height: 25rem;
-    margin-top: 10rem;
+    height: 27rem;
+    padding-bottom: 20rem;
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-top: 10rem;
+    padding-bottom: 15rem;
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 10rem;
+    padding-bottom: 15rem;
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
-    margin-bottom: 10rem;
+    padding-bottom: 15rem;
   }
 `;
 
@@ -51,8 +51,10 @@ const ProjectHeader = styled(Link)`
   text-align: left;
   dispaly: block;
   color: ${Colors.BLACK};
-
-  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
+  ${BreakPoints.SMALL} {
+    padding-top: ${Spacing.SMALL};
+  }
+  ${BreakPoints.MEDIUM} {
     padding-top: ${Spacing.SMALL};
   }
   ${BreakPoints.LARGE} {
@@ -69,8 +71,12 @@ const ProjectHeader = styled(Link)`
 const ProjectSubtitle = styled(Link)`
   ${Type.LARGEBODY}
   color: ${Colors.BLACK};
+  ${BreakPoints.SMALL}{
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+  }
  
-   ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
+   ${BreakPoints.MEDIUM} {
       padding-top: .5rem;
       padding-bottom: 1rem;    
     }

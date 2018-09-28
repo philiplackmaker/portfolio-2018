@@ -131,7 +131,7 @@ const FooterEverything = () => (
         <FooterLinksBlog />
       </FooterBlog>
       <FooterSite>
-        <FooterTitles>Site Map</FooterTitles>
+        <FooterTitles>Site</FooterTitles>
         <FooterItems>
           <FooterLinksText to="/">Work</FooterLinksText>
         </FooterItems>

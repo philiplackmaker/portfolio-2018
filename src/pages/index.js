@@ -25,6 +25,22 @@ const Container = styled.div`
   display: flex;
   flex-flow: column wrap;
   ${Base.GRID};
+
+  ${BreakPoints.SMALL} {
+    padding-top: 4rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    padding-top: 4rem;
+  }
+  ${BreakPoints.LARGE} {
+    padding-top: 4rem;
+  }
+  ${BreakPoints.XLARGE} {
+    padding-top: 4rem;
+  }
+  ${BreakPoints.XXLARGE} {
+    padding-top: 4rem;
+  }
 `;
 
 const Header = styled.div`
@@ -43,8 +59,27 @@ const HeaderText = styled.text`
   text-align: center;
   color: ${Colors.WHITE};
   display: block;
-  padding-left: 3rem;
-  padding-right: 3rem;
+
+  ${BreakPoints.SMALL} {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  ${BreakPoints.LARGE} {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  ${BreakPoints.XLARGE} {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  ${BreakPoints.XXLARGE} {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 `;
 
 const HeaderContents = styled.div``;
@@ -72,30 +107,29 @@ const UnderLine = styled.span`
 
 const BlogCardGrid = styled.div`
   ${Base.GRID};
+  ${BreakPoints.XXLARGE} {
+    padding-bottom: 8rem;
+  }
 `;
 
 const BlogCardContainer = styled.div`
   grid-column: 1 / span 12;
   justify-content: space-between;
   padding-bottom: ${Spacing.LARGE};
+  display: flex;
   ${BreakPoints.SMALL} {
-    display: flex;
     flex-direction: column;
   }
   ${BreakPoints.MEDIUM} {
-    display: flex;
     flex-direction: row;
   }
   ${BreakPoints.LARGE} {
-    display: flex;
     flex-direction: row;
   }
   ${BreakPoints.XLARGE} {
-    display: flex;
     flex-direction: row;
   }
   ${BreakPoints.XXLARGE} {
-    display: flex;
     flex-direction: row;
   }
 `;
@@ -105,7 +139,6 @@ const SubTitle = styled.text`
   width: 100%;
   grid-column: 1 / span 12;
   text-align: center;
-  padding-top: ${Spacing.LARGE};
   padding-bottom: ${Spacing.SMALL};
 `;
 
@@ -160,9 +193,9 @@ const IndexPage = ({ data }) => (
     </Header>
     <Container>
       <ProjectCardComponent />
-      <SubTitle>Latest blog post</SubTitle>
     </Container>
     <BlogCardGrid>
+      <SubTitle>Latest blog post</SubTitle>
       <BlogCardContainer>
         <BlogCard />
       </BlogCardContainer>

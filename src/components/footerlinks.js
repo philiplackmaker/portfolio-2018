@@ -11,6 +11,7 @@ const FooterLinksText = styled(Link)`
   ${Type.SMALLBODY};
   transition: all 0.4s ease-in;
   color: ${Colors.BLACK};
+  :link,
   :visited,
   :active {
     color: ${Colors.BLACK};
