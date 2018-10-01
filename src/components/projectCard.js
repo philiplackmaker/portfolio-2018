@@ -12,31 +12,35 @@ import ButtonSmall from "../components/buttonsmall.js";
 
 const ProjectCard = styled(Link)`
   display: flex;
-  flex: row;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    height: 12rem;
+    height: 45rem;
+    flex-direction: column;
     padding-bottom: 4rem;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
     height: 27rem;
+    flex-direction: row;
     padding-bottom: 5rem;
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
+    flex-direction: row;
     padding-bottom: 10rem;
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
+    flex-direction: row;
     padding-bottom: 15rem;
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
+    flex-direction: row;
     padding-bottom: 15rem;
   }
 `;
@@ -44,6 +48,7 @@ const ProjectCard = styled(Link)`
 const ProjectInfo = styled.div`
   display: flex;
   flex-direction: column;
+  flex: order: 2;
 `;
 
 const ProjectHeader = styled(Link)`
@@ -113,12 +118,15 @@ const ProjectNotes = styled(Link)`
 `;
 
 const ProjectTeaserImage = styled.div`
-  align-items: end;
   padding-top: 0;
+  place-content: top;
+  flex: 3 auto;
 
-  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
+  ${BreakPoints.SMALL} {
+  }
+
+  ${BreakPoints.MEDIUM} {
     width: 250px;
-    display: block;
   }
   ${BreakPoints.LARGE} {
     width: 260px;
@@ -168,13 +176,10 @@ const ProjectCardComponent = () => (
           <ProjectCard to={project.node.frontmatter.path}>
             <ProjectInfo>
               <ProjectNotes>{project.node.frontmatter.note_title}</ProjectNotes>
-              <div />
               <ProjectHeader>{project.node.frontmatter.title}</ProjectHeader>
-              <div />
               <ProjectSubtitle>
                 {project.node.frontmatter.subtitle}
               </ProjectSubtitle>
-              <div />
               <ButtonSmall to={project.node.frontmatter.path} />
             </ProjectInfo>
             <ImageContainer>
