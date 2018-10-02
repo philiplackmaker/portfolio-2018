@@ -140,7 +140,10 @@ class Navigation extends React.Component {
               </ListItems>
             </List>
             <DrawerToggleButtonContanier>
-              <DrawerToggleButton click={this.drawerToggleButtonClickHandler} />
+              <DrawerToggleButton
+                click={this.drawerToggleButtonClickHandler}
+                open={this.state.sideDrawOpen}
+              />
             </DrawerToggleButtonContanier>
           </NavigationContainer>
         </Slide>

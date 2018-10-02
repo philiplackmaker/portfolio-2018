@@ -23,10 +23,11 @@ const OverlayNavigationLink = styled(Link)`
 const OverlayContainer = styled.div`
   width: 100%;
   height: 100vh;
+  overflow: hidden !important;
   top: 0;
   left: 0;
   display: flex;
-  postion: fixed;
+  position: fixed;
   align-items: center;
   background-color: ${Colors.BLACK};
   z-index: -1;

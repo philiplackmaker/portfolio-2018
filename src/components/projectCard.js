@@ -121,10 +121,8 @@ const ProjectTeaserImage = styled.div`
   padding-top: 0;
   place-content: top;
   flex: 3 auto;
-
   ${BreakPoints.SMALL} {
   }
-
   ${BreakPoints.MEDIUM} {
     width: 250px;
   }

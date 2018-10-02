@@ -23,11 +23,12 @@ const ToogleButton = styled.button`
 const DrawerToggleButton = props => (
   <ToogleButton onClick={props.click}>
     <HamburgerMenu
+      isOpen={props.open}
       width={25}
       height={18}
       strokeWidth={2}
       rotate={0}
-      color="black"
+      color={props.open ? "White" : "Black"}
       borderRadius={0}
       animationDuration={0.5}
     />
