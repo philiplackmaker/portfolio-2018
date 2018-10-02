@@ -21,16 +21,10 @@ export default function Template({ data }) {
         <h6>{about.frontmatter.title_test}</h6>
         <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
       </Container>
-      <form
-        name="contact"
-        action="/success"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
+      <form name="contact" action="/success" method="post" data-netlify="true">
         <p>
           <label>
-            Name <input type="text" name="bot-field" />
+            Name <input type="text" name="name" />
           </label>
         </p>
         <p>
