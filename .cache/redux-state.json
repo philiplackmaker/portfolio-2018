@@ -5986,6 +5986,71 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /success/": {
+      "jsonName": "success-ca5",
+      "internalComponentName": "ComponentSuccess",
+      "path": "/success/",
+      "component": "/Users/philip/development/portfolio-2018/src/pages/success.js",
+      "componentChunkName": "component---src-pages-success-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/success.js",
+      "id": "SitePage /success/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2580bb63692a708a32b1c69570ff6417",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ddfe63b-b54d-5bfb-81d3-f89673022400": {
+      "id": "9ddfe63b-b54d-5bfb-81d3-f89673022400",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "05150fbcc73e8011683bd0ca269c95f8",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/success.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/success.js",
+      "relativePath": "success.js",
+      "extension": "js",
+      "size": 92,
+      "prettySize": "92 B",
+      "modifiedTime": "2018-10-02T14:41:11.636Z",
+      "accessTime": "2018-10-02T14:41:11.636Z",
+      "changeTime": "2018-10-02T14:41:11.636Z",
+      "birthTime": "2018-10-02T14:36:11.618Z",
+      "root": "/",
+      "dir": "/Users/philip/development/portfolio-2018/src/pages",
+      "base": "success.js",
+      "ext": ".js",
+      "name": "success",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8606568765,
+      "blocks": 8,
+      "atimeMs": 1538491271635.6748,
+      "mtimeMs": 1538491271636.12,
+      "ctimeMs": 1538491271636.12,
+      "birthtimeMs": 1538490971617.7932,
+      "atime": "2018-10-02T14:41:11.636Z",
+      "mtime": "2018-10-02T14:41:11.636Z",
+      "ctime": "2018-10-02T14:41:11.636Z",
+      "birthtime": "2018-10-02T14:36:11.618Z"
     }
   },
   "status": {
@@ -6089,8 +6154,8 @@
       "MarkdownRemark": [
         "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
-        "sq--src-components-project-card-js",
-        "sq--src-components-footerlinksblog-js"
+        "sq--src-components-footerlinksblog-js",
+        "sq--src-components-project-card-js"
       ]
     }
   },
@@ -6110,7 +6175,9 @@
     "test-453": "175/path---test-453-c74-UCuN0G44tNgLffgAlj0MGzFrB0",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "hellocar-879": "796/path---hellocar-879-325-7hLNhxdL69pNZ3FP7QwAqOKBn8w",
-    "blog-testtttt-f2f": "968/path---blog-testtttt-f-2-f-e7c-ODnJHfwg4VynGZ3lgAJHFBD19l4"
+    "blog-testtttt-f2f": "968/path---blog-testtttt-f-2-f-e7c-ODnJHfwg4VynGZ3lgAJHFBD19l4",
+    "sucesss-039": "966/path---sucesss-039-468-NZuapzHg3X9TaN1iIixfv1W23E",
+    "success-ca5": "398/path---success-ca-5-7fb-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/philip/development/portfolio-2018/src/templates/about.js": {
@@ -6140,6 +6207,10 @@
     "/Users/philip/development/portfolio-2018/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/philip/development/portfolio-2018/src/pages/index.js"
+    },
+    "/Users/philip/development/portfolio-2018/src/pages/success.js": {
+      "query": "",
+      "componentPath": "/Users/philip/development/portfolio-2018/src/pages/success.js"
     }
   },
   "staticQueryComponents": {

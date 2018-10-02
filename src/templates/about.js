@@ -23,13 +23,14 @@ export default function Template({ data }) {
       </Container>
       <form
         name="contact"
-        method="POST"
+        action="/success"
+        method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
         <p>
           <label>
-            Name <input type="text" name="name" />
+            Name <input type="text" name="bot-field" />
           </label>
         </p>
         <p>
