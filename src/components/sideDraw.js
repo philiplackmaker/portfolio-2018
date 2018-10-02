@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 const OverlayNavigationLink = styled(Link)`
   text-decoration: none;
   transition: all 0.4s ease-in;
+  :link,
   :visited,
   :active {
     color: ${Colors.WHITE};

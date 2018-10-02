@@ -9,19 +9,26 @@ import * as BreakPoints from "../style/breakpoints";
 const BlogCardBackground = styled(Link)`
   background-color: ${Colors.WHITE};
   display: flex;
-
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  transition: transform 200ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
   ${BreakPoints.SMALL} {
     margin-left: 2rem;
     margin-right: 2rem;
     flex-direction: row;
     margin-bottom: 2rem;
+    &:hover {
+      transform: none;
+    }
   }
   ${BreakPoints.MEDIUM} {
-    height: 18rem;
-    width: 30%;
+    height: 22rem;
+    width: 40%;
     flex-direction: column;
   }
   ${BreakPoints.LARGE} {
@@ -63,7 +70,25 @@ const BlogCardImageContainer = styled.div`
 `;
 
 const BlogTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
+  justify-content: space-between;
+  height: 100%;
+`;
+
+const BlogCardLink = styled(Link)`
+  ${Type.SMALLBODY};
+  :link,
+  :visited,
+  :active {
+    color: ${Colors.BLACK};
+    text-underline: none;
+  }
+  &:hover {
+    color: ${Colors.PRIMARY};
+    text-underline: none;
+  }
 `;
 
 const BlogCard = () => (
@@ -106,6 +131,9 @@ const BlogCard = () => (
             </BlogCardImageContainer>
             <BlogTextContainer>
               <BlogHeader>{blogpost.node.frontmatter.title}</BlogHeader>
+              <BlogCardLink to={blogpost.node.frontmatter.path}>
+                Read More
+              </BlogCardLink>
             </BlogTextContainer>
           </BlogCardBackground>
         ))
