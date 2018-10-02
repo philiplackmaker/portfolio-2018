@@ -21,7 +21,7 @@ export default function Template({ data }) {
         <h6>{about.frontmatter.title_test}</h6>
         <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
       </Container>
-      <form name="contact" method="POST" action="/success" netlify>
+      <form name="contact" netlify netlify-honeypot="bot-field">
         <p>
           <label>
             Your Name: <input type="text" name="name" />

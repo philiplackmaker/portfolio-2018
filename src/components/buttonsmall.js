@@ -10,23 +10,21 @@ import * as Type from "../style/typography";
 const ButtonSmall = styled.button`
   border: none;
   cursor: pointer;
-  display: flex;
   transition: transform 200ms ease-in-out;
   :visited,
   :active {
     border: none;
   }
   ${BreakPoints.SMALL} {
-    background-color: ${Colors.PRIMARY};
-    &:hover {
-      transform: none;
-      border: none;
-    }
-    width: 200px;
-    height: 50px;
-    padding: 0px;
+    display: none;
+    width: 0;
+    height: 0;
+    border: none;
+    margin-top: 0;
+    padding: 0;
   }
   ${BreakPoints.MEDIUM} {
+    display: flex;
     background-color: ${Colors.PRIMARY};
     &:hover {
       transform: scale(1.1);
@@ -39,6 +37,8 @@ const ButtonSmall = styled.button`
     padding: 16px;
   }
   ${BreakPoints.LARGE} {
+    display: flex;
+
     background-color: ${Colors.PRIMARY};
     &:hover {
       transform: scale(1.1);
@@ -51,6 +51,8 @@ const ButtonSmall = styled.button`
     padding: 16px;
   }
   ${BreakPoints.XLARGE} {
+    display: flex;
+
     background-color: ${Colors.PRIMARY};
     &:hover {
       transform: scale(1.1);
@@ -63,6 +65,8 @@ const ButtonSmall = styled.button`
     padding: 16px;
   }
   ${BreakPoints.XXLARGE} {
+    display: flex;
+
     background-color: ${Colors.PRIMARY};
     &:hover {
       transform: scale(1.1);
