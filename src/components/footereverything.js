@@ -101,6 +101,7 @@ const FooterLinksText = styled(Link)`
   text-decoration: none;
   ${Type.SMALLBODY};
   transition: all 0.4s ease-in;
+  :link,
   :visited,
   :active {
     color: ${Colors.BLACK};
@@ -136,7 +137,7 @@ const FooterEverything = () => (
           <FooterLinksText to="/">Work</FooterLinksText>
         </FooterItems>
         <FooterItems>
-          <FooterLinksText to="/about">Approach</FooterLinksText>
+          <FooterLinksText to="/about">About</FooterLinksText>
         </FooterItems>
         <FooterItems>
           <FooterLinksText to="/thinking">Thinking</FooterLinksText>
