@@ -11,13 +11,12 @@ const ToogleButton = styled.button`
   justify-content: space-around;
   width: ${Spacing.MEDIUM};
   background: transparent;
-  border: none;
   cursor: pointer;
   padding: 0;
   box-sizing: border-box;
-  :hover {
-    ouline: none;
-  }
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
 `;
 
 const DrawerToggleButton = props => (
@@ -36,38 +35,3 @@ const DrawerToggleButton = props => (
 );
 
 export default DrawerToggleButton;
-
-// class DrawerToggleButton extends React.Component {
-
-//     constructor(props) {
-//         super(props);
-//         this.props=props
-//     }
-
-//     handleClick() {
-//         this.setState({
-//             open: !this.state.open
-//         });
-//     }
-
-//     render (props){
-//         return (
-
-//     <ToogleButton onClick={props.click}>
-//         <HamburgerMenu
-//             width={25}
-//             height={18}
-//             strokeWidth={2}
-//             rotate={0}
-//             color='black'
-//             borderRadius={0}
-//             animationDuration={0.5}
-//         />
-//     </ToogleButton>
-//  );
-
-//     }
-
-// }
-
-// export default DrawerToggleButton
