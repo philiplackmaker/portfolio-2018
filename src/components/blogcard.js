@@ -14,9 +14,6 @@ const BlogCardBackground = styled(Link)`
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   transition: transform 200ms ease-in-out;
 
-  &:hover {
-    transform: scale(1.1);
-  }
   ${BreakPoints.SMALL} {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -30,18 +27,30 @@ const BlogCardBackground = styled(Link)`
     height: 22rem;
     width: 40%;
     flex-direction: column;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   ${BreakPoints.LARGE} {
     height: 25rem;
     width: 30%;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   ${BreakPoints.XLARGE} {
     height: 27rem;
     width: 30%;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   ${BreakPoints.XXLARGE} {
     height: 30rem;
     width: 30%;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `;
 

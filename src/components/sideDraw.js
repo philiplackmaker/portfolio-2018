@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 const OverlayNavigationLink = styled(Link)`
   text-decoration: none;
   transition: all 0.4s ease-in;
+  ${Type.LARGEHEADER};
   :link,
   :visited,
   :active {
@@ -48,7 +49,6 @@ const OverlayList = styled.ul`
 const OverlayListItems = styled.li`
   text-decoration: none;
   ${BreakPoints.SMALL} {
-    ${Type.LARGEHEADER};
     padding: 1rem 1rem;
   }
 `;
