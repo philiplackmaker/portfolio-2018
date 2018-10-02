@@ -6089,8 +6089,8 @@
       "MarkdownRemark": [
         "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
-        "sq--src-components-footerlinksblog-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-footerlinksblog-js"
       ]
     }
   },
