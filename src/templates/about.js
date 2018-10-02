@@ -27,6 +27,12 @@ export default function Template({ data }) {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
         <p>
           <label>
             Your Name: <input type="text" name="name" />
@@ -40,7 +46,7 @@ export default function Template({ data }) {
 
         <p>
           <label>
-            Message: <textarea name="message" />
+            Messageyp: <textarea name="message" />
           </label>
         </p>
         <p>
