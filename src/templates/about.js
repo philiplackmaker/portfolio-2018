@@ -7,7 +7,6 @@ import "../style/globals";
 import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
 import Img from "gatsby-image";
-import Contact from "../components/contact.js";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -22,7 +21,35 @@ export default function Template({ data }) {
         <h6>{about.frontmatter.title_test}</h6>
         <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
       </Container>
-      <Contact />
+      <form name="contact" method="POST" netlify>
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Role:{" "}
+            <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message" />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
 
       <FooterEverything />
     </div>
