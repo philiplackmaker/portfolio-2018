@@ -1,6 +1,6 @@
 ---
 path: "/about"
-title_test: "About"
+title: "About"
 templateKey: "about"
 cover_image: "phil-3.jpg"
 ---

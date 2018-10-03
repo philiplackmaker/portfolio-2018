@@ -55,6 +55,11 @@
         "path": "/test"
     },
     {
+        "componentChunkName": "component---src-pages-thanks-js",
+        "jsonName": "thanks-e0e",
+        "path": "/thanks/"
+    },
+    {
         "componentChunkName": "component---src-templates-thinking-js",
         "jsonName": "thinking-8b4",
         "path": "/thinking"

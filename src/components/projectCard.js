@@ -9,13 +9,14 @@ import * as BreakPoints from "../style/breakpoints";
 import * as Spacing from "../style/spacing";
 import Img from "gatsby-image";
 import ButtonSmall from "../components/buttonsmall.js";
+import ButtonMobile from "../components/buttonmobile.js";
 
 const ProjectCard = styled(Link)`
   display: flex;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    height: 45rem;
+    height: 36rem;
     flex-direction: column;
     padding-bottom: 4rem;
   }
@@ -49,6 +50,7 @@ const ProjectInfo = styled.div`
   display: flex;
   flex-direction: column;
   flex: order: 2;
+  z-index: 1;
 `;
 
 const ProjectHeader = styled(Link)`
@@ -121,7 +123,9 @@ const ProjectTeaserImage = styled.div`
   padding-top: 0;
   place-content: top;
   flex: 3 auto;
+  z-index: -10000;
   ${BreakPoints.SMALL} {
+    width: 270px;
   }
   ${BreakPoints.MEDIUM} {
     width: 250px;
@@ -189,6 +193,7 @@ const ProjectCardComponent = () => (
                 />
               </ProjectTeaserImage>
             </ImageContainer>
+            <ButtonMobile />
           </ProjectCard>
         ))
     }
