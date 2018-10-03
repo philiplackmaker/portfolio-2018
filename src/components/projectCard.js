@@ -14,11 +14,12 @@ import ButtonMobile from "../components/buttonmobile.js";
 const ProjectCard = styled(Link)`
   display: flex;
   justify-content: space-between;
+
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    height: 36rem;
+    height: 34rem;
     flex-direction: column;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
@@ -50,7 +51,6 @@ const ProjectInfo = styled.div`
   display: flex;
   flex-direction: column;
   flex: order: 2;
-  z-index: 1;
 `;
 
 const ProjectHeader = styled(Link)`
@@ -123,7 +123,6 @@ const ProjectTeaserImage = styled.div`
   padding-top: 0;
   place-content: top;
   flex: 3 auto;
-  z-index: -10000;
   ${BreakPoints.SMALL} {
     width: 270px;
   }

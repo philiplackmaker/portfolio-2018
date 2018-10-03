@@ -10,22 +10,17 @@ import * as Type from "../style/typography";
 const ButtonMobile = styled.button`
   border: none;
   cursor: pointer;
-  background-color: ${Colors.PRIMARY};
+  background-color: ${Colors.WHITE};
 
   :visited,
   :active {
     border: none;
   }
   ${BreakPoints.SMALL} {
+    padding-top: 1rem;
     display: flex;
-    width: 0;
-    height: 0;
     border: none;
     width: 200px;
-    height: 64px;
-    border: none;
-    margin-top: 20px;
-    padding: 16px;
   }
   ${BreakPoints.MEDIUM} {
     display: none;
@@ -37,22 +32,19 @@ const ButtonText = styled.text`
   text-align: left;
   padding: 0;
   margin: 0;
-  color: ${Colors.WHITE};
+  color: ${Colors.PRIMARY};
 `;
 
 const ButtonArrow = styled.span`
-  padding-top: 5px;
-  padding-left: 6px;
-  width: 56px;
-  height: 24px;
+  padding-top: 16px;
+  margin-top: 4px;
+  padding-left: 0px;
+  width: 43px;
+  height: 3px;
   background-repeat: no-repeat, repeat;
   background-position: center;
   ${BreakPoints.SMALL} {
-    background-image: url(${Arrow});
-    padding-top: 0px;
-    padding-left: 0px;
-    width: 56px;
-    height: 18px;
+    background-image: url(${BlueArrow});
   }
   ${BreakPoints.MEDIUM} {
     display: none;
