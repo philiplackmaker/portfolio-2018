@@ -7,6 +7,24 @@ import * as Type from "../style/typography";
 import { Link } from "gatsby";
 import * as Colors from "../style/colors";
 import * as BreakPoints from "../style/breakpoints";
+import Twitter from "../images/TwitterLogo.svg";
+import Linked from "../images/LinkedinLogo.svg";
+
+const LinkedIcon = styled.span`
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-image: url(${Linked});
+`;
+
+const TwitterIcon = styled.span`
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-image: url(${Twitter});
+`;
 
 const FooterBackground = styled.div`
   width: 100%;
@@ -79,22 +97,44 @@ const FooterContact = styled.div`
     grid-column: 2 / span 10;
   }
   ${BreakPoints.MEDIUM} {
-    grid-column: 10 / span 2;
+    grid-column: 10 / span 3;
   }
   ${BreakPoints.LARGE} {
-    grid-column: 10 / span 2;
+    grid-column: 10 / span 3;
   }
   ${BreakPoints.XLARGE} {
-    grid-column: 10 / span 2;
+    grid-column: 10 / span 3;
   }
   ${BreakPoints.XXLARGE} {
-    grid-column: 10 / span 2;
+    grid-column: 10 / span 3;
   }
 `;
-
+const SocialCircle = styled(Link)`
+  display: flex;
+  justify-content: space-between;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in;
+  margin-bottom: 10px;
+  :link,
+  :visited,
+  :active {
+    background: ${Colors.MEDIUM_GREY};
+  }
+  &:hover {
+    background: ${Colors.PRIMARY};
+  }
+`;
 const FooterTitles = styled.div`
   ${Type.TINYHEADER};
   margin-bottom: 1rem;
+  ${BreakPoints.SMALL} {
+    margin-top: 2rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    margin-top: 0;
+  }
 `;
 
 const FooterLinksText = styled(Link)`
@@ -120,11 +160,34 @@ const FooterItems = styled.ul`
   margin-bottom: 10px;
 `;
 
+const FooterSocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  ${BreakPoints.SMALL} {
+    flex-direction: row;
+  }
+  ${BreakPoints.MEDIUM} {
+    flex-direction: row;
+  }
+  ${BreakPoints.LARGE} {
+    flex-direction: row;
+  }
+  ${BreakPoints.XLARGE} {
+    flex-direction: row;
+  }
+  ${BreakPoints.XXLARGE} {
+    flex-direction: row;
+  }
+`;
+
 const FooterEverything = () => (
   <FooterBackground>
+    <TwitterIcon />
     <FooterEverythingBox>
       <FooterProject>
-        <FooterTitles>Project</FooterTitles>
+        <FooterTitles>Work</FooterTitles>
         <FooterLinks />
       </FooterProject>
       <FooterBlog>
@@ -147,19 +210,18 @@ const FooterEverything = () => (
         </FooterItems>
       </FooterSite>
       <FooterContact>
-        <FooterTitles>Contact</FooterTitles>
-        <FooterItems>
-          <FooterLinksText to="/">Email</FooterLinksText>
-        </FooterItems>
-        <FooterItems>
-          <FooterLinksText to="/">Twitter</FooterLinksText>
-        </FooterItems>
-        <FooterItems>
-          <FooterLinksText to="/">Linkedin</FooterLinksText>
-        </FooterItems>
-        <FooterItems>
-          <FooterLinksText to="/">Strava</FooterLinksText>
-        </FooterItems>
+        <FooterTitles>Say hello</FooterTitles>
+        <FooterSocialIcons>
+          <SocialCircle href="https://about.twitter.com">
+            <TwitterIcon />
+          </SocialCircle>
+
+          <SocialCircle>
+            <LinkedIcon />
+          </SocialCircle>
+          <SocialCircle />
+          <SocialCircle />
+        </FooterSocialIcons>
       </FooterContact>
     </FooterEverythingBox>
   </FooterBackground>
