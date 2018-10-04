@@ -9,6 +9,25 @@ import * as Colors from "../style/colors";
 import * as BreakPoints from "../style/breakpoints";
 import Twitter from "../images/TwitterLogo.svg";
 import Linked from "../images/LinkedinLogo.svg";
+import Github from "../images/GithubLogo.svg";
+import Email from "../images/EmailLogo.svg";
+import ReactTooltip from "react-tooltip";
+
+const EmailIcon = styled.span`
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-image: url(${Email});
+`;
+
+const GithubIcon = styled.span`
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-image: url(${Github});
+`;
 
 const LinkedIcon = styled.span`
   width: 100%;
@@ -109,7 +128,7 @@ const FooterContact = styled.div`
     grid-column: 10 / span 3;
   }
 `;
-const SocialCircle = styled(Link)`
+const SocialCircle = styled.a`
   display: flex;
   justify-content: space-between;
   width: 55px;
@@ -140,7 +159,7 @@ const FooterTitles = styled.div`
 const FooterLinksText = styled(Link)`
   text-decoration: none;
   ${Type.SMALLBODY};
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
   :link,
   :visited,
   :active {
@@ -210,17 +229,40 @@ const FooterEverything = () => (
         </FooterItems>
       </FooterSite>
       <FooterContact>
-        <FooterTitles>Say hello</FooterTitles>
+        <FooterTitles>Say Hello</FooterTitles>
         <FooterSocialIcons>
-          <SocialCircle href="https://about.twitter.com">
+          <SocialCircle
+            data-tip="My tweets are usually rubbish"
+            href="https://twitter.com/phillackmaker"
+            target="_blank"
+            rel="noopener"
+          >
             <TwitterIcon />
           </SocialCircle>
-
-          <SocialCircle>
+          <SocialCircle
+            data-tip="I am trying to get 10000 connections add me"
+            href="https://www.linkedin.com/in/philiplackmaker"
+            target="_blank"
+            rel="noopener"
+          >
             <LinkedIcon />
           </SocialCircle>
-          <SocialCircle />
-          <SocialCircle />
+          <SocialCircle
+            data-tip="I am now a developer"
+            href="https://github.com/philiplackmaker"
+            target="_blank"
+            rel="noopener"
+          >
+            <GithubIcon />
+          </SocialCircle>
+          <SocialCircle
+            data-tip="My email is philip.lackmaker1@gmail.com"
+            href="mailto:philip.lackmaker1@gmail.com"
+            target="_top"
+            rel="noopener"
+          >
+            <EmailIcon />
+          </SocialCircle>
         </FooterSocialIcons>
       </FooterContact>
     </FooterEverythingBox>

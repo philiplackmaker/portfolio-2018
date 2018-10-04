@@ -167,7 +167,7 @@ const IndexPage = ({ data }) => (
             He is currently leading design at
             <LargeLinks
               data-tip="🤘🏻 Building software for Google, Cambridge Audio & Morzilla 🤘🏻 "
-              to="/about"
+              href="'https://www.ustwo.com'"
             >
               <UnderLine> Potato </UnderLine>
             </LargeLinks>
