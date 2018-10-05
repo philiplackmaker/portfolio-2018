@@ -2255,7 +2255,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b377c9a5e4fb409782f1659156ecbb27",
+        "contentDigest": "e7eb746c9a04963afb208b37467880d2",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2265,11 +2265,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 5065,
-      "prettySize": "5.07 kB",
-      "modifiedTime": "2018-10-04T10:32:50.403Z",
-      "accessTime": "2018-10-04T10:32:50.402Z",
-      "changeTime": "2018-10-04T10:32:50.403Z",
+      "size": 5753,
+      "prettySize": "5.75 kB",
+      "modifiedTime": "2018-10-05T13:26:13.615Z",
+      "accessTime": "2018-10-05T13:26:13.615Z",
+      "changeTime": "2018-10-05T13:26:13.615Z",
       "birthTime": "2018-09-19T08:10:35.418Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2286,13 +2286,13 @@
       "blksize": 4194304,
       "ino": 8605903416,
       "blocks": 16,
-      "atimeMs": 1538649170402.1064,
-      "mtimeMs": 1538649170402.8376,
-      "ctimeMs": 1538649170402.8376,
+      "atimeMs": 1538745973614.6504,
+      "mtimeMs": 1538745973615.12,
+      "ctimeMs": 1538745973615.12,
       "birthtimeMs": 1537344635418.1907,
-      "atime": "2018-10-04T10:32:50.402Z",
-      "mtime": "2018-10-04T10:32:50.403Z",
-      "ctime": "2018-10-04T10:32:50.403Z",
+      "atime": "2018-10-05T13:26:13.615Z",
+      "mtime": "2018-10-05T13:26:13.615Z",
+      "ctime": "2018-10-05T13:26:13.615Z",
       "birthtime": "2018-09-19T08:10:35.418Z"
     },
     "70bd7d08-c776-5a57-95ae-e03f34da4d5b": {
@@ -6059,60 +6059,60 @@
   "componentDataDependencies": {
     "nodes": {
       "70366b7e-4263-52e4-b8e3-7c45ff51a360": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "5ea44478-4b50-5a40-9c74-7f480be9083c": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "fdbe7399-3d3a-593f-b782-33a2ba230366": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "66b02c73-00e3-5b1e-b896-4cce9e86e038": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "1baa19af-ce24-5a7d-854e-45d0170b3867": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "f33cf27d-2e4d-5017-81c7-c00bbfdfdf06": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "0db0a4ae-1df3-586a-b199-39bce1d6bf22": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "ce9038ef-3654-515e-a818-e5a51cbc66f7": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "924eae46-bfa9-5be7-a09c-78a5e2efb28d": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "120ddbae-d11e-55b7-945d-09469ea86a52": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "acb9ba7c-6732-5760-bd20-fcdc87e931e8": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "60b3fa99-addd-5d64-b3aa-17372cc592be": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "a35e2b48-5ae9-599c-9578-383d7c1873a4": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "373ad974-0c34-526e-8f41-b065dec6f148": [
-        "sq--src-components-blogcard-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ],
       "fc1c7dfe-d53f-56e6-8f24-2c83db637bc8": [
         "/404/",
@@ -6149,10 +6149,10 @@
     },
     "connections": {
       "MarkdownRemark": [
-        "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
         "sq--src-components-footerlinksblog-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-blogcard-js"
       ]
     }
   },

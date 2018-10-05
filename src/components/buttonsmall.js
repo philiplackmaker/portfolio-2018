@@ -30,7 +30,7 @@ const ButtonSmall = styled.button`
       transform: scale(1.1);
       border: none;
     }
-    width: 200px;
+    width: 259px;
     height: 64px;
     border: none;
     margin-top: 20px;
@@ -44,7 +44,7 @@ const ButtonSmall = styled.button`
       transform: scale(1.1);
       border: none;
     }
-    width: 220px;
+    width: 259px;
     height: 74px;
     border: none;
     margin-top: 20px;
@@ -58,21 +58,19 @@ const ButtonSmall = styled.button`
       transform: scale(1.1);
       border: none;
     }
-    width: 220px;
+    width: 259px;
     height: 74px;
     border: none;
     margin-top: 20px;
     padding: 16px;
   }
   ${BreakPoints.XXLARGE} {
-    display: flex;
-
     background-color: ${Colors.PRIMARY};
     &:hover {
       transform: scale(1.1);
       border: none;
     }
-    width: 220px;
+    width: 259px;
     height: 74px;
     border: none;
     margin-top: 20px;
@@ -107,28 +105,28 @@ const ButtonArrow = styled.span`
   }
   ${BreakPoints.MEDIUM} {
     background-image: url(${Arrow});
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 6px;
     width: 56px;
     height: 24px;
   }
   ${BreakPoints.LARGE} {
     background-image: url(${Arrow});
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 6px;
     width: 56px;
     height: 24px;
   }
   ${BreakPoints.XLARGE} {
     background-image: url(${Arrow});
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 6px;
     width: 56px;
     height: 24px;
   }
   ${BreakPoints.XXLARGE} {
     background-image: url(${Arrow});
-    padding-top: 5px;
+    padding-top: 3px;
     padding-left: 6px;
     width: 56px;
     height: 24px;
@@ -137,7 +135,7 @@ const ButtonArrow = styled.span`
 
 export default () => (
   <ButtonSmall>
-    <ButtonText>Read more</ButtonText>
+    <ButtonText>What happened?</ButtonText>
     <ButtonArrow />
   </ButtonSmall>
 );

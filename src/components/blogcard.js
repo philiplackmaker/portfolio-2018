@@ -91,11 +91,11 @@ const BlogCardLink = styled(Link)`
   :link,
   :visited,
   :active {
-    color: ${Colors.BLACK};
+    color: ${Colors.PRIMARY};
     text-underline: none;
   }
   &:hover {
-    color: ${Colors.PRIMARY};
+    color: ${Colors.BLACK};
     text-underline: none;
   }
 `;

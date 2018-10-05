@@ -53,7 +53,7 @@ const ButtonArrow = styled.span`
 
 export default () => (
   <ButtonMobile>
-    <ButtonText>Read more</ButtonText>
+    <ButtonText>What happened?</ButtonText>
     <ButtonArrow />
   </ButtonMobile>
 );

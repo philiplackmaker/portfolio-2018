@@ -43,8 +43,8 @@ const Container = styled.div`
   }
 `;
 
-const Header = styled.div`
-  height: 75vh;
+const Header = styled.header`
+  height: 70vh;
   background-color: ${Colors.PRIMARY};
   width: 100%;
   display: flex;
@@ -84,7 +84,22 @@ const HeaderText = styled.text`
 
 const HeaderContents = styled.div``;
 
-const LargeLinks = styled(Link)`
+const LargeLinks = styled.a`
+  ${Type.LARGEHEADERLINKS};
+  transition: all 0.4s ease-in;
+  :link,
+  :active,
+  :visited {
+    color: ${Colors.WHITE};
+    text-underline: none;
+  }
+  &:hover {
+    color: ${Colors.LIGHT_PRIMARY};
+    text-underline: none;
+  }
+`;
+
+const LargeInternalLinks = styled(Link)`
   ${Type.LARGEHEADERLINKS};
   transition: all 0.4s ease-in;
   :link,
@@ -150,38 +165,53 @@ const IndexPage = ({ data }) => (
       <HeaderContents>
         <Fade duration={3000}>
           <HeaderText>
-            <LargeLinks
+            <LargeInternalLinks
               data-tip="👋🏻 This is my new site, hope you enjoy it. Please say hello 👋🏻 "
               to="/about"
             >
               <UnderLine>Philip </UnderLine>
-            </LargeLinks>
+            </LargeInternalLinks>
             is a
-            <LargeLinks
+            <LargeInternalLinks
               data-tip="10 years experiences. Product designer, graphic designer, motion designer & now spreadsheet designer. "
               to="/about"
             >
               <UnderLine> designer </UnderLine>
-            </LargeLinks>
+            </LargeInternalLinks>
             <br />
             He is currently leading design at
             <LargeLinks
               data-tip="🤘🏻 Building software for Google, Cambridge Audio & Morzilla 🤘🏻 "
-              href="'https://www.ustwo.com'"
+              href="https://p.ota.to/"
+              target="_blank"
+              rel="noopener"
             >
               <UnderLine> Potato </UnderLine>
             </LargeLinks>
             <br />
             Before that he built digital products for
-            <LargeLinks data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more">
+            <LargeInternalLinks
+              data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more"
+              to="/about"
+            >
               <UnderLine> brands</UnderLine>{" "}
-            </LargeLinks>
+            </LargeInternalLinks>
             at
-            <LargeLinks data-tip="❤️ ustwo, I was there for almost 5 years">
+            <LargeLinks
+              data-tip="❤️ ustwo, I was there for almost 5 years"
+              href="https://www.ustwo.com/"
+              target="_blank"
+              rel="noopener"
+            >
               <UnderLine> ustwo</UnderLine>{" "}
             </LargeLinks>
             and
-            <LargeLinks data-tip="😶">
+            <LargeLinks
+              data-tip="😶"
+              href="https://www.method.com/"
+              target="_blank"
+              rel="noopener"
+            >
               <UnderLine> Method</UnderLine>{" "}
             </LargeLinks>
             <ReactTooltip effect="solid" />
