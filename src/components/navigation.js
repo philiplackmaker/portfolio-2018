@@ -11,11 +11,27 @@ import * as Spacing from "../style/spacing";
 import SideDraw from "../components/sideDraw";
 import Slide from "react-reveal/Slide";
 
+const Logo = styled.div`
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 1rem;
+  height: 50px;
+  background-color: ${Colors.PRIMARY};
+  ${BreakPoints.SMALL} {
+    display: none;
+  }
+  ${BreakPoints.MEDIUM} {
+    display: flex;
+  }
+`;
+
 const NavigationContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
+  border-bottom: 4px solid ${Colors.LIGHT_GREY};
   align-items: center;
+  justify-content: space-between;
   background-color: ${Colors.WHITE};
   ${BreakPoints.SMALL} {
     height: ${Spacing.LARGE};
@@ -139,6 +155,7 @@ class Navigation extends React.Component {
                 <NavigationLink to="/blog">Blog</NavigationLink>
               </ListItems>
             </List>
+            <Logo />
             <DrawerToggleButtonContanier>
               <DrawerToggleButton
                 click={this.drawerToggleButtonClickHandler}
