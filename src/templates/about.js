@@ -8,9 +8,34 @@ import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
 import Img from "gatsby-image";
 import ContactForm from "../components/contactform";
+import * as Type from "../style/typography";
 
 const Container = styled.div`
   ${Base.GRID};
+`;
+
+const HeaderText = styled.text`
+  ${Type.LARGEHEADER};
+`;
+
+const AboutText = styled.text`
+  ${Type.BODY};
+  grid-column: 6 / span 8;
+`;
+
+const HeaderTextContainer = styled.header`
+  grid-column: 1 / span 12;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+`;
+
+const ImageContainer = styled.div`
+  grid-column: 1 / span 4;
+`;
+const ContactHeader = styled.div`
+  grid-column: 1 / span 12;
+  text-align: center;
 `;
 
 export default function Template({ data }) {
@@ -19,10 +44,18 @@ export default function Template({ data }) {
     <div>
       <Navigation class="test" />
       <Container>
-        <h6>{about.frontmatter.title}</h6>
-        <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
+        <HeaderTextContainer>
+          <HeaderText>{about.frontmatter.title}</HeaderText>
+        </HeaderTextContainer>
+        <ImageContainer>
+          <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
+        </ImageContainer>
+        <AboutText dangerouslySetInnerHTML={{ __html: about.html }} />{" "}
+        <ContactHeader>
+          <h3>Say hello</h3>
+        </ContactHeader>
+        <ContactForm />
       </Container>
-      <ContactForm />
       <FooterEverything />
     </div>
   );
@@ -38,7 +71,9 @@ export const aboutQuery = graphql`
         templateKey
         cover_image {
           childImageSharp {
-            fluid(maxHeight: 700) {
+            fluid(
+              duotone: { highlight: "#4644FD", shadow: "#222172", opacity: 55 }
+            ) {
               ...GatsbyImageSharpFluid
             }
           }
