@@ -21,11 +21,6 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testttt-222",
-        "path": "/blog/testttt"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
         "jsonName": "blog-testtttt-f2f",
         "path": "/blog/testtttt"
     },
@@ -48,11 +43,6 @@
         "componentChunkName": "component---src-templates-project-js",
         "jsonName": "laterooms-3ea",
         "path": "/laterooms"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "test-453",
-        "path": "/test"
     },
     {
         "componentChunkName": "component---src-pages-thanks-js",

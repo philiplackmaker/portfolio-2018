@@ -1,6 +1,6 @@
 ---
-path: "/test"
-title: "Design sprints vs Lean UX"
+path: "blog/testtttt"
+title: "Building this site"
 templateKey: "blogpost"
 note_title: "..how to burn thorugh a million pounds..."
 subtitle: "Finding product market fit"
