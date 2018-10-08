@@ -103,7 +103,7 @@ const ProjectSubtitle = styled(Link)`
 
 const ProjectNotes = styled(Link)`
   ${Type.NOTES}
-  color: ${Colors.PRIMARY};
+  color: ${Colors.BLACK};
 
   ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
     padding-bottom: 1.25rem;
