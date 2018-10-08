@@ -2306,7 +2306,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0d5341dccd862e2f68c7631f9c2ec615",
+        "contentDigest": "5cd0ea5397d6d4090088c8a3ed046628",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/about/index.md\"",
@@ -2316,11 +2316,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md",
       "relativePath": "about/index.md",
       "extension": "md",
-      "size": 1090,
+      "size": 1095,
       "prettySize": "1.09 kB",
-      "modifiedTime": "2018-10-07T14:20:14.886Z",
-      "accessTime": "2018-10-08T12:06:48.468Z",
-      "changeTime": "2018-10-07T14:20:14.886Z",
+      "modifiedTime": "2018-10-08T13:57:56.051Z",
+      "accessTime": "2018-10-08T13:57:56.050Z",
+      "changeTime": "2018-10-08T13:57:56.051Z",
       "birthTime": "2018-10-07T10:05:13.294Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages/about",
@@ -2337,13 +2337,13 @@
       "blksize": 4194304,
       "ino": 8606830243,
       "blocks": 8,
-      "atimeMs": 1539000408468.1567,
-      "mtimeMs": 1538922014885.7046,
-      "ctimeMs": 1538922014885.7046,
+      "atimeMs": 1539007076050.0774,
+      "mtimeMs": 1539007076050.778,
+      "ctimeMs": 1539007076050.778,
       "birthtimeMs": 1538906713294.043,
-      "atime": "2018-10-08T12:06:48.468Z",
-      "mtime": "2018-10-07T14:20:14.886Z",
-      "ctime": "2018-10-07T14:20:14.886Z",
+      "atime": "2018-10-08T13:57:56.050Z",
+      "mtime": "2018-10-08T13:57:56.051Z",
+      "ctime": "2018-10-08T13:57:56.051Z",
       "birthtime": "2018-10-07T10:05:13.294Z"
     },
     "70366b7e-4263-52e4-b8e3-7c45ff51a360": {
@@ -3802,27 +3802,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "3abfc6b2-23d0-5628-a83e-c6c90979daaa": {
-      "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa",
-      "children": [],
-      "parent": "43d292da-e059-5f8a-9848-e184e168fbb4",
-      "internal": {
-        "content": "\nI have been working in the creative industry for 8 years. I started out designing CDs and nightclub flyers then moved to the world of digital. Working in both agency and startup.\n<br><br>\nI have a deep understanding of designing for small screens - knowledge of both iOS and Android. I've helped clients understand what they need from digital in sectors from travel to finance using lean techniques. I've mentored and led other designers to reach their goals. Within an agile team, I have taken the role of the coach / lead this would involve managing and reviewed the backlog, running retros / stand up and working with the team to improve velocity.\n<br><br>\nPersonally, I believe a true product designer must have a grasp of code and I try to break developers code as much as possible. I am experienced in HTML / CSS / SCSS / JQuery / Git / vim / Currently learning react.\n<br><br>\n...But most importantly I understand how to get a product from a concept into hands of users and learning at each step.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "d9ff432c87da866db759ae8c75bd5aba",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hello",
-        "path": "/about",
-        "templateKey": "about",
-        "cover_image": "phil-3.jpg",
-        "_PARENT": "43d292da-e059-5f8a-9848-e184e168fbb4"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI have been working in the creative industry for 8 years. I started out designing CDs and nightclub flyers then moved to the world of digital. Working in both agency and startup.\n<br><br>\nI have a deep understanding of designing for small screens - knowledge of both iOS and Android. I've helped clients understand what they need from digital in sectors from travel to finance using lean techniques. I've mentored and led other designers to reach their goals. Within an agile team, I have taken the role of the coach / lead this would involve managing and reviewed the backlog, running retros / stand up and working with the team to improve velocity.\n<br><br>\nPersonally, I believe a true product designer must have a grasp of code and I try to break developers code as much as possible. I am experienced in HTML / CSS / SCSS / JQuery / Git / vim / Currently learning react.\n<br><br>\n...But most importantly I understand how to get a product from a concept into hands of users and learning at each step.\n",
-      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md"
     },
     "8056aee4-6aca-54f5-b51a-756fff0e27b8": {
       "id": "8056aee4-6aca-54f5-b51a-756fff0e27b8",
@@ -6054,6 +6033,27 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "3abfc6b2-23d0-5628-a83e-c6c90979daaa": {
+      "id": "3abfc6b2-23d0-5628-a83e-c6c90979daaa",
+      "children": [],
+      "parent": "43d292da-e059-5f8a-9848-e184e168fbb4",
+      "internal": {
+        "content": "\n🔵 I have been working in the creative industry for 8 years. I started out designing CDs and nightclub flyers then moved to the world of digital. Working in both agency and startup.\n<br><br>\nI have a deep understanding of designing for small screens - knowledge of both iOS and Android. I've helped clients understand what they need from digital in sectors from travel to finance using lean techniques. I've mentored and led other designers to reach their goals. Within an agile team, I have taken the role of the coach / lead this would involve managing and reviewed the backlog, running retros / stand up and working with the team to improve velocity.\n<br><br>\nPersonally, I believe a true product designer must have a grasp of code and I try to break developers code as much as possible. I am experienced in HTML / CSS / SCSS / JQuery / Git / vim / Currently learning react.\n<br><br>\n...But most importantly I understand how to get a product from a concept into hands of users and learning at each step.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "43ab3ef80b003339d87ff4bbec22e1dd",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello",
+        "path": "/about",
+        "templateKey": "about",
+        "cover_image": "phil-3.jpg",
+        "_PARENT": "43d292da-e059-5f8a-9848-e184e168fbb4"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n🔵 I have been working in the creative industry for 8 years. I started out designing CDs and nightclub flyers then moved to the world of digital. Working in both agency and startup.\n<br><br>\nI have a deep understanding of designing for small screens - knowledge of both iOS and Android. I've helped clients understand what they need from digital in sectors from travel to finance using lean techniques. I've mentored and led other designers to reach their goals. Within an agile team, I have taken the role of the coach / lead this would involve managing and reviewed the backlog, running retros / stand up and working with the team to improve velocity.\n<br><br>\nPersonally, I believe a true product designer must have a grasp of code and I try to break developers code as much as possible. I am experienced in HTML / CSS / SCSS / JQuery / Git / vim / Currently learning react.\n<br><br>\n...But most importantly I understand how to get a product from a concept into hands of users and learning at each step.\n",
+      "fileAbsolutePath": "/Users/philip/development/portfolio-2018/src/pages/about/index.md"
     }
   },
   "status": {

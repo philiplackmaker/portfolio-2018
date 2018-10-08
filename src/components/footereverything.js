@@ -201,6 +201,14 @@ const FooterSocialIcons = styled.div`
   }
 `;
 
+const Copyright = styled.div`
+  grid-column: 1 / span 12;
+`;
+
+const CopyrightText = styled.text`
+  ${Type.SMALLBODY};
+`;
+
 const FooterEverything = () => (
   <FooterBackground>
     <TwitterIcon />
@@ -265,6 +273,9 @@ const FooterEverything = () => (
           </SocialCircle>
         </FooterSocialIcons>
       </FooterContact>
+      <Copyright>
+        <CopyrightText> © 2018 Philip Lackmaker 🔵</CopyrightText>
+      </Copyright>
     </FooterEverythingBox>
   </FooterBackground>
 );
