@@ -10,11 +10,6 @@ import * as BreakPoints from "../style/breakpoints";
 import "../style/globals";
 
 const FormContainer = styled.div`
-  display: flex;
-  align-self: center;
-`;
-
-const ContactContainer = styled.div`
   grid-column: 2 / span 8;
   display: flex;
   align-self: center;
@@ -90,36 +85,34 @@ const MessageInput = styled.textarea`
 `;
 
 const ContactForm = () => (
-  <ContactContainer>
-    <FormContainer
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <FormFieldContiner>
-        <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
-        <FormLable>
-          Name <FormInput type="text" name="name" />
-        </FormLable>
-        <FormLable>
-          Email <FormInput type="email" name="email" />
-        </FormLable>
-        <FormLable>
-          Message
-          <MessageInput name="message" />
-        </FormLable>
-      </FormFieldContiner>
-    </FormContainer>
+  <FormContainer
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  >
+    <FormFieldContiner>
+      <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>
+          Don’t fill this out: <input name="bot-field" />
+        </label>
+      </p>
+      <FormLable>
+        Name <FormInput type="text" name="name" />
+      </FormLable>
+      <FormLable>
+        Email <FormInput type="email" name="email" />
+      </FormLable>
+      <FormLable>
+        Message
+        <MessageInput name="message" />
+      </FormLable>
+    </FormFieldContiner>
     <ButtonSmall>
       <ButtonText>Send</ButtonText>
     </ButtonSmall>
-  </ContactContainer>
+  </FormContainer>
 );
 
 export default ContactForm;
