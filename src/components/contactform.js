@@ -84,67 +84,67 @@ const MessageInput = styled.textarea`
 `;
 
 const ContactForm = () => (
-  <FormContainer
-    name="contact"
-    method="POST"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-  >
-    <input type="hidden" name="form-name" value="contact" />
-    <p hidden>
-      <label>
-        Don’t fill this out: <input name="bot-field" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Your Name: <input type="text" name="name" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Your Email: <input type="email" name="email" />
-      </label>
-    </p>
-
-    <p>
-      <label>
-        Messageyp: <textarea name="message" />
-      </label>
-    </p>
-    <ButtonSmall>
-      <ButtonText>Send</ButtonText>
-    </ButtonSmall>
-  </FormContainer>
   // <FormContainer
   //   name="contact"
   //   method="POST"
   //   data-netlify="true"
   //   data-netlify-honeypot="bot-field"
   // >
-  //   <FormFieldContiner>
-  //     <input type="hidden" name="form-name" value="contact" />
-  //     <p hidden>
-  //       <label>
-  //         Don’t fill this out: <input name="bot-field" />
-  //       </label>
-  //     </p>
-  //     <FormLable>
-  //       Name <FormInput type="text" name="name" />
-  //     </FormLable>
-  //     <FormLable>
-  //       Email <FormInput type="email" name="email" />
-  //     </FormLable>
-  //     <FormLable>
-  //       Message
-  //       <MessageInput name="message" />
-  //     </FormLable>
-  //   </FormFieldContiner>
-  //   <button>send</button>
+  //   <input type="hidden" name="form-name" value="contact" />
+  //   <p hidden>
+  //     <label>
+  //       Don’t fill this out: <input name="bot-field" />
+  //     </label>
+  //   </p>
+  //   <p>
+  //     <label>
+  //       Your Name: <input type="text" name="name" />
+  //     </label>
+  //   </p>
+  //   <p>
+  //     <label>
+  //       Your Email: <input type="email" name="email" />
+  //     </label>
+  //   </p>
+
+  //   <p>
+  //     <label>
+  //       Messageyp: <textarea name="message" />
+  //     </label>
+  //   </p>
   //   <ButtonSmall>
   //     <ButtonText>Send</ButtonText>
   //   </ButtonSmall>
   // </FormContainer>
+  <FormContainer
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  >
+    <FormFieldContiner>
+      <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>
+          Don’t fill this out: <input name="bot-field" />
+        </label>
+      </p>
+      <FormLable>
+        Name <FormInput type="text" name="name" />
+      </FormLable>
+      <FormLable>
+        Email <FormInput type="email" name="email" />
+      </FormLable>
+      <FormLable>
+        Message
+        <MessageInput name="message" />
+      </FormLable>
+    </FormFieldContiner>
+    <button>send</button>
+    <ButtonSmall>
+      <ButtonText>Send</ButtonText>
+    </ButtonSmall>
+  </FormContainer>
 );
 
 export default ContactForm;
