@@ -6,6 +6,19 @@ import * as Spacing from "../style/spacing";
 
 injectGlobal`
 :root{
+    input[type="text"] {
+        font-size:20px;
+        font-family: 'Sailec-REGULAR';
+
+    }
+    input[type="email"] {
+        font-size:20px;
+        font-family: 'Sailec-REGULAR';
+    }
+    textarea {
+        font-size:20px;
+        font-family: 'Sailec-REGULAR';
+    }
     font-size: 100%;
     body{
         margin: 0;

@@ -9,6 +9,7 @@ import FooterEverything from "../components/footereverything";
 import Img from "gatsby-image";
 import ContactForm from "../components/contactform";
 import * as Type from "../style/typography";
+import Fade from "react-reveal/Fade";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -48,7 +49,9 @@ export default function Template({ data }) {
           <HeaderText>{about.frontmatter.title}</HeaderText>
         </HeaderTextContainer>
         <ImageContainer>
-          <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
+          <Fade duration={2000}>
+            <Img fluid={about.frontmatter.cover_image.childImageSharp.fluid} />
+          </Fade>
         </ImageContainer>
         <AboutText dangerouslySetInnerHTML={{ __html: about.html }} />{" "}
         <ContactHeader>
@@ -72,6 +75,7 @@ export const aboutQuery = graphql`
         cover_image {
           childImageSharp {
             fluid(
+              maxHeight: 1200
               duotone: { highlight: "#4644FD", shadow: "#222172", opacity: 55 }
             ) {
               ...GatsbyImageSharpFluid

@@ -6155,8 +6155,8 @@
       "MarkdownRemark": [
         "sq--src-components-blogcard-js",
         "sq--src-components-footerlinksblog-js",
-        "sq--src-components-footerlinks-js",
-        "sq--src-components-project-card-js"
+        "sq--src-components-project-card-js",
+        "sq--src-components-footerlinks-js"
       ]
     }
   },
@@ -6170,18 +6170,18 @@
     "test-453": "175/path---test-453-c74-UCuN0G44tNgLffgAlj0MGzFrB0",
     "blog-testtttt-f2f": "968/path---blog-testtttt-f-2-f-e7c-ODnJHfwg4VynGZ3lgAJHFBD19l4",
     "blog-testttt-222": "951/path---blog-testttt-222-a48-JlYR8Zy5P9qxG59wPqcHsBrdI0",
-    "laterooms-3ea": "352/path---laterooms-3-ea-4db-3fmn8RevqFgZtPmwYgjUDFXbcM",
-    "about-771": "938/path---about-771-2fe-CPMEQZMKioT908k0sxryt3fhqyc",
+    "laterooms-3ea": "807/path---laterooms-3-ea-4db-tsplAftHYc09IEGz2uJbEZ9IHKg",
+    "about-771": "270/path---about-771-2fe-3seeAv2HWB2xhmSgLEouDKYP9bQ",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "thinking-8b4": "669/path---thinking-8-b-4-cf7-ypHEV1Jtm0XDjFnRCqagfBRLM",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "thanks-e0e": "159/path---thanks-e-0-e-804-NZuapzHg3X9TaN1iIixfv1W23E",
-    "cambrdige-audio-291": "189/path---cambrdige-audio-291-312-1dyrHdDdMuDlfveCDV1jXEEEg",
-    "hellocar-879": "796/path---hellocar-879-325-7hLNhxdL69pNZ3FP7QwAqOKBn8w"
+    "cambrdige-audio-291": "793/path---cambrdige-audio-291-312-V6r5dmc2G9eS8FgJ6e25hccaJig",
+    "hellocar-879": "284/path---hellocar-879-325-wIC3t7Vd4diIjhTeLLZ0w1Dzlr8"
   },
   "components": {
     "/Users/philip/development/portfolio-2018/src/templates/about.js": {
-      "query": "query AboutByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title\n      templateKey\n      cover_image {\n        childImageSharp {\n          fluid(duotone: {highlight: \"#4644FD\", shadow: \"#222172\", opacity: 55}) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query AboutByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title\n      templateKey\n      cover_image {\n        childImageSharp {\n          fluid(maxHeight: 1200, duotone: {highlight: \"#4644FD\", shadow: \"#222172\", opacity: 55}) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/philip/development/portfolio-2018/src/templates/about.js"
     },
     "/Users/philip/development/portfolio-2018/src/templates/thinking.js": {
@@ -6193,7 +6193,7 @@
       "componentPath": "/Users/philip/development/portfolio-2018/src/templates/blogpost.js"
     },
     "/Users/philip/development/portfolio-2018/src/templates/project.js": {
-      "query": "query ProjectByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title\n      subtitle\n      cover_image {\n        childImageSharp {\n          fluid(maxHeight: 800) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query ProjectByPath(\n  $id: String!\n) {\n  markdownRemark(id: {eq: $id}) {\n    html\n    frontmatter {\n      path\n      title\n      subtitle\n      cover_image {\n        childImageSharp {\n          fluid(maxHeight: 2000) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/philip/development/portfolio-2018/src/templates/project.js"
     },
     "/Users/philip/development/portfolio-2018/.cache/dev-404-page.js": {
