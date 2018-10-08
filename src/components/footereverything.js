@@ -224,9 +224,9 @@ const FooterEverything = () => (
         <FooterItems>
           <FooterLinksText to="/thinking">Thinking</FooterLinksText>
         </FooterItems>
-        <FooterItems>
+        {/* <FooterItems>
           <FooterLinksText to="/blog">Blog</FooterLinksText>
-        </FooterItems>
+        </FooterItems> */}
       </FooterSite>
       <FooterContact>
         <FooterTitles>Say Hello</FooterTitles>

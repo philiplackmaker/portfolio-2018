@@ -7,11 +7,21 @@ import "../style/globals";
 import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
 import Helmet from "react-helmet";
+import * as Type from "../style/typography";
 
 const Container = styled.div`
   ${Base.GRID};
 `;
 
+const BlogText = styled.div`
+  grid-column: 1 / span 12;
+`;
+
+const BlogHeader = styled.text`
+  ${Type.LARGEHEADER};
+  text-align: center;
+  grid-column: 1 / span 12;
+`;
 export default function Template({ data }) {
   const { markdownRemark: blogpost } = data;
   return (
@@ -21,7 +31,8 @@ export default function Template({ data }) {
       </Helmet>{" "}
       <Navigation />
       <Container>
-        <h1>{blogpost.frontmatter.title}</h1>
+        <BlogHeader>{blogpost.frontmatter.title}</BlogHeader>
+        <BlogText dangerouslySetInnerHTML={{ __html: blogpost.html }} />{" "}
       </Container>
       <FooterEverything />
     </div>

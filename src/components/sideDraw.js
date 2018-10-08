@@ -69,9 +69,9 @@ const SideDraw = props => (
               Thinking
             </OverlayNavigationLink>
           </OverlayListItems>
-          <OverlayListItems>
+          {/* <OverlayListItems>
             <OverlayNavigationLink to="/blog">Blog</OverlayNavigationLink>
-          </OverlayListItems>
+          </OverlayListItems> */}
         </OverlayList>
       </Fade>
     </OverlayContainer>
