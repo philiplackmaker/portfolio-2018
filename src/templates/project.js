@@ -74,6 +74,7 @@ const ProjectHeader = styled.div`
 
 const ProjectHeaderText = styled.text`
   ${Type.SUBHEADER};
+  padding-top: 2rem;
   padding-bottom: ${Spacing.XSMALL};
 `;
 

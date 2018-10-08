@@ -117,7 +117,7 @@ const AboutThisSite = styled.div`
 const BrandLogos = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   height: 160px;
   padding-bottom: 10rem;
