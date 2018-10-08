@@ -21,6 +21,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "blog-testttt-222",
+        "path": "/blog/testttt"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogpost-js",
         "jsonName": "blog-testtttt-f2f",
         "path": "/blog/testtttt"
     },
