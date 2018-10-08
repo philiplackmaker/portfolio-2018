@@ -2304,7 +2304,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5514680ab636bf8ce629a7509cb4f4fb",
+        "contentDigest": "7572fdf2042b92047927bb6b47282e1a",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/thanks.js\"",
@@ -2314,11 +2314,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thanks.js",
       "relativePath": "thanks.js",
       "extension": "js",
-      "size": 1157,
+      "size": 1159,
       "prettySize": "1.16 kB",
-      "modifiedTime": "2018-10-08T10:51:29.057Z",
-      "accessTime": "2018-10-08T10:51:29.056Z",
-      "changeTime": "2018-10-08T10:51:29.057Z",
+      "modifiedTime": "2018-10-08T11:24:53.488Z",
+      "accessTime": "2018-10-08T11:24:53.488Z",
+      "changeTime": "2018-10-08T11:24:53.488Z",
       "birthTime": "2018-10-02T14:36:11.618Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2335,13 +2335,13 @@
       "blksize": 4194304,
       "ino": 8606568765,
       "blocks": 8,
-      "atimeMs": 1538995889056.4656,
-      "mtimeMs": 1538995889056.8723,
-      "ctimeMs": 1538995889056.8723,
+      "atimeMs": 1538997893487.7686,
+      "mtimeMs": 1538997893488.3237,
+      "ctimeMs": 1538997893488.3237,
       "birthtimeMs": 1538490971617.7932,
-      "atime": "2018-10-08T10:51:29.056Z",
-      "mtime": "2018-10-08T10:51:29.057Z",
-      "ctime": "2018-10-08T10:51:29.057Z",
+      "atime": "2018-10-08T11:24:53.488Z",
+      "mtime": "2018-10-08T11:24:53.488Z",
+      "ctime": "2018-10-08T11:24:53.488Z",
       "birthtime": "2018-10-02T14:36:11.618Z"
     },
     "43d292da-e059-5f8a-9848-e184e168fbb4": {
@@ -6154,8 +6154,8 @@
     "connections": {
       "MarkdownRemark": [
         "sq--src-components-blogcard-js",
-        "sq--src-components-footerlinks-js",
         "sq--src-components-footerlinksblog-js",
+        "sq--src-components-footerlinks-js",
         "sq--src-components-project-card-js"
       ]
     }

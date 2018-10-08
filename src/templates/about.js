@@ -10,6 +10,7 @@ import Img from "gatsby-image";
 import ContactForm from "../components/contactform";
 import * as Type from "../style/typography";
 import Fade from "react-reveal/Fade";
+import * as BreakPoints from "../style/breakpoints";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -21,18 +22,29 @@ const HeaderText = styled.text`
 
 const AboutText = styled.text`
   ${Type.BODY};
-  grid-column: 6 / span 8;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 6 / span 8;
+  }
 `;
 
 const HeaderTextContainer = styled.header`
   grid-column: 1 / span 12;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 `;
 
 const ImageContainer = styled.div`
-  grid-column: 1 / span 4;
+  ${BreakPoints.SMALL} {
+    display: none;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 4;
+    display: inline;
+  }
 `;
 const ContactHeader = styled.div`
   grid-column: 1 / span 12;

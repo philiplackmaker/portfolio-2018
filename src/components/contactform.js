@@ -7,19 +7,22 @@ import * as Type from "../style/typography";
 import { Link } from "gatsby";
 import * as Colors from "../style/colors";
 import * as BreakPoints from "../style/breakpoints";
-import "../style/globals";
 
 const FormContainer = styled.form`
-  grid-column: 2 / span 8;
   display: flex;
   align-self: center;
   flex-direction: column;
   justify-content: center;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 6;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 2 / span 8;
+  }
 `;
 
 const ButtonSmall = styled.button`
   border: none;
-  float: right;
   margin-left: auto;
   display: inline;
   text-align: center;
@@ -32,6 +35,12 @@ const ButtonSmall = styled.button`
   :active {
     border: none;
   }
+  ${BreakPoints.SMALL} {
+    float: center;
+  }
+  ${BreakPoints.MEDIUM} {
+    float: right;
+  }
 `;
 
 const ButtonText = styled.text`
@@ -39,10 +48,7 @@ const ButtonText = styled.text`
   text-algin: center;
   padding: 0;
   margin: 0;
-
-  ${BreakPoints.MEDIUM} {
-    color: ${Colors.WHITE};
-  }
+  color: ${Colors.WHITE};
 `;
 
 const FormFieldContiner = styled.div`
@@ -55,19 +61,35 @@ const FormFieldContiner = styled.div`
 const FormLable = styled.text`
   ${Type.BODY};
   vertical-align: top;
-  text-align: right;
   display: block;
   padding: 15px;
+  ${BreakPoints.SMALL} {
+    text-align: left;
+  }
+  ${BreakPoints.MEDIUM} {
+    text-align: left;
+  }
+  ${BreakPoints.LARGE} {
+    text-align: left;
+  }
+  ${BreakPoints.XLARGE} {
+    text-align: right;
+  }
 `;
 
 const FormInput = styled.input`
   border: 3px solid ${Colors.MEDIUM_GREY};
   vertical-align: top;
   border-radius: 0;
-  width: 500px;
   padding: 15px;
   margin-left: 30px;
   margin-bottom: 1rem;
+  ${BreakPoints.SMALL} {
+    width: 200px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 500px;
+  }
 `;
 
 const MessageInput = styled.textarea`
@@ -76,11 +98,17 @@ const MessageInput = styled.textarea`
   grid-column: 3 / span 3;
   border-radius: 0;
   height: 150px;
-  max-width: 500px;
-  min-width: 500px;
   padding: 15px;
   margin-left: 30px;
   margin-bottom: 1rem;
+  ${BreakPoints.SMALL} {
+    max-width: 200px;
+    min-width: 200px;
+  }
+  ${BreakPoints.MEDIUM} {
+    max-width: 500px;
+    min-width: 500px;
+  }
 `;
 
 const ContactForm = () => (

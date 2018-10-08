@@ -6,7 +6,7 @@ import * as Colors from "../style/colors";
 import * as Base from "../style/base";
 
 const ThanksContainer = styled.div`
-  grid-column: 3 / span 8;
+  grid-column: 2 / span 10;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,7 +42,7 @@ const Success = () => (
         details*
       </h2>
       <ThanksCopy>
-        Just kidding, I will probably drop you a nice email to say hello.
+        *Just kidding, I will probably drop you a nice email to say hello.
       </ThanksCopy>
       <BackLink to="/about">Back</BackLink>
     </ThanksContainer>
