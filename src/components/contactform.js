@@ -140,7 +140,6 @@ const ContactForm = () => (
         <MessageInput name="message" />
       </FormLable>
     </FormFieldContiner>
-    <button>send</button>
     <ButtonSmall>
       <ButtonText>Send</ButtonText>
     </ButtonSmall>
