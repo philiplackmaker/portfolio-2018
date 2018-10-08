@@ -21,7 +21,6 @@ const ButtonSmall = styled.button`
   border: none;
   float: right;
   margin-left: auto;
-
   display: inline;
   text-align: center;
   background-color: ${Colors.PRIMARY};
@@ -109,6 +108,7 @@ const ContactForm = () => (
         <MessageInput name="message" />
       </FormLable>
     </FormFieldContiner>
+    <button>send</button>
     <ButtonSmall>
       <ButtonText>Send</ButtonText>
     </ButtonSmall>
