@@ -18,6 +18,7 @@ const BlogText = styled.div`
 `;
 
 const BlogHeader = styled.text`
+  padding-top: 2rem;
   ${Type.LARGEHEADER};
   text-align: center;
   grid-column: 1 / span 12;

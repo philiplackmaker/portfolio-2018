@@ -21,18 +21,18 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testttt-222",
-        "path": "/blog/testttt"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testtttt-f2f",
-        "path": "/blog/testtttt"
+        "jsonName": "building-this-site-98f",
+        "path": "/building-this-site"
     },
     {
         "componentChunkName": "component---src-templates-project-js",
         "jsonName": "cambrdige-audio-291",
         "path": "/cambrdige-audio"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "design-sprints-vs-lean-ux-594",
+        "path": "/design-sprints-vs-lean-ux"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -51,8 +51,8 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "test-453",
-        "path": "/test"
+        "jsonName": "problem-086",
+        "path": "/problem"
     },
     {
         "componentChunkName": "component---src-pages-thanks-js",
