@@ -2304,7 +2304,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d4f91f49bbb327b415463a1c3d0803b2",
+        "contentDigest": "5514680ab636bf8ce629a7509cb4f4fb",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/thanks.js\"",
@@ -2314,11 +2314,11 @@
       "absolutePath": "/Users/philip/development/portfolio-2018/src/pages/thanks.js",
       "relativePath": "thanks.js",
       "extension": "js",
-      "size": 171,
-      "prettySize": "171 B",
-      "modifiedTime": "2018-10-08T09:13:30.570Z",
-      "accessTime": "2018-10-08T09:13:30.570Z",
-      "changeTime": "2018-10-08T09:13:30.570Z",
+      "size": 1157,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2018-10-08T10:51:29.057Z",
+      "accessTime": "2018-10-08T10:51:29.056Z",
+      "changeTime": "2018-10-08T10:51:29.057Z",
       "birthTime": "2018-10-02T14:36:11.618Z",
       "root": "/",
       "dir": "/Users/philip/development/portfolio-2018/src/pages",
@@ -2335,13 +2335,13 @@
       "blksize": 4194304,
       "ino": 8606568765,
       "blocks": 8,
-      "atimeMs": 1538990010569.9668,
-      "mtimeMs": 1538990010570.2493,
-      "ctimeMs": 1538990010570.2493,
+      "atimeMs": 1538995889056.4656,
+      "mtimeMs": 1538995889056.8723,
+      "ctimeMs": 1538995889056.8723,
       "birthtimeMs": 1538490971617.7932,
-      "atime": "2018-10-08T09:13:30.570Z",
-      "mtime": "2018-10-08T09:13:30.570Z",
-      "ctime": "2018-10-08T09:13:30.570Z",
+      "atime": "2018-10-08T10:51:29.056Z",
+      "mtime": "2018-10-08T10:51:29.057Z",
+      "ctime": "2018-10-08T10:51:29.057Z",
       "birthtime": "2018-10-02T14:36:11.618Z"
     },
     "43d292da-e059-5f8a-9848-e184e168fbb4": {
@@ -6155,8 +6155,8 @@
       "MarkdownRemark": [
         "sq--src-components-blogcard-js",
         "sq--src-components-footerlinks-js",
-        "sq--src-components-project-card-js",
-        "sq--src-components-footerlinksblog-js"
+        "sq--src-components-footerlinksblog-js",
+        "sq--src-components-project-card-js"
       ]
     }
   },

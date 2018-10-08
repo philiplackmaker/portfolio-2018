@@ -84,38 +84,6 @@ const MessageInput = styled.textarea`
 `;
 
 const ContactForm = () => (
-  // <FormContainer
-  //   name="contact"
-  //   method="POST"
-  //   data-netlify="true"
-  //   data-netlify-honeypot="bot-field"
-  // >
-  //   <input type="hidden" name="form-name" value="contact" />
-  //   <p hidden>
-  //     <label>
-  //       Don’t fill this out: <input name="bot-field" />
-  //     </label>
-  //   </p>
-  //   <p>
-  //     <label>
-  //       Your Name: <input type="text" name="name" />
-  //     </label>
-  //   </p>
-  //   <p>
-  //     <label>
-  //       Your Email: <input type="email" name="email" />
-  //     </label>
-  //   </p>
-
-  //   <p>
-  //     <label>
-  //       Messageyp: <textarea name="message" />
-  //     </label>
-  //   </p>
-  //   <ButtonSmall>
-  //     <ButtonText>Send</ButtonText>
-  //   </ButtonSmall>
-  // </FormContainer>
   <FormContainer
     name="contact"
     method="POST"
