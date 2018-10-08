@@ -9,7 +9,7 @@ import * as Colors from "../style/colors";
 import * as BreakPoints from "../style/breakpoints";
 import "../style/globals";
 
-const FormContainer = styled.div`
+const FormContainer = styled.form`
   grid-column: 2 / span 8;
   display: flex;
   align-self: center;
@@ -84,7 +84,7 @@ const MessageInput = styled.textarea`
 `;
 
 const ContactForm = () => (
-  <form
+  <FormContainer
     name="contact"
     method="POST"
     data-netlify="true"
@@ -115,7 +115,7 @@ const ContactForm = () => (
     <ButtonSmall>
       <ButtonText>Send</ButtonText>
     </ButtonSmall>
-  </form>
+  </FormContainer>
   // <FormContainer
   //   name="contact"
   //   method="POST"
