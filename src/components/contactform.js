@@ -100,9 +100,9 @@ const ContactForm = () => (
       <FormFieldContiner>
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
-          <FormLable>
-            Don’t fill this out: <FormInput name="bot-field" />
-          </FormLable>
+          <p>
+            Don’t fill this out: <form name="bot-field" />
+          </p>
         </p>
         <FormLable>
           Name <FormInput type="text" name="name" />
