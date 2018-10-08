@@ -112,9 +112,9 @@ const ContactForm = () => (
         Messageyp: <textarea name="message" />
       </label>
     </p>
-    <p>
-      <button>Send</button>
-    </p>
+    <ButtonSmall>
+      <ButtonText>Send</ButtonText>
+    </ButtonSmall>
   </form>
   // <FormContainer
   //   name="contact"
