@@ -78,8 +78,10 @@ const FormLable = styled.text`
 const FormInput = styled.input`
   border: 3px solid ${Colors.MEDIUM_GREY};
   border-radius: 0;
-  margin-bottom: 2rem;
-  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+  width: 98%;
   height: 50px;
 `;
 
@@ -87,9 +89,11 @@ const MessageInput = styled.textarea`
   border: 3px solid ${Colors.MEDIUM_GREY};
   border-radius: 0;
   height: 150px;
+  padding-left: 10px;
   margin-bottom: 2rem;
-  max-width: 100%;
-  min-width: 100%;
+  margin-top: 0.5rem;
+  max-width: 98%;
+  min-width: 98%;
 `;
 
 const ContactForm = () => (
