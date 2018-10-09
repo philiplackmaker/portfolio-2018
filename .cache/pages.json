@@ -21,13 +21,13 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testttt-222",
-        "path": "/blog/testttt"
+        "jsonName": "blog-testtttt-f2f",
+        "path": "/blog/testtttt"
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testtttt-f2f",
-        "path": "/blog/testtttt"
+        "jsonName": "buidling-this-site-152",
+        "path": "/buidling-this-site"
     },
     {
         "componentChunkName": "component---src-templates-project-js",
@@ -58,5 +58,10 @@
         "componentChunkName": "component---src-templates-thinking-js",
         "jsonName": "thinking-8b4",
         "path": "/thinking"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "whiteboard-564",
+        "path": "/whiteboard"
     }
 ]

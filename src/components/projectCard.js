@@ -14,7 +14,6 @@ import ButtonMobile from "../components/buttonmobile.js";
 const ProjectCard = styled(Link)`
   display: flex;
   justify-content: space-between;
-
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
     height: 34rem;
