@@ -26,7 +26,7 @@ const CambridgeAudiologo = styled.span`
   background-position: center;
   background-image: url(${CAlogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -52,7 +52,7 @@ const EbayLogo = styled.span`
   background-position: center;
   background-image: url(${ELogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -78,7 +78,7 @@ const MorzillaLogo = styled.span`
   background-position: center;
   background-image: url(${MLogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -104,7 +104,7 @@ const CommBanklogo = styled.span`
   background-position: center;
   background-image: url(${CBLogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -131,7 +131,7 @@ const Lateroomslogo = styled.span`
   background-position: center;
   background-image: url(${LRLogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -157,7 +157,7 @@ const GoogleLogo = styled.span`
   background-position: center;
   background-image: url(${Googlelogo});
   ${BreakPoints.SMALL} {
-    width: 200px;
+    width: 120px;
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
@@ -231,9 +231,17 @@ const BrandsContainer = styled.div`
 `;
 
 const AboutThisSite = styled.div`
-  padding-top: 4rem;
-  grid-column: 1 / span 12;
   text-align: center;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
 `;
 
 const BrandLogos = styled.div`
@@ -241,9 +249,9 @@ const BrandLogos = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-
   ${BreakPoints.SMALL} {
-    height: 450px;
+    height: 200px;
+    margin-top: 1rem;
   }
   ${BreakPoints.MEDIUM} {
     height: 400px;
@@ -297,7 +305,20 @@ export default function Template({ data }) {
               Gatsby.js{" "}
             </a>
             using react ⚛️ and styled components 💅. <br />
-            Using the typeface 𝕬𝔹𝒞 Saliec and GT-Super.
+            Using the typeface 𝕬𝔹𝒞{" "}
+            <a
+              href="https://www.linotype.com/5472397/sailec-family.html"
+              target="_blank"
+            >
+              Saliec
+            </a>{" "}
+            &{" "}
+            <a
+              href="https://www.grillitype.com/typeface/gt-super"
+              target="_blank"
+            >
+              GT-Super.
+            </a>
           </AboutText>
         </AboutThisSite>
       </Container>
