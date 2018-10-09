@@ -273,7 +273,7 @@ const BrandLogos = styled.div`
 `;
 
 const SubHeader = styled.text`
-  ${Type.LARGEBODY};
+  ${Type.SMALLHEADER};
 `;
 
 export default function Template({ data }) {
