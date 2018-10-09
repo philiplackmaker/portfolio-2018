@@ -1900,14 +1900,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-10-09T13:34:59.675Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4e85bb6ece7aceec583ee7b1d65cb256",
+        "contentDigest": "042a38fa817023e617dfdb6496f2ed74",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

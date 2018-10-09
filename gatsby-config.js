@@ -20,7 +20,7 @@ module.exports = {
         // Any additional create only fields (optional)
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "https://sharp-poincare-20a9cf.netlify.com/"
+        cookieDomain: "https://philiplackmaker.netlify.com/"
       }
     },
     {
