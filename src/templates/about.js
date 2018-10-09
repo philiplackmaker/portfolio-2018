@@ -185,7 +185,6 @@ const AboutText = styled.text`
   ${Type.BODY};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
   }
   ${BreakPoints.MEDIUM} {
@@ -237,6 +236,7 @@ const BrandsContainer = styled.div`
 
 const AboutThisSite = styled.div`
   text-align: center;
+  z-index: 10000;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
     padding-top: 4rem;
