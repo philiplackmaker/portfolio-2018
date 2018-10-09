@@ -11,8 +11,9 @@ const ButtonMobile = styled.button`
   border: none;
   cursor: pointer;
   background-color: ${Colors.WHITE};
-
-  :visited,
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
   :active {
     border: none;
   }

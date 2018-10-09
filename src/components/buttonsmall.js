@@ -10,6 +10,9 @@ import * as Type from "../style/typography";
 const ButtonSmall = styled.button`
   border: none;
   cursor: pointer;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
   transition: transform 200ms ease-in-out;
   :visited,
   :active {
