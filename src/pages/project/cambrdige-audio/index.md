@@ -43,6 +43,12 @@ Our next focus was to create a prototype to validate with users if our hypothesi
 <br><br>
 ![Prototype](cambridge-audio-prototype.png)
 
+###Lean Testing
+
+We ran user testing session at the end of the week to validate our Hypotheiss. As we had a relative small budget we wanted to focus on creating minimal deliverables so we stored all the recommendations on a Trello board which run though with the client.  
+<br><br>
+![Prototype](cambrdige_audio_trello.png)
+
 ##Design, ~~build,~~ test
 
 The second stage of the work was to create the product that would be built. Unfortunately this project had to be ran waterfall :shower: as the in-house development team would not be ready to build this.

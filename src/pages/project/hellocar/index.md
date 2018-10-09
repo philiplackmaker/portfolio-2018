@@ -69,9 +69,8 @@ Taking the work that nomad created I geeked out on sketch and created a symbol s
 
 ###Final product
 
-These are some of the key screens that we created.
+![Hellocar Final Product](hellocar-final.png)
 
-[ ] Image of key screens system by nomad
 ##Why did it Fail?
 
 Hellocar failed 😱 over the last year I have had lots of time to reflect on why it failed and where my responsibility fell into it.
