@@ -209,10 +209,13 @@ const ImageContainer = styled.div`
 const ContactHeader = styled.div`
   grid-column: 1 / span 12;
   text-align: center;
+  margin-top: 3rem;
 `;
 
 const BrandsContainer = styled.div`
   text-align: center;
+  margin-top: 3rem;
+
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -251,11 +254,10 @@ const BrandLogos = styled.div`
   justify-content: space-around;
   ${BreakPoints.SMALL} {
     height: 200px;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   ${BreakPoints.MEDIUM} {
-    height: 400px;
-    justify-content: space-around;
+    height: 300px;
     margin-top: 3rem;
   }
   ${BreakPoints.LARGE} {
@@ -263,11 +265,15 @@ const BrandLogos = styled.div`
     margin-top: 3rem;
   }
   ${BreakPoints.XLARGE} {
-    height: 300px;
+    height: 200px;
   }
   ${BreakPoints.XXLARGE} {
     height: 400px;
   }
+`;
+
+const SubHeader = styled.text`
+  ${Type.LARGEBODY};
 `;
 
 export default function Template({ data }) {
@@ -286,7 +292,7 @@ export default function Template({ data }) {
         </ImageContainer>
         <AboutText dangerouslySetInnerHTML={{ __html: about.html }} />{" "}
         <BrandsContainer>
-          <h3>Brands I've worked with</h3>
+          <SubHeader>Brands I've worked with</SubHeader>
           <Fade duration={1000}>
             <BrandLogos>
               <CambridgeAudiologo /> <GoogleLogo /> <Lateroomslogo />{" "}
@@ -295,7 +301,7 @@ export default function Template({ data }) {
           </Fade>
         </BrandsContainer>
         <ContactHeader>
-          <h3>Say hello</h3>
+          <SubHeader>Say hello</SubHeader>
         </ContactHeader>
         <ContactForm />
         <AboutThisSite>

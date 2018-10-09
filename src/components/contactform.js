@@ -10,14 +10,13 @@ import * as BreakPoints from "../style/breakpoints";
 
 const FormContainer = styled.form`
   display: flex;
-  align-self: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   ${BreakPoints.SMALL} {
-    grid-column: 2 / span 6;
+    grid-column: 2 / span 10;
   }
   ${BreakPoints.MEDIUM} {
-    grid-column: 2 / span 8;
+    grid-column: 3 / span 8;
   }
 `;
 
@@ -27,8 +26,8 @@ const ButtonSmall = styled.button`
   display: inline;
   text-align: center;
   background-color: ${Colors.PRIMARY};
-  width: 160px;
-  height: 50px;
+  width: 100%;
+  height: 60px;
   cursor: pointer;
   transition: transform 200ms ease-in-out;
   :visited,
@@ -39,7 +38,7 @@ const ButtonSmall = styled.button`
     float: center;
   }
   ${BreakPoints.MEDIUM} {
-    float: right;
+    float: center;
   }
 `;
 
@@ -62,7 +61,6 @@ const FormLable = styled.text`
   ${Type.BODY};
   vertical-align: top;
   display: block;
-  padding: 15px;
   ${BreakPoints.SMALL} {
     text-align: left;
   }
@@ -73,42 +71,25 @@ const FormLable = styled.text`
     text-align: left;
   }
   ${BreakPoints.XLARGE} {
-    text-align: right;
+    text-align: left;
   }
 `;
 
 const FormInput = styled.input`
   border: 3px solid ${Colors.MEDIUM_GREY};
-  vertical-align: top;
   border-radius: 0;
-  padding: 15px;
-  margin-left: 30px;
-  margin-bottom: 1rem;
-  ${BreakPoints.SMALL} {
-    width: 200px;
-  }
-  ${BreakPoints.MEDIUM} {
-    width: 500px;
-  }
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 50px;
 `;
 
 const MessageInput = styled.textarea`
   border: 3px solid ${Colors.MEDIUM_GREY};
-  vertical-align: top;
-  grid-column: 3 / span 3;
   border-radius: 0;
   height: 150px;
-  padding: 15px;
-  margin-left: 30px;
-  margin-bottom: 1rem;
-  ${BreakPoints.SMALL} {
-    max-width: 200px;
-    min-width: 200px;
-  }
-  ${BreakPoints.MEDIUM} {
-    max-width: 500px;
-    min-width: 500px;
-  }
+  margin-bottom: 2rem;
+  max-width: 100%;
+  min-width: 100%;
 `;
 
 const ContactForm = () => (
