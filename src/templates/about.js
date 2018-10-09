@@ -202,9 +202,7 @@ const HeaderTextContainer = styled.header`
 
 const ImageContainer = styled.div`
   ${BreakPoints.SMALL} {
-    grid-column: 1 / span 6;
-    height: 100px;
-    z-index: -1;
+    display: none;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 4;
