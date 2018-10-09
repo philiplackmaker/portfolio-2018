@@ -15,6 +15,11 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "design-exercises-suck-b09",
+        "path": "/Design-exercises-suck"
+    },
+    {
         "componentChunkName": "component---src-templates-about-js",
         "jsonName": "about-771",
         "path": "/about"
@@ -26,13 +31,8 @@
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "blog-testtttt-f2f",
-        "path": "/blog/testtttt"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "buidling-this-site-152",
-        "path": "/buidling-this-site"
+        "jsonName": "building-this-site-98f",
+        "path": "/building-this-site"
     },
     {
         "componentChunkName": "component---src-templates-project-js",
@@ -55,13 +55,13 @@
         "path": "/laterooms"
     },
     {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "lean-ux-vs-design-sprints-a27",
+        "path": "/lean-ux-vs-design-sprints"
+    },
+    {
         "componentChunkName": "component---src-pages-thanks-js",
         "jsonName": "thanks-e0e",
         "path": "/thanks/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "whiteboard-564",
-        "path": "/whiteboard"
     }
 ]

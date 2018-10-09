@@ -1,6 +1,6 @@
 ---
-path: "/buidling-this-site"
-title: "Building this site"
+path: "/lean-ux-vs-design-sprints"
+title: "Lean UX vs Design Sprints"
 templateKey: "blogpost"
 small_image: "./kitten.png"
 ---
