@@ -47,8 +47,7 @@ const ProjectHeader = styled.div`
   padding: 0;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    padding-top: ${Spacing.XSMALL};
-    height: ${Spacing.XLARGE};
+    height: ${Spacing.XXLARGE};
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;

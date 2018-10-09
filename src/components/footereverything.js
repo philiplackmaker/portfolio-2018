@@ -48,9 +48,32 @@ const TwitterIcon = styled.span`
 const FooterBackground = styled.div`
   width: 100%;
   background-color: ${Colors.LIGHT_GREY};
-  margin-top: 5rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+
+  ${BreakPoints.SMALL} {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  ${BreakPoints.LARGE} {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  ${BreakPoints.XLARGE} {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  ${BreakPoints.XXLARGE} {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 `;
 
 const FooterEverythingBox = styled.div`
@@ -202,7 +225,12 @@ const FooterSocialIcons = styled.div`
 `;
 
 const Copyright = styled.div`
-  grid-column: 1 / span 12;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+  }
 `;
 
 const CopyrightText = styled.text`
@@ -274,7 +302,7 @@ const FooterEverything = () => (
         </FooterSocialIcons>
       </FooterContact>
       <Copyright>
-        <CopyrightText> © 2018 Philip Lackmaker 🔵</CopyrightText>
+        <CopyrightText> © 2018 Philip Lackmaker 🔵 </CopyrightText>
       </Copyright>
     </FooterEverythingBox>
   </FooterBackground>

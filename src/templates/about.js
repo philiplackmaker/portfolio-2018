@@ -22,51 +22,160 @@ const Container = styled.div`
   ${Base.GRID};
 `;
 const CambridgeAudiologo = styled.span`
-  width: 300px;
-  height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${CAlogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 
 const EbayLogo = styled.span`
-  width: 300px;
-  height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${ELogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 
 const MorzillaLogo = styled.span`
-  width: 300px;
-  height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${MLogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 
 const CommBanklogo = styled.span`
-  width: 300px;
-  height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${CBLogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 
 const Lateroomslogo = styled.span`
-  width: 300px;
   height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${LRLogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 
 const GoogleLogo = styled.span`
-  width: 250px;
-  height: 100%;
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-image: url(${Googlelogo});
+  ${BreakPoints.SMALL} {
+    width: 200px;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    width: 300px;
+    height: 50px;
+  }
+  ${BreakPoints.LARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XLARGE} {
+    width: 300px;
+    height: 60px;
+  }
+  ${BreakPoints.XXLARGE} {
+    width: 350px;
+    height: 150px;
+  }
 `;
 const HeaderText = styled.text`
   ${Type.LARGEHEADER};
@@ -85,8 +194,7 @@ const AboutText = styled.text`
 const HeaderTextContainer = styled.header`
   grid-column: 1 / span 12;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
 `;
 
 const ImageContainer = styled.div`
@@ -104,8 +212,22 @@ const ContactHeader = styled.div`
 `;
 
 const BrandsContainer = styled.div`
-  grid-column: 1 / span 12;
   text-align: center;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.LARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XLARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XXLARGE} {
+    grid-column: 1 / span 12;
+  }
 `;
 
 const AboutThisSite = styled.div`
@@ -117,10 +239,27 @@ const AboutThisSite = styled.div`
 const BrandLogos = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
-  height: 160px;
-  padding-bottom: 10rem;
+  justify-content: space-around;
+
+  ${BreakPoints.SMALL} {
+    height: 450px;
+  }
+  ${BreakPoints.MEDIUM} {
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  ${BreakPoints.LARGE} {
+    height: 300px;
+    margin-top: 3rem;
+  }
+  ${BreakPoints.XLARGE} {
+    height: 300px;
+  }
+  ${BreakPoints.XXLARGE} {
+    height: 400px;
+  }
 `;
 
 export default function Template({ data }) {
