@@ -185,9 +185,12 @@ const AboutText = styled.text`
   ${Type.BODY};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 6 / span 8;
+    padding: 0px;
   }
 `;
 
@@ -199,7 +202,9 @@ const HeaderTextContainer = styled.header`
 
 const ImageContainer = styled.div`
   ${BreakPoints.SMALL} {
-    display: none;
+    grid-column: 1 / span 6;
+    height: 100px;
+    z-index: -1;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 4;
@@ -215,7 +220,6 @@ const ContactHeader = styled.div`
 const BrandsContainer = styled.div`
   text-align: center;
   margin-top: 3rem;
-
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -345,7 +349,7 @@ export const aboutQuery = graphql`
           childImageSharp {
             fluid(
               maxHeight: 1200
-              duotone: { highlight: "#4644FD", shadow: "#222172", opacity: 55 }
+              duotone: { highlight: "#4644FD", shadow: "#222172", opacity: 65 }
             ) {
               ...GatsbyImageSharpFluid
             }

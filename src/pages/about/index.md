@@ -12,3 +12,11 @@ I have a deep understanding of designing for small screens - knowledge of both i
 Personally, I believe a true product designer must have a grasp of code and I try to break developers code as much as possible. I am experienced in HTML / CSS / SCSS / JQuery / Git / vim / Currently learning react.
 <br><br>
 ...But most importantly I understand how to get a product from a concept into hands of users and learning at each step. 🔵
+<br><br>
+**Talks**
+
+- General Assembly
+- Adaptive Lab / Pi People
+- Red Academy
+- SWUX
+- Liverpool School of Art and Design
