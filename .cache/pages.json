@@ -20,6 +20,11 @@
         "path": "/about"
     },
     {
+        "componentChunkName": "component---src-templates-approach-js",
+        "jsonName": "approach-14e",
+        "path": "/approach"
+    },
+    {
         "componentChunkName": "component---src-templates-blogpost-js",
         "jsonName": "blog-testtttt-f2f",
         "path": "/blog/testtttt"
@@ -53,11 +58,6 @@
         "componentChunkName": "component---src-pages-thanks-js",
         "jsonName": "thanks-e0e",
         "path": "/thanks/"
-    },
-    {
-        "componentChunkName": "component---src-templates-thinking-js",
-        "jsonName": "thinking-8b4",
-        "path": "/thinking"
     },
     {
         "componentChunkName": "component---src-templates-blogpost-js",

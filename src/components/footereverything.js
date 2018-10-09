@@ -258,7 +258,7 @@ const FooterEverything = () => (
           <FooterLinksText to="/about">About</FooterLinksText>
         </FooterItems>
         <FooterItems>
-          <FooterLinksText to="/thinking">Thinking</FooterLinksText>
+          <FooterLinksText to="/approach">Approach</FooterLinksText>
         </FooterItems>
         {/* <FooterItems>
           <FooterLinksText to="/blog">Blog</FooterLinksText>

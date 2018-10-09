@@ -149,7 +149,7 @@ class Navigation extends React.Component {
                 <NavigationLink to="/about">About</NavigationLink>
               </ListItems>
               <ListItems>
-                <NavigationLink to="/thinking">Approach</NavigationLink>
+                <NavigationLink to="/approach">Approach</NavigationLink>
               </ListItems>
               {/* <ListItems>
                 <NavigationLink to="/blog">Blog</NavigationLink>

@@ -44,7 +44,7 @@ const Success = () => (
       <ThanksCopy>
         *Just kidding, I will probably drop you a nice email to say hello.
       </ThanksCopy>
-      <BackLink to="/about">Back</BackLink>
+      <BackLink to="/">Back to work</BackLink>
     </ThanksContainer>
   </Container>
 );

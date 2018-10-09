@@ -12,18 +12,24 @@ const Container = styled.div`
 `;
 
 const Heaader = styled.div`
-  grid-column: 2 / span 6;
+  grid-column: 1 / span 12;
+  text-align: center;
+`;
+
+const ApproachText = styled.div`
+  grid-column: 1 / span 12;
 `;
 
 export default function Template({ data }) {
-  const { markdownRemark: thinking } = data;
+  const { markdownRemark: approach } = data;
   return (
     <div>
       <Navigation class="test" />
       <Container>
         <Heaader>
-          <h1>{thinking.frontmatter.title_thinking}</h1>
+          <h1>{approach.frontmatter.title}</h1>
         </Heaader>
+        <ApproachText dangerouslySetInnerHTML={{ __html: approach.html }} />{" "}
       </Container>
       <FooterEverything />
     </div>
@@ -36,7 +42,7 @@ export const thinkingQuery = graphql`
       html
       frontmatter {
         path
-        title_thinking
+        title
         templateKey
       }
     }

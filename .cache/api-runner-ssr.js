@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-71700644-2","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"optimizeId":"YOUR_GOOGLE_OPTIMIZE_TRACKING_ID","sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"https://sharp-poincare-20a9cf.netlify.com/"},
+    },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-intercom-spa/gatsby-ssr'),
       options: {"plugins":[],"app_id":"d7vu7om5"},
     },{
