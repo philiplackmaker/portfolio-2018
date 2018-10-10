@@ -123,7 +123,7 @@ export const blogQuery = graphql`
         templateKey
         cover_image {
           childImageSharp {
-            fluid(maxHeight: 2000) {
+            fluid(maxHeight: 1024) {
               ...GatsbyImageSharpFluid
             }
           }
