@@ -2,30 +2,30 @@
 path: "building-this-site"
 title: "Building this site"
 templateKey: "blogpost"
-small_image: "./mr-bingo.jpeg"
-cover_image: "./mr-bingo.jpeg"
+small_image: "./Building-this-site-teaser.png"
+cover_image: "./building-this-site.jpg"
 ---
 
 <br><br>
-_(Illustration by Mr Bingo but I paid for him to do it so I own it)_
 I suck at writing! Now I have that off my chest hopefully you will cut me some slack when you read this post.
 <br><br>
 This is the first blog I have tried to maintain and this is the first post on this new platform. I wanted to write about building this site but if you google ‘Building your Gatsby site’, there is loads of blog posts written by proper developers about how they did it so if you want to work out how to do it. I recommend these resources which helped me
 as this post will probably not help you solve a GraphQL problem.
 <br><br>
 
+**Here are some recomendations**
+
 - The Gatsby.org site is great and has loads of really good tutorials on how to build a site
-- LevelUp Tutorials was the main resource for me to understand Gatsby they are great and really easy to follow
+- [LevelUp Tutorials](https://www.youtube.com/watch?v=b2H7fWhQcdE) was the main resource for me to understand Gatsby they are great and really easy to follow
 - I found this post really useful to understand how to get images to work
 
 (I am going to update this as I find more useful references)
 <br><br>
-Since about 3 years ago I could not really code but from designing sites and working developers I started to understand more of the principles of how to they build software. My way in to this magical world of development was via General Assembly which really helped me. Whilst living in Australia I did the HTML/CSS course and this really made me understand developers are not really that smart and it is actually easy 🙃 .
+Since about 3 years ago I could not really code but from designing sites and working developers I started to understand more of the principles of how to they build software. My way in to this magical world of development was via General Assembly which really helped me. Whilst living in Australia I did the HTML/CSS course and this really made me understand development.
 <br><br>
-Now with this mountain of knowledge and the fact I did not have a personal website I had build my first portfolio
-site. Let’s say my first site was basic but it worked I also learnt that if you ask developers how to do something most of the time they will ACTUALLY DO IT FOR YOU (little tip for you). The site was pure HTML/CSS/JQuery but I was shown the wonders of SCSS and frameworks such a bourbon & neat which for my tiny tiny designer brain it made a lots of sense to me. I was blown away you could store variables as colors and change it in one place and it will change everywhere in the site. You can read more about it on my Medium post
+Now with this mountain of knowledge and the fact I did not have a personal website I had build my first portfolio site. Let’s say my first site was basic but it worked. [You can read more about it on my Medium post](https://medium.com/@phillackmaker/2015-resolution-3eafe76044c2)
 <br><br>
-![Mr Bingo](website-design.png)
+![Mr Bingo](old-webiste.png)
 <br><br>
 The problem with this site was it was a pain to make changes to. Everything was hard coded so if I wanted to make a change I would have to do it on every page. It did its job but it was time for it to retire (it might still be live as I have not moved the new site to my domain)
 <br><br>
@@ -88,6 +88,10 @@ In this part of the query I am pulling the ‘cover_image’ from my markdown th
 <br><br>
 BOOM! The image is now scaled to my different breakpoints and it is also coloured.
 <br><br>
-![Mr Bingo](website-design.png)
+![Mr Bingo](about-screenshot.png)
 <br><br>
 The next steps with this site (you could even call it a backlog)
+
+![Mr Bingo](mr-bingo.jpeg)
+
+_(Illustration by Mr Bingo but I paid for him to do it so I own it)_

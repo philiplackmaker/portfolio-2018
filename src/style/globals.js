@@ -126,5 +126,8 @@ injectGlobal`
     ol{
      ${Type.BODY};
     }
+    ul{
+        ${Type.BODY};
+       }
     }
 `;
