@@ -13,7 +13,6 @@ const BlogCardBackground = styled(Link)`
   -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   transition: transform 200ms ease-in-out;
-
   ${BreakPoints.SMALL} {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -113,7 +112,7 @@ const BlogCard = () => (
                 templateKey
                 small_image {
                   childImageSharp {
-                    fluid(maxHeight: 150) {
+                    fluid(maxHeight: 1200) {
                       ...GatsbyImageSharpFluid
                     }
                   }

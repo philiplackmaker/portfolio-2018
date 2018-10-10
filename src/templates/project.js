@@ -71,15 +71,14 @@ const ProjectHeader = styled.div`
   }
 `;
 
+const ProjectHeaderSubText = styled.text`
+  ${Type.LARGEBODY};
+  text-align: center;
+`;
 const ProjectHeaderText = styled.text`
   ${Type.SUBHEADER};
   padding-top: 2rem;
   padding-bottom: ${Spacing.XSMALL};
-`;
-
-const ProjectHeaderSubText = styled.text`
-  ${Type.LARGEBODY};
-  text-align: center;
 `;
 
 export default function Template({ data }) {
@@ -123,6 +122,7 @@ export const postQuery = graphql`
         path
         title
         subtitle
+        templateKey
         cover_image {
           childImageSharp {
             fluid(maxHeight: 2000) {

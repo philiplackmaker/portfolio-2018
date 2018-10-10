@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-templates-blogpost-js",
-        "jsonName": "design-exercises-suck-b09",
-        "path": "/Design-exercises-suck"
-    },
-    {
         "componentChunkName": "component---src-templates-about-js",
         "jsonName": "about-771",
         "path": "/about"
@@ -63,5 +58,10 @@
         "componentChunkName": "component---src-pages-thanks-js",
         "jsonName": "thanks-e0e",
         "path": "/thanks/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogpost-js",
+        "jsonName": "why-did-hellocar-fail-5cb",
+        "path": "/why-did-hellocar-fail"
     }
 ]
