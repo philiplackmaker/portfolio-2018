@@ -12,6 +12,7 @@ import * as BreakPoints from "../style/breakpoints";
 import Img from "gatsby-image";
 import * as Spacing from "../style/spacing";
 import Fade from "react-reveal/Fade";
+import * as Colors from "../style/colors";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -73,7 +74,14 @@ const HeroImage = styled.div``;
 
 const BlogHeaderText = styled.text`
   ${Type.SUBHEADER};
-  padding-top: 2rem;
+  padding-bottom: ${Spacing.XSMALL};
+`;
+
+const BlogHeaderLabel = styled.text`
+  ${Type.SMALLHEADER};
+  line-height: 0px;
+  margin-bottom: 1rem;
+  color: ${Colors.MEDIUM_GREY};
   padding-bottom: ${Spacing.XSMALL};
 `;
 export default function Template({ data }) {
@@ -86,6 +94,7 @@ export default function Template({ data }) {
       <Navigation />
       <Container>
         <BlogHeader>
+          <BlogHeaderLabel>Blog</BlogHeaderLabel>
           <BlogHeaderText>{blogpost.frontmatter.title}</BlogHeaderText>
         </BlogHeader>
       </Container>
