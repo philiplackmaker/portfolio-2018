@@ -30,7 +30,6 @@ const NavigationContainer = styled.div`
   margin: 0 auto;
   display: flex;
   z-index: -1;
-  position: absoulte;
   border-bottom: 4px solid ${Colors.LIGHT_GREY};
   align-items: center;
   justify-content: space-between;
@@ -143,31 +142,31 @@ class Navigation extends React.Component {
         }}
       >
         {sideDraw}
-        <Slide top>
-          <NavigationContainer>
-            <List>
-              <ListItems>
-                <NavigationLink to="/">Work</NavigationLink>
-              </ListItems>
-              <ListItems>
-                <NavigationLink to="/about">About</NavigationLink>
-              </ListItems>
-              <ListItems>
-                <NavigationLink to="/approach">Approach</NavigationLink>
-              </ListItems>
-              <ListItems>
-                <NavigationLink to="/blog">Blog</NavigationLink>
-              </ListItems>
-            </List>
-            <Logo />
-            <DrawerToggleButtonContanier>
-              <DrawerToggleButton
-                click={this.drawerToggleButtonClickHandler}
-                open={this.state.sideDrawOpen}
-              />
-            </DrawerToggleButtonContanier>
-          </NavigationContainer>
-        </Slide>
+        {/* <Slide top> */}
+        <NavigationContainer>
+          <List>
+            <ListItems>
+              <NavigationLink to="/">Work</NavigationLink>
+            </ListItems>
+            <ListItems>
+              <NavigationLink to="/about">About</NavigationLink>
+            </ListItems>
+            <ListItems>
+              <NavigationLink to="/approach">Approach</NavigationLink>
+            </ListItems>
+            <ListItems>
+              <NavigationLink to="/blog">Blog</NavigationLink>
+            </ListItems>
+          </List>
+          <Logo />
+          <DrawerToggleButtonContanier>
+            <DrawerToggleButton
+              click={this.drawerToggleButtonClickHandler}
+              open={this.state.sideDrawOpen}
+            />
+          </DrawerToggleButtonContanier>
+        </NavigationContainer>
+        {/* </Slide> */}
       </Headroom>
     );
   }

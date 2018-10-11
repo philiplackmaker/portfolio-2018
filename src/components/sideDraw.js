@@ -4,7 +4,6 @@ import * as Colors from "../style/colors";
 import { Link } from "gatsby";
 import * as BreakPoints from "../style/breakpoints";
 import * as Type from "../style/typography";
-import Fade from "react-reveal/Fade";
 
 const OverlayNavigationLink = styled(Link)`
   text-decoration: none;
