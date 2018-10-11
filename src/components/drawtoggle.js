@@ -12,6 +12,8 @@ const ToogleButton = styled.button`
   width: ${Spacing.MEDIUM};
   background: transparent;
   cursor: pointer;
+  position: absoulte;
+  z-index: 9999;
   padding: 0;
   box-sizing: border-box;
   outline-style: none;

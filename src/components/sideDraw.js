@@ -16,10 +16,10 @@ const OverlayNavigationLink = styled(Link)`
     color: ${Colors.WHITE};
     text-underline: none;
   }
-  &:hover {
-    color: ${Colors.PRIMARY};
-    text-underline: none;
-  }
+  // &:hover {
+  //   color: ${Colors.PRIMARY};
+  //   text-underline: none;
+  // }
 `;
 
 const OverlayContainer = styled.div`
@@ -28,12 +28,12 @@ const OverlayContainer = styled.div`
   overflow: hidden !important;
   top: 0;
   left: 0;
-  display: flex;
   position: fixed;
   align-items: center;
   background-color: ${Colors.BLACK};
-  z-index: -1;
+  z-index: 100;
   ${BreakPoints.SMALL} {
+    display: flex;
   }
   ${BreakPoints.MEDIUM} {
     display: none;
@@ -54,28 +54,26 @@ const OverlayListItems = styled.li`
 `;
 
 const SideDraw = props => (
-  <Fade duration={1000}>
-    <OverlayContainer>
-      <Fade left duration={1000}>
-        <OverlayList>
-          <OverlayListItems>
-            <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
-          </OverlayListItems>
-          <OverlayListItems>
-            <OverlayNavigationLink to="/about">About</OverlayNavigationLink>
-          </OverlayListItems>
-          <OverlayListItems>
-            <OverlayNavigationLink to="/approach">
-              Approach
-            </OverlayNavigationLink>
-          </OverlayListItems>
-          {/* <OverlayListItems>
+  // <Fade duration={1000}>
+  <OverlayContainer>
+    {/* <Fade left duration={1000}> */}
+    <OverlayList>
+      <OverlayListItems>
+        <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
+      </OverlayListItems>
+      <OverlayListItems>
+        <OverlayNavigationLink to="/about">About</OverlayNavigationLink>
+      </OverlayListItems>
+      <OverlayListItems>
+        <OverlayNavigationLink to="/approach">Approach</OverlayNavigationLink>
+      </OverlayListItems>
+      {/* <OverlayListItems>
             <OverlayNavigationLink to="/blog">Blog</OverlayNavigationLink>
           </OverlayListItems> */}
-        </OverlayList>
-      </Fade>
-    </OverlayContainer>
-  </Fade>
+    </OverlayList>
+    {/* </Fade> */}
+  </OverlayContainer>
+  // </Fade>
 );
 
 export default SideDraw;

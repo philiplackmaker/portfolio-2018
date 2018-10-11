@@ -29,6 +29,8 @@ const NavigationContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
+  z-index: -1;
+  position: absoulte;
   border-bottom: 4px solid ${Colors.LIGHT_GREY};
   align-items: center;
   justify-content: space-between;
@@ -98,6 +100,8 @@ const NavigationLink = styled(Link)`
 `;
 
 const DrawerToggleButtonContanier = styled.div`
+  z-index: 9999;
+  position: relative;
   ${BreakPoints.SMALL} {
     padding: 1rem;
   }
@@ -151,9 +155,9 @@ class Navigation extends React.Component {
               <ListItems>
                 <NavigationLink to="/approach">Approach</NavigationLink>
               </ListItems>
-              {/* <ListItems>
+              <ListItems>
                 <NavigationLink to="/blog">Blog</NavigationLink>
-              </ListItems> */}
+              </ListItems>
             </List>
             <Logo />
             <DrawerToggleButtonContanier>
