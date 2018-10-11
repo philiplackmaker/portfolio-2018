@@ -4,6 +4,7 @@ import * as Colors from "../style/colors";
 import { Link } from "gatsby";
 import * as BreakPoints from "../style/breakpoints";
 import * as Type from "../style/typography";
+import Fade from "react-reveal/Fade";
 
 const OverlayNavigationLink = styled(Link)`
   text-decoration: none;
@@ -53,26 +54,24 @@ const OverlayListItems = styled.li`
 `;
 
 const SideDraw = props => (
-  // <Fade duration={1000}>
   <OverlayContainer>
-    {/* <Fade left duration={1000}> */}
-    <OverlayList>
-      <OverlayListItems>
-        <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
-      </OverlayListItems>
-      <OverlayListItems>
-        <OverlayNavigationLink to="/about">About</OverlayNavigationLink>
-      </OverlayListItems>
-      <OverlayListItems>
-        <OverlayNavigationLink to="/approach">Approach</OverlayNavigationLink>
-      </OverlayListItems>
-      {/* <OverlayListItems>
-            <OverlayNavigationLink to="/blog">Blog</OverlayNavigationLink>
-          </OverlayListItems> */}
-    </OverlayList>
-    {/* </Fade> */}
+    <Fade left duration={1000}>
+      <OverlayList>
+        <OverlayListItems>
+          <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
+        </OverlayListItems>
+        <OverlayListItems>
+          <OverlayNavigationLink to="/about">About</OverlayNavigationLink>
+        </OverlayListItems>
+        <OverlayListItems>
+          <OverlayNavigationLink to="/approach">Approach</OverlayNavigationLink>
+        </OverlayListItems>
+        <OverlayListItems>
+          <OverlayNavigationLink to="/blog">Blog</OverlayNavigationLink>
+        </OverlayListItems>
+      </OverlayList>
+    </Fade>
   </OverlayContainer>
-  // </Fade>
 );
 
 export default SideDraw;
