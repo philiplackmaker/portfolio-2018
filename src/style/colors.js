@@ -5,3 +5,4 @@ export const LIGHT_GREY = "#F7F7F7";
 export const LIGHTEST_PRIMARY = "#DFDEFF";
 export const MEDIUM_GREY = "#DDDDDD";
 export const WHITE = "#ffffff";
+export const DARK_PRIMARY = "#2C2BA3";

@@ -122,6 +122,11 @@ injectGlobal`
      a{
         text-decoration: none;
         color: ${Colors.PRIMARY};
+        transition: all 0.4s ease-in;
+        &:hover {
+            color: ${Colors.BLACK};
+            text-underline: none;
+          }
     }
     ol{
      ${Type.BODY};
