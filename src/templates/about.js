@@ -333,7 +333,6 @@ export default function Template({ data }) {
             </BrandLogos>
           </Fade>
         </BrandsContainer>
-        <SubHeader>Archive</SubHeader>
         <ContactHeader>
           <SubHeader>Say hello</SubHeader>
         </ContactHeader>
