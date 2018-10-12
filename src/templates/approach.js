@@ -7,6 +7,8 @@ import "../style/globals";
 import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
 import * as BreakPoints from "../style/breakpoints";
+import * as Type from "../style/typography";
+import * as Spacing from "../style/spacing";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -14,6 +16,8 @@ const Container = styled.div`
 
 const Heaader = styled.div`
   text-align: center;
+  padding-top: ${Spacing.MEDIUM};
+
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -48,6 +52,11 @@ const ApproachText = styled.div`
   }
 `;
 
+const HeaderText = styled.text`
+  ${Type.SUBHEADER};
+  padding-bottom: ${Spacing.XSMALL};
+`;
+
 export default function Template({ data }) {
   const { markdownRemark: approach } = data;
   return (
@@ -55,7 +64,7 @@ export default function Template({ data }) {
       <Navigation class="test" />
       <Container>
         <Heaader>
-          <h1>{approach.frontmatter.title}</h1>
+          <HeaderText>{approach.frontmatter.title}</HeaderText>
         </Heaader>
         <ApproachText dangerouslySetInnerHTML={{ __html: approach.html }} />{" "}
       </Container>

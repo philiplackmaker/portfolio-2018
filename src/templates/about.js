@@ -17,6 +17,40 @@ import LRLogo from "../images/laterooms-logo.svg";
 import CBLogo from "../images/commonwealth-logo.svg";
 import MLogo from "../images/mozilla_logo.svg";
 import ELogo from "../images/ebay_logo.svg";
+// import Redbull from "../images/redbull.png";
+// import Moscow from "../images/moscow.png";
+// import Vinyl from "../images/vinyl.png";
+
+// const VinylImage = styled.span`
+//   background-repeat: no-repeat, repeat;
+//   background-position: center;
+//   background-image: url(${Vinyl});
+//   width: 300px;
+//   height: 100%;
+// `;
+
+// const RedbullImage = styled.span`
+//   background-repeat: no-repeat, repeat;
+//   background-position: center;
+//   background-image: url(${Redbull});
+//   width: 300px;
+//   height: 100%;
+// `;
+
+// const MoscowImage = styled.span`
+//   background-repeat: no-repeat, repeat;
+//   background-position: center;
+//   background-image: url(${Moscow});
+//   width: 300px;
+//   height: 100%;
+// `;
+
+// const OldWork = styled.div`
+//   grid-column: 1 / span 12;
+//   display: flex;
+//   flex-direction: row;
+//   height: 300px;
+// `;
 
 const Container = styled.div`
   ${Base.GRID};
@@ -178,7 +212,7 @@ const GoogleLogo = styled.span`
   }
 `;
 const HeaderText = styled.text`
-  ${Type.LARGEHEADER};
+  ${Type.SUBHEADER};
 `;
 
 const AboutText = styled.text`
@@ -299,6 +333,7 @@ export default function Template({ data }) {
             </BrandLogos>
           </Fade>
         </BrandsContainer>
+        <SubHeader>Archive</SubHeader>
         <ContactHeader>
           <SubHeader>Say hello</SubHeader>
         </ContactHeader>
@@ -324,6 +359,11 @@ export default function Template({ data }) {
             GT-Super.
           </a>
         </AboutThisSite>
+        {/* <OldWork>
+          <RedbullImage />
+          <MoscowImage />
+          <VinylImage />
+        </OldWork> */}
       </Container>
       <FooterEverything />
     </div>
