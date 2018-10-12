@@ -6,18 +6,46 @@ import * as Base from "../style/base";
 import "../style/globals";
 import { graphql } from "gatsby";
 import FooterEverything from "../components/footereverything";
+import * as BreakPoints from "../style/breakpoints";
 
 const Container = styled.div`
   ${Base.GRID};
 `;
 
 const Heaader = styled.div`
-  grid-column: 1 / span 12;
   text-align: center;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.LARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XLARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XXLARGE} {
+    grid-column: 1 / span 12;
 `;
 
 const ApproachText = styled.div`
-  grid-column: 1 / span 12;
+  ${BreakPoints.SMALL} {
+    grid-column: 2 / span 10;
+  }
+  ${BreakPoints.MEDIUM} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.LARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XLARGE} {
+    grid-column: 1 / span 12;
+  }
+  ${BreakPoints.XXLARGE} {
+    grid-column: 1 / span 12;
+  }
 `;
 
 export default function Template({ data }) {

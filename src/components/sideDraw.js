@@ -66,9 +66,6 @@ const SideDraw = props => (
         <OverlayListItems>
           <OverlayNavigationLink to="/approach">Approach</OverlayNavigationLink>
         </OverlayListItems>
-        <OverlayListItems>
-          <OverlayNavigationLink to="/blog">Blog</OverlayNavigationLink>
-        </OverlayListItems>
       </OverlayList>
     </Fade>
   </OverlayContainer>

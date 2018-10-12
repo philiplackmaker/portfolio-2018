@@ -125,9 +125,12 @@ injectGlobal`
     }
     ol{
      ${Type.BODY};
+     margin-left: 40px;
+
     }
     ul{
         ${Type.BODY};
+        margin-left: 40px;
        }
     }
 `;

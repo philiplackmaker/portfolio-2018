@@ -50,7 +50,7 @@ const FooterBackground = styled.div`
   background-color: ${Colors.LIGHT_GREY};
 
   ${BreakPoints.SMALL} {
-    margin-top: rem;
+    margin-top: 3rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
   }

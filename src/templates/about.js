@@ -185,11 +185,9 @@ const AboutText = styled.text`
   ${Type.BODY};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    padding: 20px;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 6 / span 8;
-    padding: 0px;
   }
 `;
 
@@ -201,11 +199,10 @@ const HeaderTextContainer = styled.header`
 
 const ImageContainer = styled.div`
   ${BreakPoints.SMALL} {
-    display: none;
+    grid-column: 4 / span 6;
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 4;
-    display: inline;
   }
 `;
 const ContactHeader = styled.div`
@@ -235,8 +232,8 @@ const BrandsContainer = styled.div`
 `;
 
 const AboutThisSite = styled.div`
+  ${Type.BODY};
   text-align: center;
-  z-index: 10000;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
     padding-top: 4rem;
@@ -307,27 +304,25 @@ export default function Template({ data }) {
         </ContactHeader>
         <ContactForm />
         <AboutThisSite>
-          <AboutText>
-            This site is built on{" "}
-            <a href="https://www.gatsbyjs.org/" target="_blank">
-              Gatsby.js{" "}
-            </a>
-            using react ⚛️ and styled components 💅. <br />
-            Using the typeface 𝕬𝔹𝒞{" "}
-            <a
-              href="https://www.linotype.com/5472397/sailec-family.html"
-              target="_blank"
-            >
-              Saliec
-            </a>{" "}
-            &{" "}
-            <a
-              href="https://www.grillitype.com/typeface/gt-super"
-              target="_blank"
-            >
-              GT-Super.
-            </a>
-          </AboutText>
+          This site is built on{" "}
+          <a href="https://www.gatsbyjs.org/" target="_blank">
+            Gatsby.js{" "}
+          </a>
+          using react ⚛️ and styled components 💅. <br />
+          Using the typeface 𝕬𝔹𝒞{" "}
+          <a
+            href="https://www.linotype.com/5472397/sailec-family.html"
+            target="_blank"
+          >
+            Saliec
+          </a>{" "}
+          &{" "}
+          <a
+            href="https://www.grillitype.com/typeface/gt-super"
+            target="_blank"
+          >
+            GT-Super.
+          </a>
         </AboutThisSite>
       </Container>
       <FooterEverything />

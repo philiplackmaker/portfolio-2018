@@ -154,9 +154,6 @@ class Navigation extends React.Component {
             <ListItems>
               <NavigationLink to="/approach">Approach</NavigationLink>
             </ListItems>
-            <ListItems>
-              <NavigationLink to="/blog">Blog</NavigationLink>
-            </ListItems>
           </List>
           <Logo />
           <DrawerToggleButtonContanier>

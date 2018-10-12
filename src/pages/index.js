@@ -165,31 +165,32 @@ const IndexPage = ({ data }) => (
       <HeaderContents>
         <Fade duration={3000}>
           <HeaderText>
+            Hi, I'm
             <LargeInternalLinks
               data-tip="👋🏻 This is my new site, hope you enjoy it. Please say hello 👋🏻 "
               to="/about"
             >
-              <UnderLine>Philip </UnderLine>
+              <UnderLine> Philip </UnderLine>
             </LargeInternalLinks>
-            is a
+            a
             <LargeInternalLinks
               data-tip="10 years experiences. Product designer, graphic designer, motion designer & now spreadsheet designer. "
               to="/about"
             >
-              <UnderLine> designer </UnderLine>
+              <UnderLine> designer. </UnderLine>
             </LargeInternalLinks>
             <br />
-            He is currently leading design at
+            I'm currently leading design at
             <LargeLinks
               data-tip="🤘🏻 Building software for Google, Cambridge Audio & Morzilla 🤘🏻 "
               href="https://p.ota.to/"
               target="_blank"
               rel="noopener"
             >
-              <UnderLine> Potato </UnderLine>
+              <UnderLine> Potato. </UnderLine>
             </LargeLinks>
             <br />
-            Before that he built digital products for
+            Before that I built digital products for
             <LargeInternalLinks
               data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more"
               to="/about"
@@ -212,7 +213,7 @@ const IndexPage = ({ data }) => (
               target="_blank"
               rel="noopener"
             >
-              <UnderLine> Method</UnderLine>{" "}
+              <UnderLine> Method.</UnderLine>{" "}
             </LargeLinks>
             <ReactTooltip effect="solid" />
           </HeaderText>
