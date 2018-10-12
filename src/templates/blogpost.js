@@ -80,9 +80,14 @@ const BlogHeaderText = styled.text`
 const BlogHeaderLabel = styled.text`
   ${Type.SMALLHEADER};
   line-height: 0px;
-  margin-bottom: 1rem;
   color: ${Colors.MEDIUM_GREY};
   padding-bottom: ${Spacing.XSMALL};
+  ${BreakPoints.SMALL} {
+    margin-bottom: 0.25rem;
+  }
+  ${BreakPoints.MEDIUM} {
+    margin-bottom: 1rem;
+  }
 `;
 export default function Template({ data }) {
   const { markdownRemark: blogpost } = data;
@@ -123,7 +128,10 @@ export const blogQuery = graphql`
         templateKey
         cover_image {
           childImageSharp {
-            fluid(maxHeight: 2000) {
+            fluid(
+              maxHeight: 2000
+              duotone: { highlight: "#4644FD", shadow: "#222172", opacity: 25 }
+            ) {
               ...GatsbyImageSharpFluid
             }
           }

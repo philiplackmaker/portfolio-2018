@@ -82,7 +82,15 @@ const BlogTextContainer = styled.div`
   flex-direction: column;
   padding: 1rem;
   justify-content: space-between;
-  height: 100%;
+  ${BreakPoints.SMALL} {
+    padding: 1rem;
+    height: 40px;
+  }
+  ${BreakPoints.MEDIUM} {
+    padding: 1rem;
+    height: 100%;
+
+  }
 `;
 
 const BlogCardLink = styled(Link)`
@@ -112,7 +120,14 @@ const BlogCard = () => (
                 templateKey
                 small_image {
                   childImageSharp {
-                    fluid(maxHeight: 1200) {
+                    fluid(
+                      maxHeight: 1200
+                      duotone: {
+                        highlight: "#4644FD"
+                        shadow: "#222172"
+                        opacity: 25
+                      }
+                    ) {
                       ...GatsbyImageSharpFluid
                     }
                   }
