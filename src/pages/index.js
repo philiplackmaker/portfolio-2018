@@ -158,7 +158,10 @@ const SubTitle = styled.text`
 const IndexPage = ({ data }) => (
   <Page>
     <Helmet>
+      <meta charSet="utf-8" />
       <title>Philip Lackmaker</title>
+      <link rel="canonical" href="philiplackmaker.netlify.com" />
+      <meta name="description" content="Helmet application" />
     </Helmet>
     <Navigation />
     <Header>

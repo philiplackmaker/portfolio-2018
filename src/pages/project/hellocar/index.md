@@ -14,12 +14,13 @@ cover_image: "./hero-hellocar.png"
 
 ###The Problem
 
-[Founders Factory](https://foundersfactory.com/) identified a business model that they could replicate in the UK market. The model was to create a market place to buy and sell used cars. They wanted to replicate other successful business such as [Beepi](https://techcrunch.com/2016/12/07/used-car-marketplace-beepi-shuts-down-outside-of-ca-merges-with-stealth-fair-com/) (this went bust 3 months int🤨) and also [Carspring](https://techcrunch.com/2017/10/10/rocket-carspring/) (F\*%K this also went bust…is it a sign). They raised a load of money from some big players in the start-up world.
+[Founders Factory](https://foundersfactory.com/) identified a business model that they could replicate in the UK market. The model was to create a market place to buy and sell used cars. They wanted to replicate other successful business such as [Beepi](https://techcrunch.com/2016/12/07/used-car-marketplace-beepi-shuts-down-outside-of-ca-merges-with-stealth-fair-com/) (this went bust 3 months int🤨) and also [Carspring](https://techcrunch.com/2017/10/10/rocket-carspring/) (This also went bust…maybe is it a sign). They raised a load of money from some big players in the start-up world.
+
+[If you want to read what happened to Hellocar I wrote a blog ](/why-did-hellocar-fail) (Hint: It failed)
 
 ##Getting the MVP out there
 
 When I joined there was a goal by the business to get MVP out as quick as possible this pressure came from investors wanting to see R.O.I. Founders Factory created a proof of concept but this was more smoke and mirrors than an actual product. Taking the great work Founders Facotry I created a product for real users.
-[ ] Illustration of time frame and dates
 
 ###Brand and positioning
 
@@ -43,7 +44,7 @@ I tried multiple ways of explain the model and the value including putting a 3D 
 
 ###MVP
 
-**"If You're Not Embarrassed By The First Version Of Your Product, You’ve Launched Too Late"**
+_"If You're Not Embarrassed By The First Version Of Your Product, You’ve Launched Too Late"_
 ![Hellocar MVP](hellocar-mvp.png)
 
 ##Beyond the MVP
@@ -55,18 +56,20 @@ This data would come from multiple sources; user testing sessions, Fullstory, an
 <br><br><br>
 ![Hellocar style tile v1](hellocar-design-process.png)
 
-###Getting the experts
+###Getting the experts in
 
-The current brand was created by me and it was too cute to reassure a customer to purchase a £10,000 car online. We worked with the brillant Nomad who helped to elevate the brand to something people believed in. I took what they create and moved it into a digital system. Unfortunately this may of been too little to late.
+The current brand was created by me and it was too cute to reassure a customer to purchase a £10,000 car online. We worked with the brillant [http://www.nomadstudio.com/](Nomad) who helped to elevate the brand to something people trusted. Taking what they create and I then moved it into a scalable digital system.
 <br><br><br>
 ![Hellocar style tile v1](hellocar-nomad-style-tile.png)
 
 ###Design system
 
-Taking the work that nomad created I geeked out on sketch and created a symbol system so that anyone who designed a feature for the product had all the building blocks to make a feature.
+Taking the work that nomad created I geeked out within sketch and created a symbol system and libary so that anyone who designed for the product had all the building blocks to make a feature.
 <br><br><br>
 ![Hellocar style tile v1](hellocar-sketch-design system.png)
 
 ###Final product
 
 ![Hellocar Final Product](hellocar-final.png)
+
+[If you want to read what happened to Hellocar I wrote a blog ](/why-did-hellocar-fail) (Hint: It failed)
