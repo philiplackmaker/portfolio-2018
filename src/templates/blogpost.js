@@ -84,7 +84,7 @@ const BlogHeaderLabel = styled.text`
   color: ${Colors.MEDIUM_GREY};
   padding-bottom: ${Spacing.SMALL};
   ${BreakPoints.SMALL} {
-    margin-bottom: ${Spacing.XXSMALL};
+    margin-bottom: ${Spacing.XSMALL};
   }
   ${BreakPoints.MEDIUM} {
     margin-bottom: ${Spacing.XSMALL};
