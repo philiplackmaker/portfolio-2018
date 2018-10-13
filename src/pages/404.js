@@ -6,6 +6,7 @@ import * as Base from "../style/base";
 import * as Type from "../style/typography";
 import { Link } from "gatsby";
 import * as Colors from "../style/colors";
+import * as Spacing from "../style/spacing";
 
 const BackGroundGradient = styled.div`
   background-image: linear-gradient(72deg, red, #f06d06);

@@ -5,6 +5,7 @@ import { Link, StaticQuery, graphql } from "gatsby";
 import * as Colors from "../style/colors";
 import Img from "gatsby-image";
 import * as BreakPoints from "../style/breakpoints";
+import * as Spacing from "../style/spacing";
 
 const BlogCardBackground = styled(Link)`
   background-color: ${Colors.WHITE};
@@ -14,10 +15,10 @@ const BlogCardBackground = styled(Link)`
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   transition: transform 200ms ease-in-out;
   ${BreakPoints.SMALL} {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: ${Spacing.MEDIUM};
+    margin-right: ${Spacing.MEDIUM};
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin-bottom: ${Spacing.MEDIUM};
     &:hover {
       transform: none;
     }
@@ -54,7 +55,7 @@ const BlogCardBackground = styled(Link)`
 `;
 
 const BlogHeader = styled.text`
-  margin-left: 1rem;
+  margin-left: ${Spacing.SMALL};
   ${Type.BODY};
   color: ${Colors.BLACK};
 `;
@@ -83,13 +84,12 @@ const BlogTextContainer = styled.div`
   padding: 1rem;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
-    padding: 1rem;
+    padding: ${Spacing.SMALL};
     height: 40px;
   }
   ${BreakPoints.MEDIUM} {
-    padding: 1rem;
+    padding: ${Spacing.SMALL};
     height: 100%;
-
   }
 `;
 

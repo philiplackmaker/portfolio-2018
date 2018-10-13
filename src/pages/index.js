@@ -27,19 +27,22 @@ const Container = styled.div`
   ${Base.GRID};
 
   ${BreakPoints.SMALL} {
-    padding-top: 4rem;
+    padding-top: ${Spacing.LARGE};
   }
   ${BreakPoints.MEDIUM} {
-    padding-top: 10rem;
+    padding-top:${Spacing.XXLARGE};
+  }
   }
   ${BreakPoints.LARGE} {
-    padding-top: 5rem;
+    padding-top: ${Spacing.LARGE};
+  }
   }
   ${BreakPoints.XLARGE} {
-    padding-top: 5rem;
+    padding-top: ${Spacing.LARGE};
   }
   ${BreakPoints.XXLARGE} {
-    padding-top: 4rem;
+    padding-top: ${Spacing.LARGE};
+  }
   }
 `;
 
@@ -61,24 +64,24 @@ const HeaderText = styled.text`
   display: block;
 
   ${BreakPoints.SMALL} {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: ${Spacing.XSMALL};
+    padding-right: ${Spacing.XSMALL};
   }
   ${BreakPoints.MEDIUM} {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left:  ${Spacing.MEDIUM}
+    padding-right:  ${Spacing.MEDIUM};
   }
   ${BreakPoints.LARGE} {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left:  ${Spacing.MEDIUM};
+    padding-right:  ${Spacing.MEDIUM};
   }
   ${BreakPoints.XLARGE} {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left:  ${Spacing.MEDIUM};
+    padding-right:  ${Spacing.MEDIUM};
   }
   ${BreakPoints.XXLARGE} {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left:  ${Spacing.MEDIUM};
+    padding-right:  ${Spacing.MEDIUM};
   }
 `;
 

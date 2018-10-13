@@ -18,31 +18,31 @@ const ProjectCard = styled(Link)`
     grid-column: 2 / span 10;
     height: 34rem;
     flex-direction: column;
-    margin-bottom: 4rem;
+    margin-bottom: ${Spacing.LARGE};
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
     height: 27rem;
     flex-direction: row;
-    padding-bottom: 5rem;
+    padding-bottom: ${Spacing.LARGE};
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
     flex-direction: row;
-    padding-bottom: 10rem;
+    padding-bottom: ${Spacing.XXLARGE};
   }
   ${BreakPoints.XLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
     flex-direction: row;
-    padding-bottom: 15rem;
+    padding-bottom: ${Spacing.XXXXLARGE};
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
     height: 25rem;
     flex-direction: row;
-    padding-bottom: 15rem;
+    padding-bottom: ${Spacing.XXXXLARGE};
   }
 `;
 
@@ -52,7 +52,7 @@ const ProjectInfo = styled.div`
   flex: order: 2;
 `;
 
-const ProjectHeader = styled(Link)`
+const ProjectHeader = styled.text`
   ${Type.SUBHEADER};
   text-align: left;
   dispaly: block;
@@ -74,21 +74,21 @@ const ProjectHeader = styled(Link)`
   }
 `;
 
-const ProjectSubtitle = styled(Link)`
+const ProjectSubtitle = styled.text`
   ${Type.LARGEBODY}
   color: ${Colors.BLACK};
   ${BreakPoints.SMALL}{
-    padding-top: .5rem;
-    padding-bottom: 1rem;
+    padding-top:  ${Spacing.XSMALL};
+    padding-bottom:  ${Spacing.SMALL};
   }
  
    ${BreakPoints.MEDIUM} {
-      padding-top: .5rem;
-      padding-bottom: 1rem;    
+    padding-top:  ${Spacing.XSMALL};
+    padding-bottom:  ${Spacing.SMALL};  
     }
     ${BreakPoints.LARGE}{ 
-      padding-top: .5rem;
-      padding-bottom: 1rem;    
+      padding-top:  ${Spacing.XSMALL};
+      padding-bottom:  ${Spacing.SMALL};
     }
     ${BreakPoints.XLARGE} { 
       padding-top: 1.25rem;
@@ -100,22 +100,10 @@ const ProjectSubtitle = styled(Link)`
     }
 `;
 
-const ProjectNotes = styled(Link)`
+const ProjectNotes = styled.text`
   ${Type.NOTES}
   color: ${Colors.BLACK};
-
-  ${BreakPoints.MEDIUM}, ${BreakPoints.SMALL} {
-    padding-bottom: 1.25rem;
-  }
-  ${BreakPoints.LARGE} {
-    padding-bottom: 1.25rem;
-  }
-  ${BreakPoints.XLARGE} {
-    padding-bottom: 1.25rem;
-  }
-  ${BreakPoints.XXLARGE} {
-    padding-bottom: 1.25rem;
-  }
+  padding-bottom:  ${Spacing.SMALL};
 `;
 
 const ProjectTeaserImage = styled.div`

@@ -12,6 +12,7 @@ import Linked from "../images/LinkedinLogo.svg";
 import Github from "../images/GithubLogo.svg";
 import Email from "../images/EmailLogo.svg";
 import ReactTooltip from "react-tooltip";
+import * as Spacing from "../style/spacing";
 
 const EmailIcon = styled.span`
   width: 100%;
@@ -50,29 +51,29 @@ const FooterBackground = styled.div`
   background-color: ${Colors.LIGHT_GREY};
 
   ${BreakPoints.SMALL} {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    margin-top: ${Spacing.MEDIUM};
+    padding-top: ${Spacing.MEDIUM};
+    padding-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
-    margin-top: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: ${Spacing.LARGE};
+    padding-top: ${Spacing.LARGE};
+    padding-bottom: ${Spacing.MEDIUM};
   }
   ${BreakPoints.LARGE} {
-    margin-top: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.XLARGE};
+    padding-bottom: ${Spacing.MEDIUM};
   }
   ${BreakPoints.XLARGE} {
-    margin-top: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.XLARGE};
+    padding-bottom: ${Spacing.MEDIUM};
   }
   ${BreakPoints.XXLARGE} {
-    margin-top: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.XLARGE};
+    padding-bottom: ${Spacing.LARGE};
   }
 `;
 
@@ -170,10 +171,9 @@ const SocialCircle = styled.a`
 `;
 const FooterTitles = styled.div`
   ${Type.TINYHEADER};
-  margin-bottom: 1rem;
+  margin-bottom: ${Spacing.SMALL};
   ${BreakPoints.SMALL} {
-    margin-top: 2rem;
-  }
+    margin-top:${Spacing.MEDIUM};
   ${BreakPoints.MEDIUM} {
     margin-top: 0;
   }
@@ -206,7 +206,6 @@ const FooterSocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   ${BreakPoints.SMALL} {
     flex-direction: row;
   }
@@ -225,6 +224,7 @@ const FooterSocialIcons = styled.div`
 `;
 
 const Copyright = styled.div`
+  padding-top: ${Spacing.LARGE};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -234,6 +234,7 @@ const Copyright = styled.div`
 `;
 
 const CopyrightText = styled.text`
+  -top: ${Spacing.MEDIUM};
   ${Type.SMALLBODY};
 `;
 

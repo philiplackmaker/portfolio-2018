@@ -31,7 +31,7 @@ const BlogHeader = styled.div`
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
     padding-top: ${Spacing.XSMALL};
-    height: ${Spacing.XXLARGE};
+    height: ${Spacing.XXXLARGE};
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
@@ -50,7 +50,8 @@ const BlogHeader = styled.div`
   }
 `;
 
-const Proeject = styled.div`
+const BlogPostContent = styled.div`
+  margin-top: ${Spacing.LARGE};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -81,12 +82,12 @@ const BlogHeaderLabel = styled.text`
   ${Type.SMALLHEADER};
   line-height: 0px;
   color: ${Colors.MEDIUM_GREY};
-  padding-bottom: ${Spacing.XSMALL};
+  padding-bottom: ${Spacing.SMALL};
   ${BreakPoints.SMALL} {
-    margin-bottom: 0.25rem;
+    margin-bottom: ${Spacing.XXSMALL};
   }
   ${BreakPoints.MEDIUM} {
-    margin-bottom: 1rem;
+    margin-bottom: ${Spacing.XSMALL};
   }
 `;
 export default function Template({ data }) {
@@ -109,9 +110,9 @@ export default function Template({ data }) {
         </Fade>
       </HeroImage>
       <Container>
-        <Proeject>
+        <BlogPostContent>
           <Content dangerouslySetInnerHTML={{ __html: blogpost.html }} />
-        </Proeject>
+        </BlogPostContent>
       </Container>
       <FooterEverything />
     </div>

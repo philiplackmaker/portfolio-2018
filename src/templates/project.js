@@ -47,7 +47,9 @@ const ProjectHeader = styled.div`
   padding: 0;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    height: ${Spacing.XXLARGE};
+    padding-top: ${Spacing.XSMALL};
+    height: ${Spacing.LARGE};
+    padding-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
@@ -63,6 +65,7 @@ const ProjectHeader = styled.div`
     grid-column: 1 / span 12;
     padding-top: ${Spacing.SMALL};
     height: ${Spacing.XXLARGE};
+    margin-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.XXLARGE} {
     grid-column: 1 / span 12;
@@ -77,7 +80,7 @@ const ProjectHeaderSubText = styled.text`
 `;
 const ProjectHeaderText = styled.text`
   ${Type.SUBHEADER};
-  padding-top: 2rem;
+  padding-top: ${Spacing.MEDIUM};
   padding-bottom: ${Spacing.XSMALL};
 `;
 

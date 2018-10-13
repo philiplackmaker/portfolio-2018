@@ -4,6 +4,7 @@ import styled from "styled-components";
 import * as Type from "../style/typography";
 import * as Colors from "../style/colors";
 import * as Base from "../style/base";
+import * as Spacing from "../style/spacing";
 
 const ThanksContainer = styled.div`
   grid-column: 2 / span 10;
@@ -13,8 +14,8 @@ const ThanksContainer = styled.div`
   background-color: ${Colors.LIGHT_GREY};
   margin: auto;
   text-align: center;
-  margin-top: 1rem;
-  padding: 2rem;
+  margin-top: ${Spacing.SMALL};
+  padding: ${Spacing.MEDIUM};
 `;
 
 const Container = styled.div`
@@ -31,7 +32,7 @@ const BackLink = styled(Link)`
 const ThanksCopy = styled.text`
   ${Type.BODY};
   text-align: center;
-  margin-bottom: 3rem;
+  padding: ${Spacing.MEDIUM};
 `;
 
 const Success = () => (

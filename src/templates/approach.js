@@ -17,7 +17,6 @@ const Container = styled.div`
 const Heaader = styled.div`
   text-align: center;
   padding-top: ${Spacing.MEDIUM};
-
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }

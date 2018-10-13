@@ -5,3 +5,4 @@ export const LARGE = `4rem`;
 export const XLARGE = `6rem`;
 export const XXLARGE = `8rem`;
 export const XXXLARGE = `12rem`;
+export const XXXXLARGE = `16rem`;

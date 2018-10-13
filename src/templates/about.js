@@ -17,40 +17,7 @@ import LRLogo from "../images/laterooms-logo.svg";
 import CBLogo from "../images/commonwealth-logo.svg";
 import MLogo from "../images/mozilla_logo.svg";
 import ELogo from "../images/ebay_logo.svg";
-// import Redbull from "../images/redbull.png";
-// import Moscow from "../images/moscow.png";
-// import Vinyl from "../images/vinyl.png";
-
-// const VinylImage = styled.span`
-//   background-repeat: no-repeat, repeat;
-//   background-position: center;
-//   background-image: url(${Vinyl});
-//   width: 300px;
-//   height: 100%;
-// `;
-
-// const RedbullImage = styled.span`
-//   background-repeat: no-repeat, repeat;
-//   background-position: center;
-//   background-image: url(${Redbull});
-//   width: 300px;
-//   height: 100%;
-// `;
-
-// const MoscowImage = styled.span`
-//   background-repeat: no-repeat, repeat;
-//   background-position: center;
-//   background-image: url(${Moscow});
-//   width: 300px;
-//   height: 100%;
-// `;
-
-// const OldWork = styled.div`
-//   grid-column: 1 / span 12;
-//   display: flex;
-//   flex-direction: row;
-//   height: 300px;
-// `;
+import * as Spacing from "../style/spacing";
 
 const Container = styled.div`
   ${Base.GRID};
@@ -228,7 +195,7 @@ const AboutText = styled.text`
 const HeaderTextContainer = styled.header`
   grid-column: 1 / span 12;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: ${Spacing.MEDIUM};
 `;
 
 const ImageContainer = styled.div`
@@ -242,12 +209,12 @@ const ImageContainer = styled.div`
 const ContactHeader = styled.div`
   grid-column: 1 / span 12;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: ${Spacing.LARGE};
 `;
 
 const BrandsContainer = styled.div`
   text-align: center;
-  margin-top: 3rem;
+  margin-top: ${Spacing.LARGE};
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
   }
@@ -270,12 +237,12 @@ const AboutThisSite = styled.div`
   text-align: center;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    padding-top: 4rem;
-    margin-bottom: 4rem;
+    padding-top: ${Spacing.LARGE};
+    margin-bottom: ${Spacing.LARGE};
   }
   ${BreakPoints.MEDIUM} {
     grid-column: 1 / span 12;
-    padding-top: 4rem;
+    padding-top: ${Spacing.LARGE};
     margin-bottom: 0;
   }
 `;
@@ -287,15 +254,15 @@ const BrandLogos = styled.div`
   justify-content: space-around;
   ${BreakPoints.SMALL} {
     height: 200px;
-    margin-top: 2rem;
+    margin-top: ${Spacing.MEDIUM};
   }
   ${BreakPoints.MEDIUM} {
     height: 300px;
-    margin-top: 3rem;
+    margin-top: ${Spacing.MEDIUM};
   }
   ${BreakPoints.LARGE} {
     height: 300px;
-    margin-top: 3rem;
+    margin-top: ${Spacing.MEDIUM};
   }
   ${BreakPoints.XLARGE} {
     height: 200px;

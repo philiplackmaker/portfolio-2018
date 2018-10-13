@@ -5,6 +5,7 @@ import { Link } from "gatsby";
 import * as BreakPoints from "../style/breakpoints";
 import * as Type from "../style/typography";
 import Fade from "react-reveal/Fade";
+import * as Spacing from "../style/spacing";
 
 const OverlayNavigationLink = styled(Link)`
   text-decoration: none;
@@ -16,10 +17,6 @@ const OverlayNavigationLink = styled(Link)`
     color: ${Colors.WHITE};
     text-underline: none;
   }
-  // &:hover {
-  //   color: ${Colors.PRIMARY};
-  //   text-underline: none;
-  // }
 `;
 
 const OverlayContainer = styled.div`
