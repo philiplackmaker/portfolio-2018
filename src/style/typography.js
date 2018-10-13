@@ -174,19 +174,19 @@ export const BODY = `
         }
         ${BreakPoints.MEDIUM} {  
             font-size: 1.5rem;
-            line-height: 2.5rem;      
+            line-height: 2rem;      
         }
         ${BreakPoints.LARGE}{ 
             font-size: 1.75rem;
-            line-height: 2.5rem;    
+            line-height: 2.25rem;  
         }
         ${BreakPoints.XLARGE} { 
             font-size: 1.75rem;
-            line-height: 2.5rem;  
+            line-height: 2.25rem;  
         }
         ${BreakPoints.XXLARGE} { 
             font-size: 1.75rem;
-            line-height: 2.5rem;  
+            line-height: 2.25rem;  
         }
 `;
 
