@@ -164,7 +164,7 @@ const IndexPage = ({ data }) => (
       <meta charSet="utf-8" />
       <title>Philip Lackmaker</title>
       <link rel="canonical" href="philiplackmaker.netlify.com" />
-      <meta name="description" content="Helmet application" />
+      <description>Portfolio</description>
     </Helmet>
     <Navigation />
     <Header>
