@@ -33,7 +33,7 @@ const Container = styled.div`
     padding-top:${Spacing.LARGE};
   }
   }
-  ${BreakPoints.LARGE} {
+  ${BreakPoints.LARGE} {t
     padding-top: ${Spacing.LARGE};
   }
   }

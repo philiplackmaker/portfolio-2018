@@ -11,8 +11,8 @@ import Twitter from "../images/TwitterLogo.svg";
 import Linked from "../images/LinkedinLogo.svg";
 import Github from "../images/GithubLogo.svg";
 import Email from "../images/EmailLogo.svg";
-import ReactTooltip from "react-tooltip";
 import * as Spacing from "../style/spacing";
+import ReactTooltip from "react-tooltip";
 
 const EmailIcon = styled.span`
   width: 100%;
@@ -300,6 +300,7 @@ const FooterEverything = () => (
           >
             <EmailIcon />
           </SocialCircle>
+          <ReactTooltip effect="solid" />
         </FooterSocialIcons>
       </FooterContact>
       <Copyright>
