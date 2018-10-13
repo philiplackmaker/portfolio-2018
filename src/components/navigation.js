@@ -18,16 +18,21 @@ const Logo = styled.div`
   height: 50px;
   background-color: ${Colors.PRIMARY};
   ${BreakPoints.SMALL} {
-    display: none;
+    width: 40px;
+    margin-right: 1rem;
+    height: 40px;
+    left: 0;
   }
   ${BreakPoints.MEDIUM} {
-    display: flex;
+    width: 50px;
+    margin-right: 1rem;
+    height: 50px;
   }
 `;
 
 const NavigationContainer = styled.div`
   width: 100%;
-  margin: 0 auto;
+  // margin: 0 auto;
   display: flex;
   z-index: -1;
   border-bottom: 4px solid ${Colors.LIGHT_GREY};
