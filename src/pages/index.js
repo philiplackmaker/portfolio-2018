@@ -30,18 +30,18 @@ const Container = styled.div`
     padding-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
-    padding-top:${Spacing.XLARGE};
+    padding-top:${Spacing.LARGE};
   }
   }
   ${BreakPoints.LARGE} {
-    padding-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.LARGE};
   }
   }
   ${BreakPoints.XLARGE} {
-    padding-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.LARGE};
   }
   ${BreakPoints.XXLARGE} {
-    padding-top: ${Spacing.XLARGE};
+    padding-top: ${Spacing.LARGE};
   }
   }
 `;

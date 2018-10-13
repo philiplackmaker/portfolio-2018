@@ -197,7 +197,7 @@ export const LARGEBODY = `
     ${BreakPoints.SMALL} {
         font-size: 1.25rem;
         line-height: 1.5rem;                         
-        letter-spacing: .5px;    
+        letter-spacing: .10px;    
     }
     ${BreakPoints.MEDIUM} {  
         font-size: 1.75rem;
