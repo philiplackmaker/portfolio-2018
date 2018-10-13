@@ -82,10 +82,9 @@ injectGlobal`
     }
     th{
         ${Type.SMALLHEADER};
-        padding-right: 20px;              
         ${BreakPoints.SMALL} {
             padding-bottom: .15rem;  
-            padding-right: 20px;              
+            padding-right: 15px;              
         }
         ${BreakPoints.MEDIUM} {  
             padding-bottom: .15rem;

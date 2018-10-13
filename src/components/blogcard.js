@@ -15,10 +15,10 @@ const BlogCardBackground = styled(Link)`
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
   transition: transform 200ms ease-in-out;
   ${BreakPoints.SMALL} {
-    margin-left: ${Spacing.MEDIUM};
-    margin-right: ${Spacing.MEDIUM};
+    margin-left: ${Spacing.SMALL};
+    margin-right: ${Spacing.SMALL};
     flex-direction: row;
-    margin-bottom: ${Spacing.MEDIUM};
+    margin-bottom: ${Spacing.SMALL};
     &:hover {
       transform: none;
     }
@@ -84,8 +84,8 @@ const BlogTextContainer = styled.div`
   padding: 1rem;
   justify-content: space-between;
   ${BreakPoints.SMALL} {
-    padding: ${Spacing.SMALL};
-    height: 40px;
+    padding: ${Spacing.XSMALL};
+    height: 30px;
   }
   ${BreakPoints.MEDIUM} {
     padding: ${Spacing.SMALL};

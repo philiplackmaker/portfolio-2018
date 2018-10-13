@@ -38,7 +38,7 @@ const ButtonText = styled.text`
 
 const ButtonArrow = styled.span`
   padding-top: 16px;
-  margin-top: 4px;
+  margin-top: 2px;
   padding-left: 0px;
   width: 43px;
   height: 3px;

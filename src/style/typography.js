@@ -170,7 +170,7 @@ export const BODY = `
     margin: 0;
         ${BreakPoints.SMALL} {
             font-size: 1rem;
-            line-height: 1.75rem;                         
+            line-height: 1.5rem;                         
         }
         ${BreakPoints.MEDIUM} {  
             font-size: 1.5rem;

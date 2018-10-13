@@ -48,7 +48,7 @@ const ProjectHeader = styled.div`
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
     padding-top: ${Spacing.XSMALL};
-    height: ${Spacing.LARGE};
+    height: ${Spacing.XLARGE};
     padding-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
@@ -86,7 +86,6 @@ const ProjectHeaderText = styled.text`
 
 export default function Template({ data }) {
   const { markdownRemark: project } = data;
-
   return (
     <div>
       <Helmet>

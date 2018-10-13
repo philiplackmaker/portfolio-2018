@@ -25,29 +25,29 @@ const Container = styled.div`
   display: flex;
   flex-flow: column wrap;
   ${Base.GRID};
-
   ${BreakPoints.SMALL} {
     padding-top: ${Spacing.LARGE};
+    padding-bottom: ${Spacing.SMALL};
   }
   ${BreakPoints.MEDIUM} {
-    padding-top:${Spacing.XXLARGE};
+    padding-top:${Spacing.XLARGE};
   }
   }
   ${BreakPoints.LARGE} {
-    padding-top: ${Spacing.LARGE};
+    padding-top: ${Spacing.XLARGE};
   }
   }
   ${BreakPoints.XLARGE} {
-    padding-top: ${Spacing.LARGE};
+    padding-top: ${Spacing.XLARGE};
   }
   ${BreakPoints.XXLARGE} {
-    padding-top: ${Spacing.LARGE};
+    padding-top: ${Spacing.XLARGE};
   }
   }
 `;
 
 const Header = styled.header`
-  height: 70vh;
+  height: 75vh;
   background-color: ${Colors.PRIMARY};
   width: 100%;
   display: flex;
@@ -130,7 +130,6 @@ const BlogCardGrid = styled.div`
 const BlogCardContainer = styled.div`
   grid-column: 1 / span 12;
   justify-content: space-between;
-  padding-bottom: ${Spacing.LARGE};
   display: flex;
   paddin-bottom: 0rem;
   ${BreakPoints.SMALL} {

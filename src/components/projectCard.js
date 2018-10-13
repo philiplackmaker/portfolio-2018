@@ -58,7 +58,7 @@ const ProjectHeader = styled.text`
   dispaly: block;
   color: ${Colors.BLACK};
   ${BreakPoints.SMALL} {
-    padding-top: ${Spacing.SMALL};
+    padding-top: ${Spacing.XSMALL};
   }
   ${BreakPoints.MEDIUM} {
     padding-top: ${Spacing.SMALL};
@@ -78,13 +78,13 @@ const ProjectSubtitle = styled.text`
   ${Type.LARGEBODY}
   color: ${Colors.BLACK};
   ${BreakPoints.SMALL}{
-    padding-top:  ${Spacing.XSMALL};
-    padding-bottom:  ${Spacing.SMALL};
+    padding-top: .25rem;
+    padding-bottom: .5rem;
   }
  
    ${BreakPoints.MEDIUM} {
     padding-top:  ${Spacing.XSMALL};
-    padding-bottom:  ${Spacing.SMALL};  
+    padding-bottom:  ${Spacing.XSMALL};  
     }
     ${BreakPoints.LARGE}{ 
       padding-top:  ${Spacing.XSMALL};
@@ -103,7 +103,7 @@ const ProjectSubtitle = styled.text`
 const ProjectNotes = styled.text`
   ${Type.NOTES}
   color: ${Colors.BLACK};
-  padding-bottom:  ${Spacing.SMALL};
+  padding-bottom:  ${Spacing.XSMALL};
 `;
 
 const ProjectTeaserImage = styled.div`
