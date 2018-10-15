@@ -6,7 +6,7 @@ small_image: "./hellocar-teaser.png"
 cover_image: "./hellocar-blog-hero.png"
 ---
 
-[Hellocar](/hellocar) failed 😱 over the last year I have had lots of time to reflect on why it failed and where my responsibility fell into it.
+[Hellocar](/hellocar) unfortunately failed 😭. Over the last year I have time to reflect on why it failed and where my responsibility fell into collapase.
 
 ###Change in business model
 
@@ -19,9 +19,9 @@ Personally, I felt the business was moving away from an area that excited me and
 ###Supply and choice
 
 One of the biggest challenges to Hellocar was solving the supply chain. At first, we had cars from Hertz that we launched the MVP with but the problem with these cars is that they did not match a user profile the service was aimed at. The cars Herts was looking to sell were £30k mustang, not £8k Ford Focus. We had an opportunity to work with Mini to list their cars before going to auction. The cars we got were 30 diesel Mini’s just at the time when diesel was not getting the best PR as the government did a U-turn on the environmental issues of diesel.
-
+<br><br>
 At our peak we had around 40 cars compare that with Autrotrader’s 400,000 cars and you can see we lack the choice (unless you wanted a yellow diesel mini).
-
+<br><br>
 We made an assumption that the product (the website) and service are more important than the cars. This is not true, people want the right car for them if it gets delivered that is an added benefit but benefit needs to be weighed up against if its petrol or diesel or if it has leather seats or fabric. The customer needs to weigh up if the benefit of the experience of purchasing is more important than the long-term experience of the car.
 
 ###Effort

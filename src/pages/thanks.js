@@ -5,7 +5,6 @@ import * as Type from "../style/typography";
 import * as Colors from "../style/colors";
 import * as Base from "../style/base";
 import * as Spacing from "../style/spacing";
-import Helmet from "react-helmet";
 
 const ThanksContainer = styled.div`
   grid-column: 2 / span 10;

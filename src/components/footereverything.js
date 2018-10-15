@@ -302,7 +302,9 @@ const FooterEverything = () => (
         </FooterSocialIcons>
       </FooterContact>
       <Copyright>
-        <CopyrightText> © 2018 Philip Lackmaker 🔵 </CopyrightText>
+        <CopyrightText>
+          © 2018 Philip Lackmaker <span>🔵</span>
+        </CopyrightText>
       </Copyright>
     </FooterEverythingBox>
   </FooterBackground>

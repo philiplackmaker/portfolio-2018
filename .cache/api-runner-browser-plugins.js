@@ -9,7 +9,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-plugin-mixpanel/gatsby-browser'),
-      options: {"plugins":[],"apiToken":"d6e013f46ee1a5160a1dc40eaf3f3178","pageViews":{"/":"Work","/404":"404","/about":"About","/approach":"Approach","/cambrdige-audio":"Cambrdige Audio","/laterooms":"Laterooms","/Hellocar":"Hellocar"}},
+      options: {"plugins":[],"apiToken":"d6e013f46ee1a5160a1dc40eaf3f3178","head":true,"pageViews":{"/":"Work","/404":"404","/about":"About","/approach":"Approach","/cambrdige-audio":"Cambrdige Audio","/laterooms":"Laterooms","/Hellocar":"Hellocar"}},
     },{
       plugin: require('/Users/philip/development/portfolio-2018/node_modules/gatsby-remark-autolink-headers/gatsby-browser'),
       options: {"plugins":[]},

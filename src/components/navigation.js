@@ -9,7 +9,6 @@ import * as BreakPoints from "../style/breakpoints";
 import * as Type from "../style/typography";
 import * as Spacing from "../style/spacing";
 import SideDraw from "../components/sideDraw";
-import Slide from "react-reveal/Slide";
 
 const Logo = styled.div`
   border-radius: 50%;

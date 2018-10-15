@@ -18,7 +18,6 @@ import CBLogo from "../images/commonwealth-logo.svg";
 import MLogo from "../images/mozilla_logo.svg";
 import ELogo from "../images/ebay_logo.svg";
 import * as Spacing from "../style/spacing";
-import Helmet from "react-helmet";
 
 const Container = styled.div`
   ${Base.GRID};

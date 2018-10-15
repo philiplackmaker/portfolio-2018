@@ -33,7 +33,7 @@ injectGlobal`
        text-algin: center; 
        ${BreakPoints.SMALL} {
             padding-top: ${Spacing.LARGE};
-            padding-bottom: ${Spacing.SMALL};                      
+            padding-bottom: ${Spacing.XSMALL};                      
             }
         ${BreakPoints.MEDIUM} {  
             padding-top: ${Spacing.LARGE};
@@ -55,7 +55,7 @@ injectGlobal`
     h3{
         ${Type.LARGEBODY};
         ${BreakPoints.SMALL} {
-            padding-top: ${Spacing.LARGE};
+            padding-top: ${Spacing.MEDIUM};
             padding-bottom: ${Spacing.SMALL};                      
             }
         ${BreakPoints.MEDIUM} {  

@@ -179,7 +179,7 @@ const IndexPage = ({ data }) => (
             </LargeInternalLinks>
             a
             <LargeInternalLinks
-              data-tip="10 years experiences. Product designer, graphic designer, motion designer & now spreadsheet designer. "
+              data-tip="10 years experience. Product designer, graphic designer & motion designer "
               to="/about"
             >
               <UnderLine> designer. </UnderLine>
@@ -187,7 +187,7 @@ const IndexPage = ({ data }) => (
             <br />
             I'm currently leading design at
             <LargeLinks
-              data-tip="🤘🏻 Building software for Google, Cambridge Audio & Morzilla 🤘🏻 "
+              data-tip="🤘🏻 Building software for Google, Cambridge Audio & Mozilla 🤘🏻 "
               href="https://p.ota.to/"
               target="_blank"
               rel="noopener"
@@ -197,14 +197,14 @@ const IndexPage = ({ data }) => (
             <br />
             Before that I built digital products for
             <LargeInternalLinks
-              data-tip="Google, eBay, Commbank, Laterooms, Amercian Express, Morzilla Cambrdige Audio & many more"
+              data-tip="Google, eBay, Commbank, Laterooms, American Express, Mozilla, Cambridge Audio & many more"
               to="/about"
             >
               <UnderLine> brands</UnderLine>{" "}
             </LargeInternalLinks>
             at
             <LargeLinks
-              data-tip="❤️ ustwo, I was there for almost 5 years"
+              data-tip="❤️ustwo❤️, I was there for almost 5 years"
               href="https://www.ustwo.com/"
               target="_blank"
               rel="noopener"
@@ -213,6 +213,7 @@ const IndexPage = ({ data }) => (
             </LargeLinks>
             and
             <LargeLinks
+              data-tip="Worked on Swiss newspapaer, Blick "
               href="https://www.method.com/"
               target="_blank"
               rel="noopener"
