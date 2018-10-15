@@ -12,7 +12,6 @@ import Linked from "../images/LinkedinLogo.svg";
 import Github from "../images/GithubLogo.svg";
 import Email from "../images/EmailLogo.svg";
 import * as Spacing from "../style/spacing";
-import ReactTooltip from "react-tooltip";
 
 const EmailIcon = styled.span`
   width: 100%;

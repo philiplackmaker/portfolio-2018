@@ -7,7 +7,6 @@ import * as Type from "../style/typography";
 import { Link } from "gatsby";
 import * as Colors from "../style/colors";
 import * as Spacing from "../style/spacing";
-import Helmet from "react-helmet";
 
 const BackGroundGradient = styled.div`
   background-image: linear-gradient(72deg, red, #f06d06);

@@ -307,7 +307,11 @@ export default function Template({ data }) {
         <ContactForm />
         <AboutThisSite>
           This site is built on{" "}
-          <a href="https://www.gatsbyjs.org/" target="_blank">
+          <a
+            href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Gatsby.js{" "}
           </a>
           using react ⚛️ and styled components 💅. <br />
@@ -315,6 +319,7 @@ export default function Template({ data }) {
           <a
             href="https://www.linotype.com/5472397/sailec-family.html"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Saliec
           </a>{" "}
@@ -322,6 +327,7 @@ export default function Template({ data }) {
           <a
             href="https://www.grillitype.com/typeface/gt-super"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GT-Super.
           </a>
