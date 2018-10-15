@@ -300,7 +300,6 @@ const FooterEverything = () => (
           >
             <EmailIcon />
           </SocialCircle>
-          <ReactTooltip effect="solid" />
         </FooterSocialIcons>
       </FooterContact>
       <Copyright>

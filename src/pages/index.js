@@ -213,7 +213,6 @@ const IndexPage = ({ data }) => (
             </LargeLinks>
             and
             <LargeLinks
-              data-tip="😶"
               href="https://www.method.com/"
               target="_blank"
               rel="noopener"
