@@ -33,7 +33,6 @@ module.exports = {
       resolve: "gatsby-plugin-mixpanel",
       options: {
         apiToken: "d6e013f46ee1a5160a1dc40eaf3f3178",
-        head: true,
         pageViews: {
           "/": "Work",
           "/404": "404",
