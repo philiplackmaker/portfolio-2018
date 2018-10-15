@@ -47,8 +47,13 @@ module.exports = {
       options: {
         apiToken: "d6e013f46ee1a5160a1dc40eaf3f3178",
         pageViews: {
-          "/": "Page index view",
-          "/404": "Page 404 view"
+          "/": "Work",
+          "/404": "Page 404 view",
+          "/about": "About",
+          "/approach": "Approach",
+          "/cambrdige-audio": "Cambrdige Audio",
+          "/laterooms": "Laterooms",
+          "/Hellocar": "Hellocar"
         }
       }
     },

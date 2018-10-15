@@ -14,11 +14,11 @@ cover_image: "./hero_cambridge-audio.png"
 
 ###The problem
 
-[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato](https://p.ota.to/) to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. Cambridge Audio also wanted to learn lean and agile principles.
+[Cambridge Audio](https://www.cambridgeaudio.com/gbr/en) came to [Potato](https://p.ota.to/) to help them design an iOS and Android application for a new multi-room speaker range - The Evo system. Cambridge Audio also wanted to understand lean and agile principles.
 
 ###The approach
 
-We created a plan that worked with budget and their internal development plan. Starting with a 1 week of lean research this set up the sprint with some key insights. The following week was a validation sprint working with C-suite of Cambridge Audio. Once we validated the riskiest assumptions we moved into a design phase.
+We created a plan that worked with budget and their internal development plan. Starting with a week of lean research this set up the sprint with some key insights. The following week was a validation sprint working with C-suite of Cambridge Audio. Once we validated the riskiest assumptions we moved into a design phase.
 <br><br>
 ![Process](cambridge-audio-process-01.png)
 

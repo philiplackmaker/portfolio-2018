@@ -7,11 +7,11 @@ small_image: "./CATeaser.jpg"
 
 ###1. Build design systems
 
-I love to build scalable design systems from the ground up such as the work I did for [Hellocar](/hellocar). I like this because you start with the bare building blocks of an experience and you build upon it.
+I love to build scalable design systems from the ground up such as the work I did for [Hellocar](/hellocar).This is importnat to me because you start with the bare building blocks of an experience and you build upon it. Making a system that scales as the product grows.
 
 ###2. Multi-disciplined team
 
-The success or the failure of a product never comes down to if you had the best designer or the best developer. It comes down to how the team works together and delivers the product and this was true with the team in [LateRooms](/Laterooms). Working in an Agile/SCRUM framework.
+The success or the failure of a product never comes down to if you had the best designer or the best developer. It comes down to how the team works together and delivers the product and this was true with the team in [LateRooms](/Laterooms). I am not a big fan of waterfalls. 🚿 ☹️
 
 ###2. Experiments and Validation
 

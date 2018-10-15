@@ -178,15 +178,15 @@ export const BODY = `
         }
         ${BreakPoints.LARGE}{ 
             font-size: 1.75rem;
-            line-height: 2.25rem;  
+            line-height: 2.5rem;  
         }
         ${BreakPoints.XLARGE} { 
             font-size: 1.75rem;
-            line-height: 2.25rem;  
+            line-height: 2.5rem;  
         }
         ${BreakPoints.XXLARGE} { 
             font-size: 1.75rem;
-            line-height: 2.25rem;  
+            line-height: 2.5rem;  
         }
 `;
 
@@ -201,7 +201,7 @@ export const LARGEBODY = `
     }
     ${BreakPoints.MEDIUM} {  
         font-size: 1.75rem;
-        line-height: 2.5rem;                         
+        line-height: 2.rem;                         
         letter-spacing: .5px;    
     }
     ${BreakPoints.LARGE}{ 
