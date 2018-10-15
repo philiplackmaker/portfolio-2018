@@ -9,6 +9,7 @@ import FooterEverything from "../components/footereverything";
 import * as BreakPoints from "../style/breakpoints";
 import * as Type from "../style/typography";
 import * as Spacing from "../style/spacing";
+import Helmet from "react-helmet";
 
 const Container = styled.div`
   ${Base.GRID};
