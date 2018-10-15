@@ -2016,14 +2016,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-10-13T14:36:02.908Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "497a4624c32ed885b9239a9e20d497e3",
+        "contentDigest": "aec99ab5d3948512406a6de6d8a1b5fc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

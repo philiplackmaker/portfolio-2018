@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import * as Spacing from "../style/spacing";
-// import * as Colors from '../style/colors';
 import HamburgerMenu from "react-hamburger-menu";
 
 const ToogleButton = styled.button`
