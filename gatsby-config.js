@@ -33,6 +33,7 @@ module.exports = {
       resolve: "gatsby-plugin-mixpanel",
       options: {
         apiToken: "d6e013f46ee1a5160a1dc40eaf3f3178",
+        head: true,
         pageViews: {
           "/": "Work",
           "/404": "404",
@@ -54,11 +55,8 @@ module.exports = {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
-
               inlineCodeMarker: null,
-
               aliases: {},
-
               showLineNumbers: false,
               noInlineHighlight: false
             }
