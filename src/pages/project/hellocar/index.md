@@ -16,7 +16,7 @@ cover_image: "./hero-hellocar.png"
 
 [Founders Factory](https://foundersfactory.com/) identified a business model that they could try to replicate in the UK market. The model was to create a marketplace to buy and sell used cars.
 <br><br>
-When I joined there was a goal by the business to get an MVP out as quick as possible. This pressure came from investors wanting to see R.O.I. [They had raised lots of money from some big players in the UK start-up scene.](https://techcrunch.com/2017/02/11/uks-hellocar-secures-1m-to-to-disrupt-uk-car-buying-market/?guccounter=1) There was a proof of concept but this was more smoke and mirrors than an actual product. Taking that as the foundations I created a product for real customers that was validated by users.
+When I joined there was a goal by the business to get an MVP to market as quick as possible. The pressure came from investors wanting to see R.O.I. [They had raised lots of money from some big players in the UK start-up scene.](https://techcrunch.com/2017/02/11/uks-hellocar-secures-1m-to-to-disrupt-uk-car-buying-market/?guccounter=1) There was a proof of concept but this was more smoke and mirrors to raise money than an actual product. Taking that as the foundations I created a product for real customers that was validated by users.
 <br><br>
 ###Creating the MVP
 Working with an aggressive time frame we launched an end to end experience which allowed people to buy cars online. It was not pretty or perfect but it allowed us to start testing the business model.
@@ -28,7 +28,8 @@ _"If You're Not Embarrassed By The First Version Of Your Product, You’ve Launc
 ###Design process
 
 We made decsions on what to build next by gathering data. This data would come from multiple sources; user testing sessions and analytic tools. I would take a lead on gathering this data and then relaying it to the business.
-
+<br><br>
+We would review analytics daily finding how features performed. Every two weeks we would run user testing session, they would be a mix of ethnographic and usability research.
 <br><br>
 ![Hellocar style tile v1](hellocar-design-process.png)
 
@@ -40,7 +41,7 @@ We worked with the brilliant [Nomad](http://www.nomadstudio.com/) who helped to 
 
 ###Sketch design system
 
-Taking the design system we created I geeked 🤓 out within Sketch and created a symbol system and library so that anyone who designed for the product had all the building blocks to make a feature.
+Using Nomad's design system I created a detailed library within Sketch. This consisted of a symbol system and type & colour library. This allowed anyone who designed for the product to have all the building blocks to create a feature.
 <br><br>
 ![Hellocar style tile v1](hellocar-sketch-design system.png)
 
@@ -50,7 +51,7 @@ Taking the design system we created I geeked 🤓 out within Sketch and created 
 
 ##Outcome
 
-We created a product from scratch an built into a service where you could buy a car online. Unfortunely we did not find product market fit [I wrote a short piece about why this might of happened.](/why-did-hellocar-fail)
+We created a product from scratch and built it into a service where you could buy a car online. Unfortunely we did not find product market fit [I wrote a short piece about why this might of happened.](/why-did-hellocar-fail)
 
 <!-- ###Brand and positioning
 

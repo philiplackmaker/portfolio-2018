@@ -52,7 +52,7 @@ const OverlayListItems = styled.li`
 
 const SideDraw = props => (
   <OverlayContainer>
-    <Fade left duration={1000}>
+    <Fade left duration={900}>
       <OverlayList>
         <OverlayListItems>
           <OverlayNavigationLink to="/">Work</OverlayNavigationLink>
