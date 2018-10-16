@@ -17,12 +17,14 @@ const Logo = styled.div`
   height: 50px;
   background-color: ${Colors.PRIMARY};
   ${BreakPoints.SMALL} {
+    display: none;
     width: 40px;
     margin-right: 1rem;
     height: 40px;
     left: 0;
   }
   ${BreakPoints.MEDIUM} {
+    displau: inline;
     width: 50px;
     margin-right: 1rem;
     height: 50px;

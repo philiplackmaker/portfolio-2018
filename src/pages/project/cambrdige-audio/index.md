@@ -23,7 +23,7 @@ We created a plan that worked with their budget and internal development plan. S
 ![Process](cambridge-audio-process-01.png)
 
 ##Building the right thing
-Working with Cambridge Audio team we looked to gain a shared understanding of the problem and the user's needs. During the first day, we started with an empathy map to get under the skin of the segments. After that, we then used the [Roman Pincher product vision board](https://www.romanpichler.com/) and created one for the Evo system.
+Working with the Cambridge Audio team we looked to gain a shared understanding of the problem and the user's needs. During the first day, we started with an empathy map to get under the skin of the segments. After that, we then used the [Roman Pincher product vision board](https://www.romanpichler.com/) and created one for the Evo system.
 <br><br>
 We spent the following day gathering all the assumptions we believed were true for the product and mapped them on an assumption matrix. We then focused on the riskiest and the highest priority assumptions, using these assumptions we created multiple hypotheses that we wanted to test.
 <br><br>
@@ -49,7 +49,7 @@ We ran the user testing session at the end of the week to validate our hypothese
 
 ##Design, ~~build,~~ test
 
-The second stage of the work was to create the product that would be built. Unfortunately, this project had to run waterfall 🚿 as the in-house development team would not be ready to build this.
+The second stage of the work was to create the product that would be built. Unfortunately, this project had to run waterfall 🚿 as the in-house development team would not be ready. We were aware of this factor from the start, therefore we planned our sprints to allow for this constraint.  
 <br><br>
 We had morning stand-ups and a weekly review to make sure there was alignment but this would never be the same as SCRUM software development.
 
@@ -75,7 +75,7 @@ Working closely with the visual designer [Taavet Kelle](http://taavetkelle.co.uk
 <br><br>
 ![Style Tile](cambridge-visual-langague.png)
 
-###The final product
+###Final product
 <br><br>
 ![Style Tile](Cambridge-audio-screens.png)
 

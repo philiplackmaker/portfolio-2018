@@ -16,7 +16,7 @@ const ProjectCard = styled(Link)`
   justify-content: space-between;
   ${BreakPoints.SMALL} {
     grid-column: 2 / span 10;
-    height: 34rem;
+    height: 35rem;
     flex-direction: column;
     margin-bottom: ${Spacing.LARGE};
   }
@@ -24,7 +24,6 @@ const ProjectCard = styled(Link)`
     grid-column: 1 / span 12;
     height: 27rem;
     flex-direction: row;
-    padding-bottom: ${Spacing.LARGE};
   }
   ${BreakPoints.LARGE} {
     grid-column: 1 / span 12;
